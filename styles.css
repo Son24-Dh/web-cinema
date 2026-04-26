@@ -811,6 +811,43 @@ main {
     color: #11131a;
 }
 
+.pip-btn {
+    border-color: rgba(255, 224, 138, 0.7);
+    color: var(--gold);
+}
+
+.pip-btn::before {
+    content: "▣";
+    margin-right: 7px;
+}
+
+.android-pip-active .site-header,
+.android-pip-active .server-section,
+.android-pip-active .movie-details,
+.android-pip-active .episode-sidebar,
+.android-pip-active footer {
+    display: none;
+}
+
+.android-pip-active .watch-container,
+.android-pip-active .left-col,
+.android-pip-active .player-section {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.android-pip-active #video-player {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+}
+
 footer {
     padding: 40px 20px 54px;
     border-top: 1px solid var(--line);
