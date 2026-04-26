@@ -35,6 +35,7 @@ cp "$ROOT_DIR/app.js" "$ASSETS_DIR/app.js"
 cp "$ROOT_DIR/data.js" "$ASSETS_DIR/data.js"
 cp "$ROOT_DIR/data.json" "$ASSETS_DIR/data.json"
 cp "$ROOT_DIR/data-loader.js" "$ASSETS_DIR/data-loader.js"
+cp "$ROOT_DIR/android-menu.js" "$ASSETS_DIR/android-menu.js"
 cp "$ROOT_DIR/home.js" "$ASSETS_DIR/home.js"
 cp "$ROOT_DIR/video-config.js" "$ASSETS_DIR/video-config.js"
 

@@ -166,6 +166,27 @@ public class MainActivity extends Activity {
                 }
             });
         }
+
+        @JavascriptInterface
+        public void openUrl(final String url) {
+            if (url == null || url.trim().isEmpty()) {
+                return;
+            }
+
+            final String targetUrl = url.trim();
+            if (!targetUrl.startsWith("https://")
+                    && !targetUrl.startsWith("http://")
+                    && !targetUrl.startsWith("file:///android_asset/www/")) {
+                return;
+            }
+
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    webView.loadUrl(targetUrl);
+                }
+            });
+        }
     }
 
     @Override
