@@ -1,2 +1,5 @@
 .vercel
 .superpowers/
+android/build/
+android/dist/
+android/app/src/main/assets/www/
