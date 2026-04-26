@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0a0a0a">
-    <title>Đang xem phim - DÂU CINEMA 🍓</title>
+    <title>Đang xem phim - DâuPhim</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍓</text></svg>">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <!-- Thư viện phát video HLS -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
-    <header>
-        <a href="index.html" class="logo">🍓 DÂU CINEMA</a>
-        <nav class="nav-links">
-            <a href="index.html">Trang Chủ</a>
-            <a href="#">Phim Bộ</a>
-            <a href="#">Phim Lẻ</a>
+    <header class="site-header">
+        <a href="index.html" class="brand" aria-label="DâuPhim trang chủ">
+            <span class="brand-mark">▶</span>
+            <span>
+                <strong>DâuPhim</strong>
+                <small>Phim hay của Nhi</small>
+            </span>
+        </a>
+
+        <label class="search-box" aria-label="Tìm kiếm phim">
+            <span>⌕</span>
+            <input type="search" placeholder="Tìm kiếm phim, diễn viên">
+        </label>
+
+        <nav class="nav-links" aria-label="Điều hướng chính">
+            <a href="index.html#topics">Chủ Đề</a>
+            <a href="index.html#movies">Thể loại</a>
+            <a href="index.html#movies">Phim Lẻ</a>
+            <a href="index.html#movies">Phim Bộ</a>
+            <a href="index.html#movies">Quốc gia</a>
+            <a href="index.html#movies">Diễn Viên</a>
+            <a href="index.html#movies">Lịch Chiếu</a>
         </nav>
+
+        <a class="member-pill" href="index.html#for-nhi">Phương Nhi</a>
     </header>
 
     <main>
@@ -43,7 +61,7 @@
 
             <!-- Bên phải: Danh sách tập phim -->
             <div class="episode-sidebar">
-                <h3 style="margin-bottom: 15px; font-size: 1.1rem; color: var(--primary);">Danh Sách Tập</h3>
+                <h3>Danh Sách Tập</h3>
                 <div class="ep-list" id="episode-list">
                     <!-- Các nút tập phim sẽ được render bởi app.js -->
                 </div>
@@ -52,7 +70,7 @@
     </main>
 
     <footer>
-        <p>Made with 🍓 by Your Boyfriend</p>
+        <p>DâuPhim được làm riêng cho Phương Nhi.</p>
     </footer>
 
     <script src="data.js"></script>

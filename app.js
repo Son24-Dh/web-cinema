@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const videoElement = document.getElementById('video-player');
     const episodeListContainer = document.getElementById('episode-list');
     const serverListContainer = document.getElementById('server-list');
+    let hlsInstance = null;
 
     if (!movie) {
         document.body.innerHTML = "<h1 style='color:white; text-align:center; margin-top:50px;'>Không tìm thấy phim này sếp ơi! 🍓</h1>";
@@ -52,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hiển thị thông tin phim
     document.getElementById('movie-title').innerText = `${movie.name} - Tập ${episodeSlug}`;
     document.getElementById('movie-desc').innerText = movie.description;
-    document.title = `Xem phim ${movie.name} - Tập ${episodeSlug} - DÂU CINEMA 🍓`;
+    document.title = `Xem phim ${movie.name} - Tập ${episodeSlug} - DâuPhim`;
 
     // Render danh sách tập
     movie.episodes.forEach(ep => {
@@ -65,11 +66,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function initPlayer(m3u8Url) {
+        if (hlsInstance) {
+            hlsInstance.destroy();
+            hlsInstance = null;
+        }
+
         if (Hls.isSupported()) {
-            const hls = new Hls();
-            hls.loadSource(m3u8Url);
-            hls.attachMedia(videoElement);
-            hls.on(Hls.Events.MANIFEST_PARSED, () => videoElement.play());
+            hlsInstance = new Hls();
+            hlsInstance.loadSource(m3u8Url);
+            hlsInstance.attachMedia(videoElement);
+            hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => videoElement.play());
         } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
             videoElement.src = m3u8Url;
             videoElement.addEventListener('loadedmetadata', () => videoElement.play());

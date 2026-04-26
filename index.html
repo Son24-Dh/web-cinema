@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#11131a">
+    <title>DâuPhim - Phim hay của Phương Nhi</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍓</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html" class="brand" aria-label="DâuPhim trang chủ">
+            <span class="brand-mark">▶</span>
+            <span>
+                <strong>DâuPhim</strong>
+                <small>Phim hay của Nhi</small>
+            </span>
+        </a>
+
+        <label class="search-box" aria-label="Tìm kiếm phim">
+            <span>⌕</span>
+            <input id="search-input" type="search" placeholder="Tìm kiếm phim, diễn viên">
+        </label>
+
+        <nav class="nav-links" aria-label="Điều hướng chính">
+            <a href="#topics">Chủ Đề</a>
+            <a href="#movies">Thể loại</a>
+            <a href="#movies" data-filter-link="phim-le">Phim Lẻ</a>
+            <a href="#movies" data-filter-link="phim-bo">Phim Bộ</a>
+            <a href="#movies">Quốc gia</a>
+            <a href="#movies">Diễn Viên</a>
+            <a href="#movies">Lịch Chiếu</a>
+        </nav>
+
+        <a class="member-pill" href="#for-nhi">Phương Nhi</a>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="Phim nổi bật">
+            <div class="hero-backdrop" id="hero-backdrop"></div>
+            <div class="hero-shade"></div>
+
+            <div class="hero-content">
+                <h1 id="hero-title">Tối Nay Xem Gì Phương Nhi?</h1>
+                <p class="hero-kicker" id="hero-kicker">Tonight with Nhi</p>
+                <div class="hero-tags" id="hero-tags"></div>
+                <p class="hero-desc" id="hero-desc">Nội dung đang được cập nhật...</p>
+                <div class="hero-actions">
+                    <a class="play-button" id="hero-play" href="#">
+                        <span>▶</span>
+                    </a>
+                    <div class="soft-actions" aria-label="Tác vụ nhanh">
+                        <button type="button" id="favorite-button" aria-label="Yêu thích">♥</button>
+                        <button type="button" aria-label="Chi tiết">!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-thumbs" id="hero-thumbs" aria-label="Chọn phim nổi bật"></div>
+        </section>
+
+        <section class="topic-section" id="topics" aria-labelledby="topics-title">
+            <h2 id="topics-title">Bạn đang quan tâm gì?</h2>
+            <div class="topic-grid">
+                <a class="topic-card topic-red" href="#movies" data-topic="romance">
+                    <strong>Lãng Mạn</strong>
+                    <span>Xem chủ đề ›</span>
+                </a>
+                <a class="topic-card topic-teal" href="#movies" data-topic="healing">
+                    <strong>Chữa Lành</strong>
+                    <span>Xem chủ đề ›</span>
+                </a>
+                <a class="topic-card topic-purple" href="#movies" data-topic="series">
+                    <strong>Phim Bộ</strong>
+                    <span>Xem chủ đề ›</span>
+                </a>
+                <a class="topic-card topic-blue" href="#movies" data-topic="drama">
+                    <strong>Chính Kịch</strong>
+                    <span>Xem chủ đề ›</span>
+                </a>
+                <a class="topic-card topic-orange" href="#movies" data-topic="full">
+                    <strong>Phim Lẻ</strong>
+                    <span>Xem chủ đề ›</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="movie-section" id="for-nhi" aria-labelledby="for-nhi-title">
+            <div class="section-heading">
+                <h2 id="for-nhi-title">Playlist của Phương Nhi</h2>
+                <a href="#movies">Xem toàn bộ ›</a>
+            </div>
+            <div class="poster-row" id="featured-row"></div>
+        </section>
+
+        <section class="movie-section" id="movies" aria-labelledby="movies-title">
+            <div class="section-heading">
+                <h2 id="movies-title">Phim Mới Cập Nhật</h2>
+                <div class="filter-bar" aria-label="Lọc phim">
+                    <button class="filter-btn active" type="button" data-filter="all">Tất Cả</button>
+                    <button class="filter-btn" type="button" data-filter="phim-bo">Phim Bộ</button>
+                    <button class="filter-btn" type="button" data-filter="phim-le">Phim Lẻ</button>
+                </div>
+            </div>
+            <div class="movie-grid" id="movie-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>DâuPhim được làm riêng cho Phương Nhi.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script>
+        const allMovies = Object.values(movies);
+        const heroMovies = allMovies.slice(0, 6);
+        const movieGrid = document.getElementById('movie-grid');
+        const featuredRow = document.getElementById('featured-row');
+        const heroBackdrop = document.getElementById('hero-backdrop');
+        const heroTitle = document.getElementById('hero-title');
+        const heroKicker = document.getElementById('hero-kicker');
+        const heroTags = document.getElementById('hero-tags');
+        const heroDesc = document.getElementById('hero-desc');
+        const heroPlay = document.getElementById('hero-play');
+        const heroThumbs = document.getElementById('hero-thumbs');
+        const searchInput = document.getElementById('search-input');
+        const favoriteButton = document.getElementById('favorite-button');
+
+        let currentFilter = 'all';
+        let searchTerm = '';
+        let activeHeroId = heroMovies[0]?.id;
+
+        function episodeLabel(movie) {
+            const firstEpisode = movie.episodes?.[0];
+            return firstEpisode?.name === 'Full' ? 'Full' : `PĐ. ${movie.episodes?.length || 1}`;
+        }
+
+        function movieUrl(movie) {
+            const firstSlug = movie.episodes?.[0]?.slug || '1';
+            return `watch.html?id=${movie.id}&tap=${firstSlug}`;
+        }
+
+        function createMovieCard(movie, index, compact = false) {
+            const card = document.createElement('a');
+            card.className = compact ? 'poster-card compact' : 'poster-card';
+            card.href = movieUrl(movie);
+            card.style.animationDelay = `${Math.min(index, 8) * 70}ms`;
+
+            const badge = document.createElement('span');
+            badge.className = 'poster-badge';
+            badge.textContent = episodeLabel(movie);
+
+            const image = document.createElement('img');
+            image.src = movie.poster;
+            image.alt = movie.name;
+            image.loading = 'lazy';
+
+            const body = document.createElement('span');
+            body.className = 'poster-info';
+
+            const title = document.createElement('strong');
+            title.textContent = movie.name;
+
+            const meta = document.createElement('small');
+            meta.textContent = `${movie.year} • ${movie.category === 'phim-bo' ? 'Phim Bộ' : 'Phim Lẻ'}`;
+
+            body.append(title, meta);
+            card.append(badge, image, body);
+            return card;
+        }
+
+        function renderMovieGrid() {
+            const filteredMovies = allMovies.filter((movie) => {
+                const matchesFilter = currentFilter === 'all' || movie.category === currentFilter;
+                const matchesSearch = movie.name.toLowerCase().includes(searchTerm);
+                return matchesFilter && matchesSearch;
+            });
+
+            movieGrid.innerHTML = '';
+            filteredMovies.forEach((movie, index) => {
+                movieGrid.appendChild(createMovieCard(movie, index));
+            });
+        }
+
+        function renderFeaturedRow() {
+            featuredRow.innerHTML = '';
+            allMovies.forEach((movie, index) => {
+                featuredRow.appendChild(createMovieCard(movie, index, true));
+            });
+        }
+
+        function setHero(movie) {
+            activeHeroId = movie.id;
+            heroBackdrop.style.backgroundImage = `url("${movie.poster}")`;
+            heroTitle.textContent = movie.name;
+            heroKicker.textContent = movie.id === 'loi-hoi-dap-1988' ? 'Bộ phim Phương Nhi sẽ thích' : 'Tonight with Nhi';
+            heroDesc.textContent = movie.description || 'Nội dung đang được cập nhật...';
+            heroPlay.href = movieUrl(movie);
+            heroTags.innerHTML = '';
+
+            ['HD', 'Vietsub', movie.episodes?.[0]?.name === 'Full' ? 'Full' : `${movie.episodes.length} Tập`, movie.category === 'phim-bo' ? 'Phim Bộ' : 'Phim Lẻ'].forEach((tag) => {
+                const item = document.createElement('span');
+                item.textContent = tag;
+                heroTags.appendChild(item);
+            });
+
+            document.querySelectorAll('.hero-thumb').forEach((button) => {
+                button.classList.toggle('active', button.dataset.movieId === activeHeroId);
+            });
+        }
+
+        function renderHeroThumbs() {
+            heroThumbs.innerHTML = '';
+            heroMovies.forEach((movie) => {
+                const button = document.createElement('button');
+                button.className = 'hero-thumb';
+                button.type = 'button';
+                button.dataset.movieId = movie.id;
+                button.setAttribute('aria-label', `Chọn ${movie.name}`);
+
+                const image = document.createElement('img');
+                image.src = movie.poster;
+                image.alt = '';
+                image.loading = 'lazy';
+
+                button.appendChild(image);
+                button.addEventListener('click', () => setHero(movie));
+                heroThumbs.appendChild(button);
+            });
+        }
+
+        document.querySelectorAll('.filter-btn').forEach((button) => {
+            button.addEventListener('click', () => {
+                currentFilter = button.dataset.filter;
+                document.querySelectorAll('.filter-btn').forEach((item) => {
+                    item.classList.toggle('active', item === button);
+                });
+                renderMovieGrid();
+            });
+        });
+
+        document.querySelectorAll('[data-filter-link]').forEach((link) => {
+            link.addEventListener('click', () => {
+                const targetFilter = link.dataset.filterLink;
+                document.querySelector(`.filter-btn[data-filter="${targetFilter}"]`)?.click();
+            });
+        });
+
+        document.querySelectorAll('[data-topic]').forEach((topic) => {
+            topic.addEventListener('click', () => {
+                const targetFilter = topic.dataset.topic === 'series' ? 'phim-bo' : topic.dataset.topic === 'full' ? 'phim-le' : 'all';
+                document.querySelector(`.filter-btn[data-filter="${targetFilter}"]`)?.click();
+            });
+        });
+
+        searchInput.addEventListener('input', (event) => {
+            searchTerm = event.target.value.trim().toLowerCase();
+            renderMovieGrid();
+        });
+
+        favoriteButton.addEventListener('click', () => {
+            favoriteButton.classList.toggle('active');
+        });
+
+        renderHeroThumbs();
+        renderFeaturedRow();
+        renderMovieGrid();
+        if (heroMovies[0]) setHero(heroMovies[0]);
+    </script>
+</body>
+</html>
