@@ -1,0 +1,87 @@
+<h2>Chọn hướng UI cho DÂU CINEMA</h2>
+<p class="subtitle">Mình sẽ bám rất sát cấu trúc RoPhim: header đen, search lớn, hero banner điện ảnh, thumbnail carousel, cụm chủ đề màu và grid phim. Khác biệt chính là mức độ cá nhân hóa cho người yêu.</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#10121a;padding:14px;min-height:260px">
+      <div style="height:34px;display:flex;align-items:center;gap:10px;margin-bottom:16px">
+        <div style="font-weight:800;color:#fff">DâuPhim</div>
+        <div style="height:30px;width:42%;border-radius:8px;background:#252833"></div>
+        <div style="margin-left:auto;height:30px;width:88px;border-radius:999px;background:#f5f5f5"></div>
+      </div>
+      <div style="height:140px;border-radius:2px;background:linear-gradient(110deg,#111827,#58151c 55%,#10131d);position:relative;overflow:hidden">
+        <div style="position:absolute;left:14px;bottom:18px">
+          <div style="height:20px;width:120px;border-radius:4px;background:#fff;margin-bottom:8px"></div>
+          <div style="height:10px;width:78px;border-radius:4px;background:#f4d57c"></div>
+        </div>
+        <div style="position:absolute;right:14px;bottom:16px;display:flex;gap:6px">
+          <span style="width:42px;height:28px;border:2px solid #fff;border-radius:7px;background:#26334c"></span>
+          <span style="width:42px;height:28px;border-radius:7px;background:#704443"></span>
+          <span style="width:42px;height:28px;border-radius:7px;background:#334155"></span>
+        </div>
+      </div>
+      <div style="margin-top:14px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+        <div style="height:54px;border-radius:16px;background:#ef3434"></div>
+        <div style="height:54px;border-radius:16px;background:#0b9a83"></div>
+        <div style="height:54px;border-radius:16px;background:#6438c5"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. Bám sát nhất</h3>
+      <p>Gần RoPhim nhất về layout và nhịp UX, chỉ đổi logo/nội dung sang DÂU CINEMA. Ít cá nhân hóa nhất.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#101114;padding:14px;min-height:260px">
+      <div style="height:34px;display:flex;align-items:center;gap:10px;margin-bottom:16px">
+        <div style="font-weight:800;color:#ff6f91">🍓 DÂU CINEMA</div>
+        <div style="height:30px;width:38%;border-radius:8px;background:#25262d"></div>
+        <div style="margin-left:auto;height:30px;width:88px;border-radius:999px;background:#ffe8a3"></div>
+      </div>
+      <div style="height:140px;border-radius:2px;background:radial-gradient(circle at 68% 30%,#57352e,#17151b 40%,#08090d 72%);position:relative;overflow:hidden">
+        <div style="position:absolute;left:14px;bottom:18px">
+          <div style="height:20px;width:142px;border-radius:4px;background:#fff;margin-bottom:8px"></div>
+          <div style="height:10px;width:112px;border-radius:4px;background:#ff7c9d"></div>
+        </div>
+        <div style="position:absolute;right:14px;bottom:16px;display:flex;gap:6px">
+          <span style="width:42px;height:28px;border:2px solid #ffe8a3;border-radius:7px;background:#63333f"></span>
+          <span style="width:42px;height:28px;border-radius:7px;background:#2e4350"></span>
+          <span style="width:42px;height:28px;border-radius:7px;background:#6b3b26"></span>
+        </div>
+      </div>
+      <div style="margin-top:14px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+        <div style="height:54px;border-radius:16px;background:#f04454"></div>
+        <div style="height:54px;border-radius:16px;background:#078b7f"></div>
+        <div style="height:54px;border-radius:16px;background:#2f8fe3"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. RoPhim x quà tặng</h3>
+      <p>Giữ UX như site tham chiếu, nhưng thêm chi tiết riêng: playlist cho em, nút tim, màu dâu/vàng điện ảnh. Đây là hướng mình khuyên dùng.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#130f12;padding:14px;min-height:260px">
+      <div style="height:34px;display:flex;align-items:center;gap:10px;margin-bottom:16px">
+        <div style="font-weight:800;color:#ffd1dc">Rạp riêng của tụi mình</div>
+        <div style="margin-left:auto;height:30px;width:88px;border-radius:999px;background:#ff7b9b"></div>
+      </div>
+      <div style="height:140px;border-radius:18px;background:linear-gradient(135deg,#2c141c,#5c1d2a 48%,#15100f);position:relative;overflow:hidden">
+        <div style="position:absolute;left:16px;bottom:18px">
+          <div style="height:20px;width:158px;border-radius:4px;background:#fff;margin-bottom:8px"></div>
+          <div style="height:10px;width:132px;border-radius:4px;background:#ffd1dc"></div>
+        </div>
+      </div>
+      <div style="margin-top:14px;display:grid;grid-template-columns:repeat(2,1fr);gap:10px">
+        <div style="height:54px;border-radius:18px;background:#ff6f91"></div>
+        <div style="height:54px;border-radius:18px;background:#d6a85d"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. Cá nhân hóa mạnh</h3>
+      <p>Ít giống RoPhim hơn, thiên về một “rạp phim riêng” lãng mạn. Hợp quà tặng, nhưng không đúng yêu cầu clone sát.</p>
+    </div>
+  </div>
+</div>
