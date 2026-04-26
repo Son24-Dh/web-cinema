@@ -13,10 +13,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     const heroThumbs = document.getElementById('hero-thumbs');
     const searchInput = document.getElementById('search-input');
     const favoriteButton = document.getElementById('favorite-button');
+    const moviePagination = document.getElementById('movie-pagination');
+    const mobilePageQuery = window.matchMedia('(max-width: 640px)');
+    const mobilePageSize = 8;
 
     let currentFilter = 'all';
     let searchTerm = '';
     let activeHeroId = heroMovies[0]?.id;
+    let currentMoviePage = 1;
 
     function episodeLabel(movie) {
         const firstEpisode = movie.episodes?.[0];
@@ -57,17 +61,71 @@ document.addEventListener('DOMContentLoaded', async () => {
         return card;
     }
 
-    function renderMovieGrid() {
-        const filteredMovies = allMovies.filter((movie) => {
+    function getFilteredMovies() {
+        return allMovies.filter((movie) => {
             const matchesFilter = currentFilter === 'all' || movie.category === currentFilter;
             const matchesSearch = movie.name.toLowerCase().includes(searchTerm);
             return matchesFilter && matchesSearch;
         });
+    }
+
+    function createPageButton(label, page, options = {}) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = options.active ? 'movie-page-btn active' : 'movie-page-btn';
+        button.textContent = label;
+        button.disabled = Boolean(options.disabled);
+        button.setAttribute('aria-label', options.ariaLabel || `Trang ${label}`);
+        if (options.active) {
+            button.setAttribute('aria-current', 'page');
+        }
+        button.addEventListener('click', () => {
+            currentMoviePage = page;
+            renderMovieGrid();
+            document.getElementById('movies')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        return button;
+    }
+
+    function renderMoviePagination(totalPages) {
+        if (!moviePagination) return;
+
+        moviePagination.innerHTML = '';
+        moviePagination.hidden = totalPages <= 1 || !mobilePageQuery.matches;
+
+        if (moviePagination.hidden) return;
+
+        moviePagination.appendChild(createPageButton('‹', Math.max(1, currentMoviePage - 1), {
+            ariaLabel: 'Trang trước',
+            disabled: currentMoviePage === 1
+        }));
+
+        for (let page = 1; page <= totalPages; page += 1) {
+            moviePagination.appendChild(createPageButton(String(page), page, {
+                active: page === currentMoviePage
+            }));
+        }
+
+        moviePagination.appendChild(createPageButton('›', Math.min(totalPages, currentMoviePage + 1), {
+            ariaLabel: 'Trang sau',
+            disabled: currentMoviePage === totalPages
+        }));
+    }
+
+    function renderMovieGrid() {
+        const filteredMovies = getFilteredMovies();
+        const shouldPaginate = mobilePageQuery.matches;
+        const totalPages = shouldPaginate ? Math.max(1, Math.ceil(filteredMovies.length / mobilePageSize)) : 1;
+        currentMoviePage = Math.min(currentMoviePage, totalPages);
+        const visibleMovies = shouldPaginate
+            ? filteredMovies.slice((currentMoviePage - 1) * mobilePageSize, currentMoviePage * mobilePageSize)
+            : filteredMovies;
 
         movieGrid.innerHTML = '';
-        filteredMovies.forEach((movie, index) => {
+        visibleMovies.forEach((movie, index) => {
             movieGrid.appendChild(createMovieCard(movie, index));
         });
+        renderMoviePagination(totalPages);
     }
 
     function renderFeaturedRow() {
@@ -123,6 +181,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.querySelectorAll('.filter-btn').forEach((item) => {
                 item.classList.toggle('active', item === button);
             });
+            currentMoviePage = 1;
             renderMovieGrid();
         });
     });
@@ -143,12 +202,24 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     searchInput.addEventListener('input', (event) => {
         searchTerm = event.target.value.trim().toLowerCase();
+        currentMoviePage = 1;
         renderMovieGrid();
     });
 
     favoriteButton.addEventListener('click', () => {
         favoriteButton.classList.toggle('active');
     });
+
+    const handleMobilePageChange = () => {
+        currentMoviePage = 1;
+        renderMovieGrid();
+    };
+
+    if (mobilePageQuery.addEventListener) {
+        mobilePageQuery.addEventListener('change', handleMobilePageChange);
+    } else {
+        mobilePageQuery.addListener(handleMobilePageChange);
+    }
 
     renderHeroThumbs();
     renderFeaturedRow();
