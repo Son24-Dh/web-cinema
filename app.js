@@ -1,9 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const movieId = urlParams.get('id');
     const episodeSlug = urlParams.get('tap') || "1";
     let currentServerName = urlParams.get('sv');
 
+    const movies = await window.DauPhimData.loadConfiguredMovies();
     const movie = movies[movieId];
     const videoElement = document.getElementById('video-player');
     const episodeListContainer = document.getElementById('episode-list');

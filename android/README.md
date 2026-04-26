@@ -1,6 +1,8 @@
 # DâuPhim Android APK
 
-This folder contains a small native Android WebView wrapper for the static DâuPhim site.
+This folder contains a small native Android WebView wrapper for the DâuPhim site.
+
+The app ships the UI and fallback movie data in APK assets, then loads the movie database from the online URL configured in `video-config.js`. Updating `data.json` online can add movies, episodes, and stream servers without reinstalling the APK.
 
 ## Build
 

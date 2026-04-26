@@ -74,4 +74,5 @@ const movies = {
     "chang-vang-5": { "id": "chang-vang-5", "category": "phim-le", "name": "Chạng Vạng 5: Hừng Đông 2", "description": "Trận chiến cuối cùng bảo vệ Renesmee.", "poster": "https://img.ophim.live/uploads/movies/chang-vang-hung-dong-phan-2-thumb.jpg", "year": "2012", "episodes": [{ "name": "Full", "slug": "full", "servers": { "Server VIP": "https://vip.opstream16.com/20221226/28223_9a4708c8/index.m3u8", "Server Dự Phòng": "https://s6.kkphimplayer6.com/20221226/28223_9a4708c8/index.m3u8" }}]}
 };
 
+if (typeof window !== 'undefined') { window.DEFAULT_MOVIES = movies; }
 if (typeof module !== 'undefined' && module.exports) { module.exports = movies; }
