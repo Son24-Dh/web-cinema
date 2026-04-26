@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DÂU CINEMA 🍓</title>
+    <meta name="theme-color" content="#0a0a0a">
+    <title>DÂU CINEMA 🍓 - Xem Phim Online Miễn Phí</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍓</text></svg>">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,13 +19,16 @@
         </nav>
     </header>
 
-    <div class="filter-bar">
-        <button class="filter-btn active" onclick="filterMovies('all')">Tất Cả</button>
-        <button class="filter-btn" onclick="filterMovies('phim-bo')">Phim Bộ</button>
-        <button class="filter-btn" onclick="filterMovies('phim-le')">Phim Lẻ</button>
+    <div class="filter-wrapper">
+        <div class="filter-bar">
+            <button class="filter-btn active" onclick="filterMovies('all')">Tất Cả</button>
+            <button class="filter-btn" onclick="filterMovies('phim-bo')">Phim Bộ</button>
+            <button class="filter-btn" onclick="filterMovies('phim-le')">Phim Lẻ</button>
+        </div>
     </div>
 
     <main>
+        <h2 style="margin: 0 0 20px 0; font-size: 1.2rem; color: var(--primary);">PHIM MỚI CẬP NHẬT 🎬</h2>
         <div class="movie-grid" id="movie-grid">
             <!-- Render động bằng JS -->
         </div>
@@ -44,7 +48,7 @@
                 const card = document.createElement('a');
                 card.href = `watch.html?id=${movie.id}&tap=1`;
                 card.className = 'movie-card';
-                card.style.animationDelay = `${index * 0.1}s`; // Hiệu ứng hiện lần lượt
+                card.style.animationDelay = `${index * 0.1}s`;
                 
                 card.innerHTML = `
                     <img src="${movie.poster}" alt="${movie.name}">
@@ -57,31 +61,13 @@
             });
         }
 
-        function filterMovies(category) {
+        window.filterMovies = (category) => {
             // Cập nhật trạng thái nút lọc
             document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.innerText.toLowerCase().includes(category.replace('-', ' ')) || (category === 'all' && btn.innerText === 'Tất Cả'));
+                const btnCategory = btn.getAttribute('onclick').match(/'([^']+)'/)[1];
+                btn.classList.toggle('active', btnCategory === category);
             });
 
-            const allMovies = Object.values(movies);
-            if (category === 'all') {
-                renderMovies(allMovies);
-            } else {
-                const filtered = allMovies.filter(m => movie.category === category);
-                renderMovies(filtered);
-            }
-        }
-
-        // Khởi tạo
-        document.addEventListener('DOMContentLoaded', () => {
-            renderMovies(Object.values(movies));
-        });
-
-        // Sửa lỗi logic filter một chút
-        window.filterMovies = (category) => {
-            const btns = document.querySelectorAll('.filter-btn');
-            btns.forEach(b => b.classList.remove('active'));
-            
             const allMovies = Object.values(movies);
             let filtered = allMovies;
             
@@ -91,6 +77,11 @@
             
             renderMovies(filtered);
         };
+
+        // Khởi tạo
+        document.addEventListener('DOMContentLoaded', () => {
+            renderMovies(Object.values(movies));
+        });
     </script>
 </body>
 </html>
