@@ -13,14 +13,53 @@ import android.view.Window;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
+import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
+import java.io.ByteArrayInputStream;
+import java.util.Locale;
+
 public class MainActivity extends Activity {
     private static final String HOME_URL = "file:///android_asset/www/index.html";
+    private static final String[] BLOCKED_AD_HOSTS = {
+            "doubleclick.net",
+            "googlesyndication.com",
+            "googleadservices.com",
+            "adservice.google.com",
+            "pagead2.googlesyndication.com",
+            "securepubads.g.doubleclick.net",
+            "adsystem.com",
+            "adnxs.com",
+            "adsrvr.org",
+            "taboola.com",
+            "outbrain.com",
+            "criteo.com",
+            "criteo.net",
+            "pubmatic.com",
+            "rubiconproject.com",
+            "openx.net",
+            "ads-twitter.com",
+            "advertising.com",
+            "yieldmo.com",
+            "scorecardresearch.com"
+    };
+    private static final String[] BLOCKED_AD_PATHS = {
+            "/ads/",
+            "/adserver/",
+            "/advert/",
+            "/banner/",
+            "/banners/",
+            "/popunder/",
+            "/prebid",
+            "/vast",
+            "/vpaid",
+            "/pagead/",
+            "/gampad/"
+    };
 
     private FrameLayout root;
     private WebView webView;
@@ -63,6 +102,16 @@ public class MainActivity extends Activity {
 
         view.setWebViewClient(new WebViewClient() {
             @Override
+            public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
+                String url = request.getUrl().toString();
+                if (isBlockedAdUrl(url)) {
+                    return createEmptyResponse();
+                }
+
+                return super.shouldInterceptRequest(view, request);
+            }
+
+            @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 String url = request.getUrl().toString();
                 view.loadUrl(url);
@@ -103,6 +152,45 @@ public class MainActivity extends Activity {
                 }
             }
         });
+    }
+
+    private boolean isBlockedAdUrl(String url) {
+        if (url == null || url.startsWith("file:///android_asset/www/")) {
+            return false;
+        }
+
+        String normalizedUrl = url.toLowerCase(Locale.US);
+        String host = "";
+        String path = "";
+        try {
+            java.net.URI uri = new java.net.URI(normalizedUrl);
+            host = uri.getHost() != null ? uri.getHost() : "";
+            path = uri.getRawPath() != null ? uri.getRawPath() : "";
+        } catch (Exception ignored) {
+            return false;
+        }
+
+        for (String blockedHost : BLOCKED_AD_HOSTS) {
+            if (host.equals(blockedHost) || host.endsWith("." + blockedHost)) {
+                return true;
+            }
+        }
+
+        for (String blockedPath : BLOCKED_AD_PATHS) {
+            if (path.contains(blockedPath)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private WebResourceResponse createEmptyResponse() {
+        return new WebResourceResponse(
+                "text/plain",
+                "utf-8",
+                new ByteArrayInputStream(new byte[0])
+        );
     }
 
     private boolean canUsePictureInPicture() {
