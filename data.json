@@ -396,6 +396,160 @@
           }
         }
       ]
+    },
+    "vinh-quang-trong-thu-han": {
+      "id": "vinh-quang-trong-thu-han",
+      "name": "Vinh Quang Trong Thù Hận - The Glory",
+      "category": "phim-bo",
+      "description": "Nhiều năm sau khi thoát khỏi cảnh bạo lực kinh hoàng ở trường cấp ba, một phụ nữ tiến hành âm mưu trả thù đầy tinh vi để khiến các thủ phạm phải trả giá cho tội ác của mình.",
+      "poster": "https://phimimg.com/upload/vod/20240419-1/29c9212774881368c2b70485c8fe5414.jpg",
+      "year": "2022",
+      "episodes": [
+        {
+          "name": "1",
+          "slug": "1",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream16.com/20230105/28746_f0a26278/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33589_c9ca9422/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/ltbomGLh/index.m3u8"
+          }
+        },
+        {
+          "name": "2",
+          "slug": "2",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream16.com/20230105/28747_02558eb5/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33590_6b345657/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/YNLLTSYK/index.m3u8"
+          }
+        },
+        {
+          "name": "3",
+          "slug": "3",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream16.com/20230105/28748_f8df7c29/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33591_8bc82932/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240505/Qni8ymho/index.m3u8"
+          }
+        },
+        {
+          "name": "4",
+          "slug": "4",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream16.com/20230105/28749_5e687302/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33592_6c735462/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/VXGEa7J9/index.m3u8"
+          }
+        },
+        {
+          "name": "5",
+          "slug": "5",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream16.com/20230105/28750_640fc871/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33593_e2198ab5/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/pSAW5FX5/index.m3u8"
+          }
+        },
+        {
+          "name": "6",
+          "slug": "6",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream16.com/20230105/28751_c035a418/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33594_62e53835/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/EbZLkAtP/index.m3u8"
+          }
+        },
+        {
+          "name": "7",
+          "slug": "7",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream16.com/20230105/28752_1a52e49c/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33595_6f6b2c8a/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/gDJ8xeQu/index.m3u8"
+          }
+        },
+        {
+          "name": "8",
+          "slug": "8",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream16.com/20230105/28753_0dc903ee/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33596_30ac12e6/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/MbKJIz7Y/index.m3u8"
+          }
+        },
+        {
+          "name": "9",
+          "slug": "9",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream14.com/20230310/33580_0afd1917/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33597_090e283c/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/jJmCsQqA/index.m3u8"
+          }
+        },
+        {
+          "name": "10",
+          "slug": "10",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream14.com/20230310/33581_8691dd52/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33598_18aac02f/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/OFyQbJlb/index.m3u8"
+          }
+        },
+        {
+          "name": "11",
+          "slug": "11",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream14.com/20230310/33579_77a60f32/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33599_127beac0/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/MXSSzd1h/index.m3u8"
+          }
+        },
+        {
+          "name": "12",
+          "slug": "12",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream14.com/20230310/33582_5c4720a7/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33600_2e030551/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/czoDx9nC/index.m3u8"
+          }
+        },
+        {
+          "name": "13",
+          "slug": "13",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream14.com/20230310/33583_92e434ce/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33601_912a6fd2/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/TI8UVnCg/index.m3u8"
+          }
+        },
+        {
+          "name": "14",
+          "slug": "14",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream14.com/20230310/33584_c2d3f6c0/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33602_5a5a97ef/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/T4825pmW/index.m3u8"
+          }
+        },
+        {
+          "name": "15",
+          "slug": "15",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream14.com/20230310/33585_cc97d0eb/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230311/33605_eec83814/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/ygE1JRUG/index.m3u8"
+          }
+        },
+        {
+          "name": "16",
+          "slug": "16",
+          "servers": {
+            "Vietsub #1": "https://vip.opstream14.com/20230310/33586_fc740a8d/index.m3u8",
+            "Lồng tiếng #1": "https://vip.opstream14.com/20230311/33606_a1654d85/index.m3u8",
+            "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240507/yEqLo3hU/index.m3u8"
+          }
+        }
+      ]
     }
   }
 }
