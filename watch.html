@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đang xem phim - DÂU CINEMA 🍓</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍓</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Thư viện phát video HLS -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">🍓 DÂU CINEMA</a>
+        <nav class="nav-links">
+            <a href="index.html">Trang Chủ</a>
+            <a href="#">Phim Bộ</a>
+            <a href="#">Phim Lẻ</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="watch-container">
+            <!-- Bên trái: Trình phát video -->
+            <div class="left-col">
+                <div class="player-section">
+                    <video id="video-player" controls autoplay></video>
+                </div>
+                <!-- Chọn Server -->
+                <div class="server-section" id="server-section">
+                    <h4>Chọn Nguồn Phát</h4>
+                    <div class="server-list" id="server-list">
+                        <!-- Server buttons will be rendered here -->
+                    </div>
+                </div>
+                <div class="movie-details">
+                    <h1 id="movie-title">Loading...</h1>
+                    <p id="movie-desc"></p>
+                </div>
+            </div>
+
+            <!-- Bên phải: Danh sách tập phim -->
+            <div class="episode-sidebar">
+                <h3 style="margin-bottom: 15px; font-size: 1.1rem; color: var(--primary);">Danh Sách Tập</h3>
+                <div class="ep-list" id="episode-list">
+                    <!-- Các nút tập phim sẽ được render bởi app.js -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with 🍓 by Your Boyfriend</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

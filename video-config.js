@@ -1,0 +1,1 @@
+window.CINESCOPE_HLS_SOURCE = "";
