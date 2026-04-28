@@ -2,8 +2,10 @@ package com.son24.dauphim;
 
 import android.app.Activity;
 import android.app.PictureInPictureParams;
+import android.content.Context;
 import android.content.res.Configuration;
 import android.graphics.Color;
+import android.media.AudioManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Rational;
@@ -65,6 +67,7 @@ public class MainActivity extends Activity {
     private WebView webView;
     private View fullscreenView;
     private WebChromeClient.CustomViewCallback fullscreenCallback;
+    private AudioManager audioManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +85,7 @@ public class MainActivity extends Activity {
         ));
         setContentView(root);
 
+        audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         configureWebView(webView);
         webView.loadUrl(HOME_URL);
     }
@@ -197,6 +201,53 @@ public class MainActivity extends Activity {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.O;
     }
 
+    private int getVolumePercent() {
+        if (audioManager == null) {
+            return 50;
+        }
+
+        int maxVolume = audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
+        if (maxVolume <= 0) {
+            return 50;
+        }
+
+        int currentVolume = audioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
+        return Math.round((currentVolume * 100f) / maxVolume);
+    }
+
+    private int setVolumePercent(int percent) {
+        if (audioManager == null) {
+            return percent;
+        }
+
+        int clampedPercent = clampPercent(percent);
+        int maxVolume = audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
+        int targetVolume = Math.round((clampedPercent / 100f) * maxVolume);
+        audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, targetVolume, 0);
+        return getVolumePercent();
+    }
+
+    private int getBrightnessPercent() {
+        float brightness = getWindow().getAttributes().screenBrightness;
+        if (brightness < 0f) {
+            return 60;
+        }
+        return clampPercent(Math.round(brightness * 100f));
+    }
+
+    private int setBrightnessPercent(int percent) {
+        int clampedPercent = Math.max(5, clampPercent(percent));
+        Window window = getWindow();
+        android.view.WindowManager.LayoutParams attrs = window.getAttributes();
+        attrs.screenBrightness = clampedPercent / 100f;
+        window.setAttributes(attrs);
+        return clampedPercent;
+    }
+
+    private int clampPercent(int percent) {
+        return Math.max(0, Math.min(100, percent));
+    }
+
     private boolean isWatchPage() {
         String url = webView != null ? webView.getUrl() : null;
         return url != null && url.contains("watch.html");
@@ -274,6 +325,33 @@ public class MainActivity extends Activity {
                     webView.loadUrl(targetUrl);
                 }
             });
+        }
+
+        @JavascriptInterface
+        public int getVolumePercent() {
+            return MainActivity.this.getVolumePercent();
+        }
+
+        @JavascriptInterface
+        public int setVolumePercent(final int percent) {
+            return MainActivity.this.setVolumePercent(percent);
+        }
+
+        @JavascriptInterface
+        public int getBrightnessPercent() {
+            return MainActivity.this.getBrightnessPercent();
+        }
+
+        @JavascriptInterface
+        public int setBrightnessPercent(final int percent) {
+            final int[] appliedPercent = new int[] { clampPercent(percent) };
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    appliedPercent[0] = MainActivity.this.setBrightnessPercent(percent);
+                }
+            });
+            return appliedPercent[0];
         }
     }
 

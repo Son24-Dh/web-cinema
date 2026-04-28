@@ -718,6 +718,7 @@ main {
     border-radius: var(--radius-lg);
     background: #000;
     box-shadow: 0 40px 85px rgba(0, 0, 0, 0.48);
+    touch-action: pan-x;
 }
 
 #video-player {
@@ -725,6 +726,76 @@ main {
     width: 100%;
     aspect-ratio: 16 / 9;
     background: #000;
+    filter: brightness(var(--video-brightness, 100%));
+}
+
+.gesture-hud {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    display: grid;
+    justify-items: center;
+    width: min(210px, calc(100% - 40px));
+    padding: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 18px;
+    background: rgba(17, 19, 26, 0.86);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.46);
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.96);
+    transition: opacity 160ms var(--ease), transform 160ms var(--ease);
+    backdrop-filter: blur(16px);
+}
+
+.gesture-hud.visible {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.gesture-hud-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    border-radius: 999px;
+    background: var(--gold);
+    color: #11131a;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.gesture-hud-label {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.gesture-hud-bar {
+    width: 100%;
+    height: 7px;
+    margin-top: 12px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.gesture-hud-bar span {
+    display: block;
+    width: 0;
+    height: 100%;
+    border-radius: inherit;
+    background: var(--gold);
+    transition: width 90ms linear;
+}
+
+.gesture-hud-value {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 900;
 }
 
 .resume-prompt {

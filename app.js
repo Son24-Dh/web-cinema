@@ -13,8 +13,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     let hlsInstance = null;
     let resumePromptShown = false;
     let lastProgressSave = 0;
+    let gestureState = null;
+    let gestureHudTimer = null;
+    let webBrightnessPercent = 100;
     const resumeThreshold = 20;
     const completedBuffer = 30;
+    const gestureActivationDistance = 10;
 
     videoElement.autoplay = false;
     videoElement.removeAttribute('autoplay');
@@ -226,6 +230,132 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         serverListContainer.appendChild(button);
     }
+
+    function clampPercent(value) {
+        return Math.max(0, Math.min(100, Math.round(value)));
+    }
+
+    function getAndroidBridge() {
+        return window.DauPhimAndroid || null;
+    }
+
+    function getCurrentVolumePercent() {
+        const androidBridge = getAndroidBridge();
+        if (androidBridge && typeof androidBridge.getVolumePercent === 'function') {
+            return clampPercent(androidBridge.getVolumePercent());
+        }
+        return clampPercent(videoElement.volume * 100);
+    }
+
+    function setVolumePercent(percent) {
+        const safePercent = clampPercent(percent);
+        const androidBridge = getAndroidBridge();
+        if (androidBridge && typeof androidBridge.setVolumePercent === 'function') {
+            androidBridge.setVolumePercent(safePercent);
+            return safePercent;
+        }
+
+        videoElement.muted = false;
+        videoElement.volume = safePercent / 100;
+        return safePercent;
+    }
+
+    function getCurrentBrightnessPercent() {
+        const androidBridge = getAndroidBridge();
+        if (androidBridge && typeof androidBridge.getBrightnessPercent === 'function') {
+            return clampPercent(androidBridge.getBrightnessPercent());
+        }
+        return webBrightnessPercent;
+    }
+
+    function setBrightnessPercent(percent) {
+        const safePercent = Math.max(5, clampPercent(percent));
+        const androidBridge = getAndroidBridge();
+        if (androidBridge && typeof androidBridge.setBrightnessPercent === 'function') {
+            androidBridge.setBrightnessPercent(safePercent);
+            return safePercent;
+        }
+
+        webBrightnessPercent = safePercent;
+        playerSection.style.setProperty('--video-brightness', `${safePercent}%`);
+        return safePercent;
+    }
+
+    function createGestureHud() {
+        const hud = document.createElement('div');
+        hud.className = 'gesture-hud';
+        hud.innerHTML = `
+            <span class="gesture-hud-icon"></span>
+            <strong class="gesture-hud-label"></strong>
+            <span class="gesture-hud-bar"><span></span></span>
+            <small class="gesture-hud-value"></small>
+        `;
+        playerSection.appendChild(hud);
+        return hud;
+    }
+
+    function showGestureHud(type, percent) {
+        const hud = playerSection.querySelector('.gesture-hud') || createGestureHud();
+        hud.classList.add('visible');
+        hud.dataset.type = type;
+        hud.querySelector('.gesture-hud-icon').textContent = type === 'volume' ? 'Âm' : 'Sáng';
+        hud.querySelector('.gesture-hud-label').textContent = type === 'volume' ? 'Âm lượng' : 'Ánh sáng';
+        hud.querySelector('.gesture-hud-value').textContent = `${percent}%`;
+        hud.querySelector('.gesture-hud-bar span').style.width = `${percent}%`;
+
+        clearTimeout(gestureHudTimer);
+        gestureHudTimer = setTimeout(() => {
+            hud.classList.remove('visible');
+        }, 850);
+    }
+
+    function startGesture(event) {
+        if (!event.touches || event.touches.length !== 1 || event.target.closest('.resume-prompt')) {
+            return;
+        }
+
+        const touch = event.touches[0];
+        const bounds = playerSection.getBoundingClientRect();
+        const type = touch.clientX - bounds.left > bounds.width / 2 ? 'volume' : 'brightness';
+        gestureState = {
+            type,
+            startY: touch.clientY,
+            height: Math.max(bounds.height, 1),
+            started: false,
+            initialPercent: type === 'volume' ? getCurrentVolumePercent() : getCurrentBrightnessPercent()
+        };
+    }
+
+    function moveGesture(event) {
+        if (!gestureState || !event.touches || event.touches.length !== 1) {
+            return;
+        }
+
+        const touch = event.touches[0];
+        const deltaY = gestureState.startY - touch.clientY;
+        if (!gestureState.started && Math.abs(deltaY) < gestureActivationDistance) {
+            return;
+        }
+
+        gestureState.started = true;
+        event.preventDefault();
+
+        const deltaPercent = (deltaY / gestureState.height) * 120;
+        const targetPercent = gestureState.initialPercent + deltaPercent;
+        const appliedPercent = gestureState.type === 'volume'
+            ? setVolumePercent(targetPercent)
+            : setBrightnessPercent(targetPercent);
+        showGestureHud(gestureState.type, appliedPercent);
+    }
+
+    function endGesture() {
+        gestureState = null;
+    }
+
+    playerSection.addEventListener('touchstart', startGesture, { passive: true });
+    playerSection.addEventListener('touchmove', moveGesture, { passive: false });
+    playerSection.addEventListener('touchend', endGesture);
+    playerSection.addEventListener('touchcancel', endGesture);
 
     videoElement.addEventListener('timeupdate', saveProgress);
     videoElement.addEventListener('pause', saveProgress);
