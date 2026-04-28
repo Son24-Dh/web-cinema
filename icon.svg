@@ -1,8 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
   <rect width="512" height="512" rx="96" fill="#11131a"/>
-  <circle cx="256" cy="256" r="160" fill="#1c1f2e"/>
-  <polygon points="210,175 210,337 375,256" fill="#e84560"/>
-  <circle cx="310" cy="208" r="10" fill="#11131a" opacity="0.5"/>
-  <circle cx="330" cy="248" r="10" fill="#11131a" opacity="0.5"/>
-  <circle cx="310" cy="288" r="10" fill="#11131a" opacity="0.5"/>
+
+  <!-- Lá xanh -->
+  <ellipse cx="220" cy="148" rx="36" ry="18" fill="#3abf6e" transform="rotate(-35 220 148)"/>
+  <ellipse cx="256" cy="132" rx="36" ry="18" fill="#3abf6e" transform="rotate(0 256 132)"/>
+  <ellipse cx="292" cy="148" rx="36" ry="18" fill="#3abf6e" transform="rotate(35 292 148)"/>
+
+  <!-- Thân quả dâu -->
+  <path d="M170,210 Q140,310 200,370 Q228,400 256,404 Q284,400 312,370 Q372,310 342,210 Q310,172 256,168 Q202,172 170,210 Z" fill="#e84560"/>
+
+  <!-- Hạt dâu -->
+  <ellipse cx="220" cy="255" rx="7" ry="9" fill="#c0314a" transform="rotate(-10 220 255)"/>
+  <ellipse cx="256" cy="240" rx="7" ry="9" fill="#c0314a"/>
+  <ellipse cx="292" cy="255" rx="7" ry="9" fill="#c0314a" transform="rotate(10 292 255)"/>
+  <ellipse cx="232" cy="305" rx="7" ry="9" fill="#c0314a" transform="rotate(-5 232 305)"/>
+  <ellipse cx="270" cy="300" rx="7" ry="9" fill="#c0314a" transform="rotate(5 270 300)"/>
+  <ellipse cx="254" cy="355" rx="7" ry="9" fill="#c0314a"/>
+
+  <!-- Highlight -->
+  <ellipse cx="216" cy="218" rx="18" ry="26" fill="white" opacity="0.15" transform="rotate(-15 216 218)"/>
 </svg>
