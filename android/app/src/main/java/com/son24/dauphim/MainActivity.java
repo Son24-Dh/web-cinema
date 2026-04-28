@@ -27,7 +27,7 @@ import java.io.ByteArrayInputStream;
 import java.util.Locale;
 
 public class MainActivity extends Activity {
-    private static final String ONLINE_HOME_URL = "https://son24-dh.github.io/web-cinema/index.html";
+    private static final String ONLINE_HOME_URL = "https://raw.githack.com/Son24-Dh/web-cinema/main/index.html";
     private static final String LOCAL_HOME_URL = "file:///android_asset/www/index.html";
     private static final String[] BLOCKED_AD_HOSTS = {
             "doubleclick.net",
