@@ -7,9 +7,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     const movies = await window.DauPhimData.loadConfiguredMovies();
     const movie = movies[movieId];
     const videoElement = document.getElementById('video-player');
+    const playerSection = document.querySelector('.player-section');
     const episodeListContainer = document.getElementById('episode-list');
     const serverListContainer = document.getElementById('server-list');
     let hlsInstance = null;
+    let resumePromptShown = false;
+    let lastProgressSave = 0;
+    const resumeThreshold = 20;
+    const completedBuffer = 30;
+
+    videoElement.autoplay = false;
+    videoElement.removeAttribute('autoplay');
 
     if (!movie) {
         document.body.innerHTML = "<h1 style='color:white; text-align:center; margin-top:50px;'>Không tìm thấy phim này sếp ơi! 🍓</h1>";
@@ -73,15 +81,133 @@ document.addEventListener('DOMContentLoaded', async () => {
             hlsInstance = null;
         }
 
+        resumePromptShown = false;
+
         if (Hls.isSupported()) {
             hlsInstance = new Hls();
             hlsInstance.loadSource(m3u8Url);
             hlsInstance.attachMedia(videoElement);
-            hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => videoElement.play());
+            hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => handlePlayerReady());
         } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
             videoElement.src = m3u8Url;
-            videoElement.addEventListener('loadedmetadata', () => videoElement.play());
+            videoElement.addEventListener('loadedmetadata', handlePlayerReady, { once: true });
         }
+    }
+
+    function progressKey() {
+        return `dauphim-progress:${movieId}:${episodeSlug}`;
+    }
+
+    function getSavedProgress() {
+        try {
+            const progress = JSON.parse(localStorage.getItem(progressKey()));
+            if (!progress || !Number.isFinite(progress.time)) {
+                return null;
+            }
+            return progress;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    function clearSavedProgress() {
+        localStorage.removeItem(progressKey());
+    }
+
+    function saveProgress() {
+        const currentTime = videoElement.currentTime || 0;
+        const duration = videoElement.duration || 0;
+        if (currentTime < 5 || !Number.isFinite(duration) || duration <= 0) {
+            return;
+        }
+
+        if (duration - currentTime <= completedBuffer) {
+            clearSavedProgress();
+            return;
+        }
+
+        const now = Date.now();
+        if (now - lastProgressSave < 5000) {
+            return;
+        }
+
+        lastProgressSave = now;
+        localStorage.setItem(progressKey(), JSON.stringify({
+            time: Math.floor(currentTime),
+            duration: Math.floor(duration),
+            updatedAt: now
+        }));
+    }
+
+    function formatTime(seconds) {
+        const safeSeconds = Math.max(0, Math.floor(seconds || 0));
+        const hours = Math.floor(safeSeconds / 3600);
+        const minutes = Math.floor((safeSeconds % 3600) / 60);
+        const secs = safeSeconds % 60;
+        if (hours > 0) {
+            return `${hours}:${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+        return `${minutes}:${String(secs).padStart(2, '0')}`;
+    }
+
+    function playVideo() {
+        const playPromise = videoElement.play();
+        if (playPromise && typeof playPromise.catch === 'function') {
+            playPromise.catch(() => {});
+        }
+    }
+
+    function seekAndPlay(time) {
+        videoElement.currentTime = Math.max(0, time);
+        playVideo();
+    }
+
+    function handlePlayerReady() {
+        const savedProgress = getSavedProgress();
+        const duration = videoElement.duration || savedProgress?.duration || 0;
+        const canResume = savedProgress
+            && savedProgress.time >= resumeThreshold
+            && (!duration || savedProgress.time < duration - completedBuffer);
+
+        if (canResume && !resumePromptShown) {
+            showResumePrompt(savedProgress.time);
+            return;
+        }
+
+        playVideo();
+    }
+
+    function showResumePrompt(savedTime) {
+        resumePromptShown = true;
+        const prompt = createResumePrompt(savedTime);
+        playerSection.appendChild(prompt);
+
+        prompt.querySelector('[data-resume-play]').addEventListener('click', () => {
+            prompt.remove();
+            seekAndPlay(savedTime);
+        });
+
+        prompt.querySelector('[data-resume-restart]').addEventListener('click', () => {
+            prompt.remove();
+            clearSavedProgress();
+            seekAndPlay(0);
+        });
+    }
+
+    function createResumePrompt(savedTime) {
+        const prompt = document.createElement('div');
+        prompt.className = 'resume-prompt';
+        prompt.innerHTML = `
+            <div class="resume-card">
+                <span class="resume-kicker">Đang xem dở</span>
+                <strong>Xem tiếp từ ${formatTime(savedTime)}?</strong>
+                <div class="resume-actions">
+                    <button type="button" class="resume-primary" data-resume-play>Xem tiếp</button>
+                    <button type="button" class="resume-secondary" data-resume-restart>Xem lại từ đầu</button>
+                </div>
+            </div>
+        `;
+        return prompt;
     }
 
     function renderAndroidPipButton() {
@@ -100,4 +226,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         serverListContainer.appendChild(button);
     }
+
+    videoElement.addEventListener('timeupdate', saveProgress);
+    videoElement.addEventListener('pause', saveProgress);
+    videoElement.addEventListener('ended', clearSavedProgress);
+    window.addEventListener('pagehide', saveProgress);
 });
