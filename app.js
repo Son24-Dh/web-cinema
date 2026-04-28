@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Khởi tạo Player
         initPlayer(currentEpisode.servers[currentServerName]);
         renderAndroidPipButton();
+        renderWebPipButton();
     }
 
     // Hiển thị thông tin phim
@@ -212,6 +213,22 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
         `;
         return prompt;
+    }
+
+    function renderWebPipButton() {
+        if (window.DauPhimAndroid || !document.pictureInPictureEnabled) {
+            return;
+        }
+
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'sv-btn pip-btn';
+        button.innerText = 'Pop-up';
+        button.setAttribute('aria-label', 'Mở video dạng pop-up');
+        button.addEventListener('click', () => {
+            videoElement.requestPictureInPicture();
+        });
+        serverListContainer.appendChild(button);
     }
 
     function renderAndroidPipButton() {
