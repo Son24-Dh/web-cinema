@@ -167,7 +167,53 @@ document.addEventListener('DOMContentLoaded', async () => {
         playVideo();
     }
 
+    function setupMediaSession() {
+        if (!('mediaSession' in navigator)) {
+            return;
+        }
+
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: movie.name,
+            artist: `Tập ${episodeSlug}`,
+        });
+
+        const seekStep = 10;
+        navigator.mediaSession.setActionHandler('play', () => playVideo());
+        navigator.mediaSession.setActionHandler('pause', () => videoElement.pause());
+        navigator.mediaSession.setActionHandler('seekbackward', ({ seekOffset }) => {
+            videoElement.currentTime = Math.max(0, videoElement.currentTime - (seekOffset || seekStep));
+        });
+        navigator.mediaSession.setActionHandler('seekforward', ({ seekOffset }) => {
+            const duration = videoElement.duration || 0;
+            videoElement.currentTime = Math.min(duration, videoElement.currentTime + (seekOffset || seekStep));
+        });
+        navigator.mediaSession.setActionHandler('seekto', ({ seekTime }) => {
+            videoElement.currentTime = seekTime;
+        });
+    }
+
+    function updateMediaSessionPosition() {
+        if (!('mediaSession' in navigator)) {
+            return;
+        }
+
+        const duration = videoElement.duration;
+        if (!Number.isFinite(duration) || duration <= 0) {
+            return;
+        }
+
+        try {
+            navigator.mediaSession.setPositionState({
+                duration,
+                playbackRate: videoElement.playbackRate || 1,
+                position: videoElement.currentTime || 0,
+            });
+        } catch (_) {}
+    }
+
     function handlePlayerReady() {
+        setupMediaSession();
+
         const savedProgress = getSavedProgress();
         const duration = videoElement.duration || savedProgress?.duration || 0;
         const canResume = savedProgress
@@ -374,7 +420,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     playerSection.addEventListener('touchend', endGesture);
     playerSection.addEventListener('touchcancel', endGesture);
 
-    videoElement.addEventListener('timeupdate', saveProgress);
+    videoElement.addEventListener('timeupdate', () => { saveProgress(); updateMediaSessionPosition(); });
     videoElement.addEventListener('pause', saveProgress);
     videoElement.addEventListener('ended', clearSavedProgress);
     window.addEventListener('pagehide', saveProgress);
