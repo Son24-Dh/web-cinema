@@ -16,6 +16,7 @@ import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
+import android.webkit.WebResourceError;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -26,7 +27,8 @@ import java.io.ByteArrayInputStream;
 import java.util.Locale;
 
 public class MainActivity extends Activity {
-    private static final String HOME_URL = "file:///android_asset/www/index.html";
+    private static final String ONLINE_HOME_URL = "https://son24-dh.github.io/web-cinema/index.html";
+    private static final String LOCAL_HOME_URL = "file:///android_asset/www/index.html";
     private static final String[] BLOCKED_AD_HOSTS = {
             "doubleclick.net",
             "googlesyndication.com",
@@ -68,6 +70,7 @@ public class MainActivity extends Activity {
     private View fullscreenView;
     private WebChromeClient.CustomViewCallback fullscreenCallback;
     private AudioManager audioManager;
+    private boolean loadedLocalFallback = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,7 +90,7 @@ public class MainActivity extends Activity {
 
         audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         configureWebView(webView);
-        webView.loadUrl(HOME_URL);
+        webView.loadUrl(ONLINE_HOME_URL);
     }
 
     private void configureWebView(WebView view) {
@@ -120,6 +123,20 @@ public class MainActivity extends Activity {
                 String url = request.getUrl().toString();
                 view.loadUrl(url);
                 return true;
+            }
+
+            @Override
+            public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
+                if (request.isForMainFrame()) {
+                    loadLocalFallback();
+                }
+            }
+
+            @Override
+            public void onReceivedHttpError(WebView view, WebResourceRequest request, WebResourceResponse errorResponse) {
+                if (request.isForMainFrame() && errorResponse.getStatusCode() >= 400) {
+                    loadLocalFallback();
+                }
             }
         });
 
@@ -156,6 +173,15 @@ public class MainActivity extends Activity {
                 }
             }
         });
+    }
+
+    private void loadLocalFallback() {
+        if (loadedLocalFallback || webView == null) {
+            return;
+        }
+
+        loadedLocalFallback = true;
+        webView.loadUrl(LOCAL_HOME_URL);
     }
 
     private boolean isBlockedAdUrl(String url) {
