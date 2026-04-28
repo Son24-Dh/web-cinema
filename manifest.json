@@ -1,0 +1,25 @@
+{
+  "name": "DâuPhim",
+  "short_name": "DâuPhim",
+  "description": "Phim hay của Phương Nhi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#11131a",
+  "theme_color": "#11131a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
