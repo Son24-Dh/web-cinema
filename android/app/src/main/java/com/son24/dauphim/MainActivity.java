@@ -27,7 +27,8 @@ import java.io.ByteArrayInputStream;
 import java.util.Locale;
 
 public class MainActivity extends Activity {
-    private static final String ONLINE_HOME_URL = "https://raw.githack.com/Son24-Dh/web-cinema/main/index.html";
+    private static final String ONLINE_BASE_URL = "https://raw.githubusercontent.com/Son24-Dh/web-cinema/main/";
+    private static final String ONLINE_HOME_URL = ONLINE_BASE_URL + "index.html";
     private static final String LOCAL_HOME_URL = "file:///android_asset/www/index.html";
     private static final String[] BLOCKED_AD_HOSTS = {
             "doubleclick.net",
@@ -111,6 +112,13 @@ public class MainActivity extends Activity {
             @Override
             public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
                 String url = request.getUrl().toString();
+                if (url.startsWith(ONLINE_BASE_URL)) {
+                    WebResourceResponse onlineAsset = createOnlineAssetResponse(url);
+                    if (onlineAsset != null) {
+                        return onlineAsset;
+                    }
+                }
+
                 if (isBlockedAdUrl(url)) {
                     return createEmptyResponse();
                 }
@@ -173,6 +181,41 @@ public class MainActivity extends Activity {
                 }
             }
         });
+    }
+
+    private WebResourceResponse createOnlineAssetResponse(String url) {
+        try {
+            java.net.HttpURLConnection connection = (java.net.HttpURLConnection) new java.net.URL(url).openConnection();
+            connection.setConnectTimeout(8000);
+            connection.setReadTimeout(12000);
+            connection.setRequestProperty("Cache-Control", "no-cache");
+            return new WebResourceResponse(
+                    getMimeTypeForUrl(url),
+                    "utf-8",
+                    connection.getInputStream()
+            );
+        } catch (Exception ignored) {
+            return null;
+        }
+    }
+
+    private String getMimeTypeForUrl(String url) {
+        if (url.endsWith(".html")) {
+            return "text/html";
+        }
+        if (url.endsWith(".css")) {
+            return "text/css";
+        }
+        if (url.endsWith(".js")) {
+            return "application/javascript";
+        }
+        if (url.endsWith(".json")) {
+            return "application/json";
+        }
+        if (url.endsWith(".svg")) {
+            return "image/svg+xml";
+        }
+        return "text/plain";
     }
 
     private void loadLocalFallback() {

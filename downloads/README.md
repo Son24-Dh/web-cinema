@@ -6,4 +6,4 @@ Latest internal APK:
 
 Versioned builds:
 
-- `DauPhim-v1.0.8.apk` - Android `versionCode=9`, `versionName=1.0.8`
+- `DauPhim-v1.0.9.apk` - Android `versionCode=10`, `versionName=1.0.9`
