@@ -424,4 +424,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     videoElement.addEventListener('pause', saveProgress);
     videoElement.addEventListener('ended', clearSavedProgress);
     window.addEventListener('pagehide', saveProgress);
+    document.addEventListener('visibilitychange', () => { if (document.hidden) saveProgress(); });
 });
