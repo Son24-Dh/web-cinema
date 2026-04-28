@@ -200,19 +200,20 @@ public class MainActivity extends Activity {
     }
 
     private String getMimeTypeForUrl(String url) {
-        if (url.endsWith(".html")) {
+        String path = url.contains("?") ? url.substring(0, url.indexOf('?')) : url;
+        if (path.endsWith(".html")) {
             return "text/html";
         }
-        if (url.endsWith(".css")) {
+        if (path.endsWith(".css")) {
             return "text/css";
         }
-        if (url.endsWith(".js")) {
+        if (path.endsWith(".js")) {
             return "application/javascript";
         }
-        if (url.endsWith(".json")) {
+        if (path.endsWith(".json")) {
             return "application/json";
         }
-        if (url.endsWith(".svg")) {
+        if (path.endsWith(".svg")) {
             return "image/svg+xml";
         }
         return "text/plain";
