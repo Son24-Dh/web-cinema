@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const episodeListContainer = document.getElementById('episode-list');
     const serverListContainer = document.getElementById('server-list');
     let hlsInstance = null;
+    let currentPlaylistObjectUrl = null;
+    let playerLoadToken = 0;
     let resumePromptShown = false;
     let lastProgressSave = 0;
     let gestureState = null;
@@ -80,23 +82,123 @@ document.addEventListener('DOMContentLoaded', async () => {
         episodeListContainer.appendChild(btn);
     });
 
-    function initPlayer(m3u8Url) {
+    async function initPlayer(m3u8Url) {
+        const loadToken = ++playerLoadToken;
+
         if (hlsInstance) {
             hlsInstance.destroy();
             hlsInstance = null;
         }
 
+        if (currentPlaylistObjectUrl) {
+            URL.revokeObjectURL(currentPlaylistObjectUrl);
+            currentPlaylistObjectUrl = null;
+        }
+
         resumePromptShown = false;
+        videoElement.removeAttribute('src');
+        videoElement.load();
+
+        const playableUrl = await preparePlayableUrl(m3u8Url);
+        if (loadToken !== playerLoadToken) {
+            if (playableUrl !== m3u8Url) URL.revokeObjectURL(playableUrl);
+            return;
+        }
+        if (playableUrl !== m3u8Url) {
+            currentPlaylistObjectUrl = playableUrl;
+        }
 
         if (Hls.isSupported()) {
             hlsInstance = new Hls();
-            hlsInstance.loadSource(m3u8Url);
+            hlsInstance.loadSource(playableUrl);
             hlsInstance.attachMedia(videoElement);
             hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => handlePlayerReady());
         } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
-            videoElement.src = m3u8Url;
+            videoElement.src = playableUrl;
             videoElement.addEventListener('loadedmetadata', handlePlayerReady, { once: true });
         }
+    }
+
+    async function preparePlayableUrl(m3u8Url) {
+        if (!m3u8Url.includes('.m3u8')) {
+            return m3u8Url;
+        }
+
+        try {
+            const masterPlaylist = await fetchPlaylistText(m3u8Url);
+            const mediaPlaylistUrl = getFirstVariantUrl(masterPlaylist, m3u8Url) || m3u8Url;
+            const mediaPlaylist = mediaPlaylistUrl === m3u8Url
+                ? masterPlaylist
+                : await fetchPlaylistText(mediaPlaylistUrl);
+
+            if (!mediaPlaylist.includes('/adjump/')) {
+                return m3u8Url;
+            }
+
+            const cleanPlaylist = cleanAdSegments(mediaPlaylist, mediaPlaylistUrl);
+            return URL.createObjectURL(new Blob([cleanPlaylist], {
+                type: 'application/vnd.apple.mpegurl'
+            }));
+        } catch (error) {
+            console.warn('Using original playlist because ad cleanup failed.', error);
+            return m3u8Url;
+        }
+    }
+
+    async function fetchPlaylistText(url) {
+        const response = await fetch(url, { cache: 'no-store' });
+        if (!response.ok) {
+            throw new Error(`Cannot load playlist: ${response.status}`);
+        }
+        return response.text();
+    }
+
+    function getFirstVariantUrl(playlist, baseUrl) {
+        const lines = playlist.split(/\r?\n/);
+        for (let index = 0; index < lines.length; index += 1) {
+            if (lines[index].startsWith('#EXT-X-STREAM-INF')) {
+                const variantPath = lines[index + 1]?.trim();
+                if (variantPath && !variantPath.startsWith('#')) {
+                    return new URL(variantPath, baseUrl).href;
+                }
+            }
+        }
+        return null;
+    }
+
+    function cleanAdSegments(playlist, baseUrl) {
+        const lines = playlist.split(/\r?\n/);
+        const cleanLines = [];
+
+        for (let index = 0; index < lines.length; index += 1) {
+            const line = lines[index];
+            const trimmed = line.trim();
+            const nextLine = lines[index + 1]?.trim() || '';
+
+            if (trimmed === '#EXT-X-DISCONTINUITY') {
+                continue;
+            }
+
+            if (trimmed.startsWith('#EXTINF') && nextLine.includes('/adjump/')) {
+                index += 1;
+                continue;
+            }
+
+            if (trimmed.includes('/adjump/')) {
+                continue;
+            }
+
+            if (trimmed && !trimmed.startsWith('#')) {
+                cleanLines.push(new URL(trimmed, baseUrl).href);
+                continue;
+            }
+
+            cleanLines.push(line.replace(/URI="([^"]+)"/g, (_, uri) => {
+                return `URI="${new URL(uri, baseUrl).href}"`;
+            }));
+        }
+
+        return cleanLines.join('\n');
     }
 
     function progressKey() {
