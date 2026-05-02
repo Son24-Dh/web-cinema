@@ -253,56 +253,64 @@
           "slug": "1",
           "servers": {
             "Vietsub #1": "https://vip.opstream15.com/20250124/48304_8122ef54/index.m3u8",
-            "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/e8iiEOWq/index.m3u8"
+            "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/e8iiEOWq/index.m3u8",
+            "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/pVyEKY4u/index.m3u8"
           }
         },
         {
           "name": "2",
           "slug": "2",
           "servers": {
-            "Vietsub #1": "https://vip.opstream15.com/20250124/48305_48b0c1e7/index.m3u8"
+            "Vietsub #1": "https://vip.opstream15.com/20250124/48305_48b0c1e7/index.m3u8",
+            "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/hWWtRF83/index.m3u8"
           }
         },
         {
           "name": "3",
           "slug": "3",
           "servers": {
-            "Vietsub #1": "https://vip.opstream15.com/20250124/48306_e49d2c55/index.m3u8"
+            "Vietsub #1": "https://vip.opstream15.com/20250124/48306_e49d2c55/index.m3u8",
+            "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/bUoTR9eY/index.m3u8"
           }
         },
         {
           "name": "4",
           "slug": "4",
           "servers": {
-            "Vietsub #1": "https://vip.opstream15.com/20250124/48307_3b864667/index.m3u8"
+            "Vietsub #1": "https://vip.opstream15.com/20250124/48307_3b864667/index.m3u8",
+            "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/NC2Rkges/index.m3u8"
           }
         },
         {
           "name": "5",
           "slug": "5",
           "servers": {
-            "Vietsub #1": "https://vip.opstream15.com/20250124/48308_696f528c/index.m3u8"
+            "Vietsub #1": "https://vip.opstream15.com/20250124/48308_696f528c/index.m3u8",
+            "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/doCjFpqa/index.m3u8"
           }
         },
         {
           "name": "6",
           "slug": "6",
           "servers": {
-            "Vietsub #1": "https://vip.opstream15.com/20250124/48309_55670925/index.m3u8"
+            "Vietsub #1": "https://vip.opstream15.com/20250124/48309_55670925/index.m3u8",
+            "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/g392o8HV/index.m3u8"
           }
         },
         {
           "name": "7",
           "slug": "7",
           "servers": {
-            "Vietsub #1": "https://vip.opstream15.com/20250124/48310_61e1ec2a/index.m3u8"
+            "Vietsub #1": "https://vip.opstream15.com/20250124/48310_61e1ec2a/index.m3u8",
+            "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/MSZs0Jkq/index.m3u8"
           }
         },
         {
           "name": "8",
           "slug": "8",
           "servers": {
-            "Vietsub #1": "https://vip.opstream15.com/20250124/48311_ae3957e9/index.m3u8"
+            "Vietsub #1": "https://vip.opstream15.com/20250124/48311_ae3957e9/index.m3u8",
+            "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/w23PREYf/index.m3u8"
           }
         }
       ]
