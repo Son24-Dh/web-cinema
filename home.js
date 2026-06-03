@@ -28,8 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function movieUrl(movie) {
-        const firstSlug = movie.episodes?.[0]?.slug || '1';
-        return `watch.html?id=${movie.id}&tap=${firstSlug}`;
+        return `detail.html?id=${movie.id}`;
     }
 
     function createMovieCard(movie, index, compact = false) {

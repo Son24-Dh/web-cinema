@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#11131a">
+    <title>Thông tin phim - DâuPhim</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍓</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html" class="brand" aria-label="DâuPhim trang chủ">
+            <span class="brand-mark">▶</span>
+            <span>
+                <strong>DâuPhim</strong>
+                <small>Phim hay của Nhi</small>
+            </span>
+        </a>
+
+        <label class="search-box" aria-label="Tìm kiếm phim">
+            <span>⌕</span>
+            <input id="search-input" type="search" placeholder="Tìm kiếm phim, diễn viên">
+        </label>
+
+        <nav class="nav-links" aria-label="Điều hướng chính">
+            <a href="index.html#topics">Chủ Đề</a>
+            <a href="index.html#movies">Thể loại</a>
+            <a href="index.html#movies" data-filter-link="phim-le">Phim Lẻ</a>
+            <a href="index.html#movies" data-filter-link="phim-bo">Phim Bộ</a>
+            <a href="index.html#movies">Quốc gia</a>
+            <a href="index.html#movies">Diễn Viên</a>
+            <a href="index.html#movies">Lịch Chiếu</a>
+        </nav>
+
+        <a class="member-pill" href="index.html#for-nhi">Phương Nhi</a>
+    </header>
+
+    <main>
+        <section class="detail-hero" aria-label="Thông tin phim">
+            <div class="detail-hero-backdrop" id="detail-backdrop"></div>
+            <div class="detail-hero-shade"></div>
+
+            <div class="detail-container">
+                <div class="detail-content-wrap">
+                    <div class="detail-poster-wrap">
+                        <img id="detail-poster" src="" alt="Poster Phim" loading="lazy">
+                    </div>
+                    <div class="detail-info-wrap">
+                        <h1 id="detail-title">Loading...</h1>
+                        <div class="detail-meta-row" id="detail-meta">
+                            <!-- Metadatas like HD, Year, Ep Count will be here -->
+                        </div>
+                        <p class="detail-desc" id="detail-desc">Nội dung đang được tải...</p>
+                        
+                        <div class="detail-actions-row">
+                            <a id="detail-play-btn" href="#" class="detail-play-btn">
+                                <span class="play-icon">▶</span>
+                                <span id="play-btn-text">Xem Ngay</span>
+                            </a>
+
+                            <div id="autoplay-container" class="autoplay-container">
+                                <span class="autoplay-label" id="autoplay-label">Tự động phát sau 5 giây...</span>
+                                <div class="autoplay-bar">
+                                    <div class="autoplay-progress" id="autoplay-progress"></div>
+                                </div>
+                                <button type="button" id="autoplay-cancel" class="autoplay-cancel" aria-label="Hủy tự động phát">Hủy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="episodes-section" aria-labelledby="episodes-title">
+            <div class="section-heading">
+                <h2 id="episodes-title">Danh Sách Tập Phim</h2>
+            </div>
+            <div class="detail-ep-grid" id="episode-grid">
+                <!-- Episode buttons go here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>DâuPhim được làm riêng cho Phương Nhi.</p>
+    </footer>
+
+    <script src="video-config.js"></script>
+    <script src="data.js"></script>
+    <script src="data-loader.js"></script>
+    <script src="android-menu.js"></script>
+    <script src="detail.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+        }
+    </script>
+</body>
+</html>
