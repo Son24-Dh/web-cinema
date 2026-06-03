@@ -114,16 +114,16 @@
                     this.y = y;
                     this.color = color;
                     const angle = Math.random() * Math.PI * 2;
-                    const speed = Math.random() * 4 + 1.5;
+                    const speed = Math.random() * 7 + 3; // Increased speed (wider explosion)
                     this.vx = Math.cos(angle) * speed;
                     this.vy = Math.sin(angle) * speed;
                     this.alpha = 1;
                     this.gravity = 0.06;
-                    this.decay = Math.random() * 0.015 + 0.012;
+                    this.decay = Math.random() * 0.008 + 0.006; // Slower decay (burns longer)
                 }
                 update() {
-                    this.vx *= 0.98;
-                    this.vy *= 0.98;
+                    this.vx *= 0.985; // Slightly less air resistance
+                    this.vy *= 0.985;
                     this.vy += this.gravity;
                     this.x += this.vx;
                     this.y += this.vy;
@@ -133,9 +133,9 @@
                     c.save();
                     c.globalAlpha = this.alpha;
                     c.beginPath();
-                    c.arc(this.x, this.y, 2.2, 0, Math.PI * 2);
+                    c.arc(this.x, this.y, 3, 0, Math.PI * 2); // Increased size (3px radius)
                     c.fillStyle = this.color;
-                    c.shadowBlur = 8;
+                    c.shadowBlur = 12;
                     c.shadowColor = this.color;
                     c.fill();
                     c.restore();
@@ -166,7 +166,7 @@
                 }
                 explode() {
                     this.exploded = true;
-                    const count = Math.floor(Math.random() * 30) + 40;
+                    const count = Math.floor(Math.random() * 40) + 90; // Increased particle count (90-130)
                     for (let i = 0; i < count; i++) {
                         this.particles.push(new Particle(this.x, this.y, this.color));
                     }
