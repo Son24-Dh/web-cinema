@@ -576,6 +576,330 @@
           }
         }
       ]
+    },
+    "nguoc-dong-thoi-gian-de-yeu-anh-2": {
+      "id": "nguoc-dong-thoi-gian-de-yeu-anh-2",
+      "name": "Ngược Dòng Thời Gian Để Yêu Anh 2",
+      "category": "phim-bo",
+      "description": "Nối tiếp phần một từng gây bão, phần hai tiếp tục mở ra chuyện tình xuyên không lãng mạn nhưng không kém phần thú vị của cô gái \"kỳ lạ\" Pudtarn và Por Rid - con trai của Karaked và Por Dech.",
+      "poster": "https://phimimg.com/upload/vod/20240207-1/7b649ff9a204f088d77272949f1614e7.jpg",
+      "year": "2023",
+      "episodes": [
+        {
+          "name": "1",
+          "slug": "1",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/U5UEsVhf/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/T71wvm98/index.m3u8"
+          }
+        },
+        {
+          "name": "2",
+          "slug": "2",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/dMArPMuC/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/5jmYnsRd/index.m3u8"
+          }
+        },
+        {
+          "name": "3",
+          "slug": "3",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240304/tNjmZvM3/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/ZNXfiNlF/index.m3u8"
+          }
+        },
+        {
+          "name": "4",
+          "slug": "4",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/13P0I2d2/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/CrBvQyjY/index.m3u8"
+          }
+        },
+        {
+          "name": "5",
+          "slug": "5",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/VRvyhMmn/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/1D6Cwfm8/index.m3u8"
+          }
+        },
+        {
+          "name": "6",
+          "slug": "6",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/0mHfafzq/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/wEgodS02/index.m3u8"
+          }
+        },
+        {
+          "name": "7",
+          "slug": "7",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/oSCFBSwD/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/ixzy9jtO/index.m3u8"
+          }
+        },
+        {
+          "name": "8",
+          "slug": "8",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/PANZYDcK/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/PfrQVUSg/index.m3u8"
+          }
+        },
+        {
+          "name": "9",
+          "slug": "9",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240305/V1zS2Ky4/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/ltB1XjnR/index.m3u8"
+          }
+        },
+        {
+          "name": "10",
+          "slug": "10",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/OPk6gCG0/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/to0alRZO/index.m3u8"
+          }
+        },
+        {
+          "name": "11",
+          "slug": "11",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/GI4XqGPQ/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/4snWbhcr/index.m3u8"
+          }
+        },
+        {
+          "name": "12",
+          "slug": "12",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/dvmYg94j/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/9Z06119X/index.m3u8"
+          }
+        },
+        {
+          "name": "13",
+          "slug": "13",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/bkbeygF4/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/Xs4pRBDq/index.m3u8"
+          }
+        },
+        {
+          "name": "14",
+          "slug": "14",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/ayj8GIiG/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/T7LwKJNc/index.m3u8"
+          }
+        },
+        {
+          "name": "15",
+          "slug": "15",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/MU6dQVaS/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/lBzaqLDH/index.m3u8"
+          }
+        },
+        {
+          "name": "16",
+          "slug": "16",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/sE36Hj5g/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/iEvhaGxE/index.m3u8"
+          }
+        },
+        {
+          "name": "17",
+          "slug": "17",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/ch3lmWJ8/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/gz1NdcO8/index.m3u8"
+          }
+        },
+        {
+          "name": "18",
+          "slug": "18",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/vvJtznuU/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/gakEMu1R/index.m3u8"
+          }
+        },
+        {
+          "name": "19",
+          "slug": "19",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/TW3ZHgui/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/w288IOWt/index.m3u8"
+          }
+        },
+        {
+          "name": "20",
+          "slug": "20",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/4u4xT5sj/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/aEoDfZvr/index.m3u8"
+          }
+        },
+        {
+          "name": "21",
+          "slug": "21",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/hP4yxNdo/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/0mLVV1Mz/index.m3u8"
+          }
+        },
+        {
+          "name": "22",
+          "slug": "22",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/cJGilKI5/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/kQ4CHoQP/index.m3u8"
+          }
+        },
+        {
+          "name": "23",
+          "slug": "23",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/NMShcM8q/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/JszdnHmN/index.m3u8"
+          }
+        },
+        {
+          "name": "24",
+          "slug": "24",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/CpqAqvZd/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/PvLgnRj5/index.m3u8"
+          }
+        },
+        {
+          "name": "25",
+          "slug": "25",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/RnBvJTBQ/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/8go1soqV/index.m3u8"
+          }
+        },
+        {
+          "name": "26",
+          "slug": "26",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/6fixXfq2/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/87KjZhXt/index.m3u8"
+          }
+        }
+      ]
+    },
+    "vu-dieu-tinh-thu": {
+      "id": "vu-dieu-tinh-thu",
+      "name": "Vũ Điệu Tình Thù",
+      "category": "phim-bo",
+      "description": "Soi và Mala là hai người bạn thân và cùng là vũ nữ trong một đoàn kịch. Những tưởng họ sẽ đồng hành cùng nhau vươn đến đỉnh cao sự nghiệp, nhưng sự xuất hiện của một người đàn ông đã làm rạn nứt tình cảm giữa hai cô gái, khiến Mala phải dứt áo ra đi. Mặc dù vậy, trong suốt nhiều năm tháng sau đó, số phận của Soi và Mala vẫn gắn liền với nhau qua bao thăng trầm, tổn thương và mất mát của cuộc đời. Không chỉ là câu chuyện yêu hận tình thù giữa hai nàng vũ nữ, Vũ Điệu Tình Thù còn khắc họa thời kỳ hoàng kim của múa truyền thống Thái Lan và những yếu tố lịch sử dẫn đến sự suy tàn của môn nghệ thuật này.",
+      "poster": "https://phimimg.com/upload/vod/20260423-1/5fbf1f8f8cca55b836d2e8c0ebb39c5d.jpg",
+      "year": "2026",
+      "episodes": [
+        {
+          "name": "1",
+          "slug": "1",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260423/BtGWTWjv/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260429/sXnDpyOG/index.m3u8"
+          }
+        },
+        {
+          "name": "2",
+          "slug": "2",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260424/d05BquoW/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260429/FTbZAw8U/index.m3u8"
+          }
+        },
+        {
+          "name": "3",
+          "slug": "3",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260429/v7Vs1X5V/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260429/Zt5uZZHh/index.m3u8"
+          }
+        },
+        {
+          "name": "4",
+          "slug": "4",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260430/KAizAXoW/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260430/Mn5dhqgB/index.m3u8"
+          }
+        },
+        {
+          "name": "5",
+          "slug": "5",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260508/jZ78iWaq/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260513/znUYEqUi/index.m3u8"
+          }
+        },
+        {
+          "name": "6",
+          "slug": "6",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260508/LuDTvRkj/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260513/8sszBj6k/index.m3u8"
+          }
+        },
+        {
+          "name": "7",
+          "slug": "7",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260513/Eg8A9APQ/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260513/HnJ9Gw4c/index.m3u8"
+          }
+        },
+        {
+          "name": "8",
+          "slug": "8",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260514/ZDr0e4Jo/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260514/Ew3awrBI/index.m3u8"
+          }
+        },
+        {
+          "name": "9",
+          "slug": "9",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260520/hbTxnWII/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260520/mEU5Mepw/index.m3u8"
+          }
+        },
+        {
+          "name": "10",
+          "slug": "10",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260521/A2eJHBFL/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260521/VcjdEWec/index.m3u8"
+          }
+        },
+        {
+          "name": "11",
+          "slug": "11",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260527/055AdxQx/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260527/vdbKORZX/index.m3u8"
+          }
+        },
+        {
+          "name": "12",
+          "slug": "12",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260528/PltzSzou/index.m3u8",
+            "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260528/hzmAPE1m/index.m3u8"
+          }
+        }
+      ]
     }
   }
 }
