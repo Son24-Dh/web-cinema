@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         searchInput.addEventListener('keypress', (event) => {
             if (event.key === 'Enter') {
                 const query = event.target.value.trim();
-                window.location.href = `index.html?search=${encodeURIComponent(query)}`;
+                window.location.href = `home.html?search=${encodeURIComponent(query)}`;
             }
         });
     }

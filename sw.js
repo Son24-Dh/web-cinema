@@ -1,7 +1,8 @@
-const CACHE = 'dauphim-v1.3';
+const CACHE = 'dauphim-v1.4';
 const STATIC_ASSETS = [
     './',
     'index.html',
+    'home.html',
     'watch.html',
     'detail.html',
     'styles.css',
