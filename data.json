@@ -917,6 +917,23 @@
           }
         }
       ]
+    },
+    "am-anh-2026": {
+      "id": "am-anh-2026",
+      "name": "Ám Ảnh",
+      "category": "phim-le",
+      "description": "Sau khi bẻ gãy \"Liễu Ước Nguyện\" thần bí để có được người mình thầm yêu, gã si tình rốt cuộc cũng cầu được ước thấy, để rồi kinh hãi nhận ra cái giá tăm tối phía sau lời ước đó.",
+      "poster": "https://phimimg.com/upload/vod/20260701-1/a7b7cfa9e284650d32a56e340110cfb0.jpg",
+      "year": "2026",
+      "episodes": [
+        {
+          "name": "Full",
+          "slug": "full",
+          "servers": {
+            "Vietsub": "https://v7.kkphimplayer7.com/20260630/wjbHjWYF/index.m3u8"
+          }
+        }
+      ]
     }
   }
 }
