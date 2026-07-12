@@ -929,7 +929,8 @@ const movies = {
                 "name": "Full",
                 "slug": "full",
                 "servers": {
-                    "Vietsub": "https://v7.kkphimplayer7.com/20260630/wjbHjWYF/index.m3u8"
+                    "Motchill (Vietsub)": "https://stream.motchill.immo/hls/324fe753/playlist.m3u8",
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260630/wjbHjWYF/index.m3u8"
                 }
             }
         ]
