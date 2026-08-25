@@ -65,6 +65,372 @@ const movies = {
             }
         ]
     },
+    "penthouse-cuoc-chien-thuong-luu-phan-1": {
+        "id": "penthouse-cuoc-chien-thuong-luu-phan-1",
+        "name": "Penthouse: Cuộc Chiến Thượng Lưu (Phần 1) - The Penthouse: War In Life (Season 1)",
+        "category": "phim-bo",
+        "description": "Bộ phim kể về câu chuyện những gia đình giàu có vì bồi dưỡng con em thành danh mà không từ thủ đoạn, xảy ra giữa tầng lớp thượng lưu Hàn Quốc sống tại tầng 100 của một tòa chung cư cao cấp (Tên &quot;Hera Palace&quot;), đi cùng với những đó là những thứ như báo thù, ngoại tình, giao dịch tiền bạc...",
+        "poster": "https://phimimg.com/upload/vod/20240920-1/82c033585fd1194fba9e6b14bde9b27b.jpg",
+        "year": "2020",
+        "episodes": [
+            {
+                "name": "1",
+                "slug": "1",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/P8deynfE/index.m3u8"
+                }
+            },
+            {
+                "name": "2",
+                "slug": "2",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/WwFPPUCu/index.m3u8"
+                }
+            },
+            {
+                "name": "3",
+                "slug": "3",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/wIUVPcIX/index.m3u8"
+                }
+            },
+            {
+                "name": "4",
+                "slug": "4",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/Tx7DZ782/index.m3u8"
+                }
+            },
+            {
+                "name": "5",
+                "slug": "5",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/dqgyzKng/index.m3u8"
+                }
+            },
+            {
+                "name": "6",
+                "slug": "6",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/gApA4atN/index.m3u8"
+                }
+            },
+            {
+                "name": "7",
+                "slug": "7",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/gMWIRQHt/index.m3u8"
+                }
+            },
+            {
+                "name": "8",
+                "slug": "8",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/ccFy55aQ/index.m3u8"
+                }
+            },
+            {
+                "name": "9",
+                "slug": "9",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/bn7Wsydz/index.m3u8"
+                }
+            },
+            {
+                "name": "10",
+                "slug": "10",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/Rcffoaq2/index.m3u8"
+                }
+            },
+            {
+                "name": "11",
+                "slug": "11",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/x6vWH9BI/index.m3u8"
+                }
+            },
+            {
+                "name": "12",
+                "slug": "12",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/z0tuPmsR/index.m3u8"
+                }
+            },
+            {
+                "name": "13",
+                "slug": "13",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/G4GWAHjt/index.m3u8"
+                }
+            },
+            {
+                "name": "14",
+                "slug": "14",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/Z3twCu4a/index.m3u8"
+                }
+            },
+            {
+                "name": "15",
+                "slug": "15",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/rg57mvCj/index.m3u8"
+                }
+            },
+            {
+                "name": "16",
+                "slug": "16",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/6vi32UHv/index.m3u8"
+                }
+            },
+            {
+                "name": "17",
+                "slug": "17",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/YCz2dm0p/index.m3u8"
+                }
+            },
+            {
+                "name": "18",
+                "slug": "18",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/BrKuL96Q/index.m3u8"
+                }
+            },
+            {
+                "name": "19",
+                "slug": "19",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/EXxkqV4X/index.m3u8"
+                }
+            },
+            {
+                "name": "20",
+                "slug": "20",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/KEzIxy08/index.m3u8"
+                }
+            },
+            {
+                "name": "21",
+                "slug": "21",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/BmodNzsU/index.m3u8"
+                }
+            }
+        ]
+    },
+    "penthouse-cuoc-chien-thuong-luu-phan-2": {
+        "id": "penthouse-cuoc-chien-thuong-luu-phan-2",
+        "name": "Penthouse: Cuộc Chiến Thượng Lưu (Phần 2) - The Penthouse: War In Life (Season 2)",
+        "category": "phim-bo",
+        "description": "Bộ phim kể về câu chuyện những gia đình giàu có vì bồi dưỡng con em thành danh mà không từ thủ đoạn, xảy ra giữa tầng lớp thượng lưu Hàn Quốc sống tại tầng 100 của một tòa chung cư cao cấp (Tên &quot;Hera Palace&quot;), đi cùng với những đó là những thứ như báo thù, ngoại tình, giao dịch tiền bạc...",
+        "poster": "https://phimimg.com/upload/vod/20240920-1/4f701e082fde01cf01110658223bca1f.jpg",
+        "year": "2021",
+        "episodes": [
+            {
+                "name": "1",
+                "slug": "1",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/WtUJmPqM/index.m3u8"
+                }
+            },
+            {
+                "name": "2",
+                "slug": "2",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/tCM2tZpG/index.m3u8"
+                }
+            },
+            {
+                "name": "3",
+                "slug": "3",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/ErTKyEki/index.m3u8"
+                }
+            },
+            {
+                "name": "4",
+                "slug": "4",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/c2x1c61N/index.m3u8"
+                }
+            },
+            {
+                "name": "5",
+                "slug": "5",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/l51RJIPz/index.m3u8"
+                }
+            },
+            {
+                "name": "6",
+                "slug": "6",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/fA0r5L0f/index.m3u8"
+                }
+            },
+            {
+                "name": "7",
+                "slug": "7",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/w19yF0nS/index.m3u8"
+                }
+            },
+            {
+                "name": "8",
+                "slug": "8",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/IQ3wiOyn/index.m3u8"
+                }
+            },
+            {
+                "name": "9",
+                "slug": "9",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/QDbYTJBo/index.m3u8"
+                }
+            },
+            {
+                "name": "10",
+                "slug": "10",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/6o0InPnF/index.m3u8"
+                }
+            },
+            {
+                "name": "11",
+                "slug": "11",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/H6wgBP9s/index.m3u8"
+                }
+            },
+            {
+                "name": "12",
+                "slug": "12",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/qCGj8jRV/index.m3u8"
+                }
+            },
+            {
+                "name": "13",
+                "slug": "13",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240920/GptrgILZ/index.m3u8"
+                }
+            }
+        ]
+    },
+    "penthouse-cuoc-chien-thuong-luu-phan-3": {
+        "id": "penthouse-cuoc-chien-thuong-luu-phan-3",
+        "name": "Penthouse: Cuộc Chiến Thượng Lưu (Phần 3) - The Penthouse: War In Life (Season 3)",
+        "category": "phim-bo",
+        "description": "Rất nhiều người tham gia tang lễ của Logan Lee, nhưng Logan Lee đã sống lại và trở về. Cuộc chiến cuối cùng đã bắt đầu, Joo Dan Tae ra tù, còn đe dọa rằng \\Shim Soo Ryun sẽ chết\\!",
+        "poster": "https://phimimg.com/upload/vod/20240126-1/ffdf3fefd1fe7df0b3fea89a796c4a7b.jpg",
+        "year": "2021",
+        "episodes": [
+            {
+                "name": "1",
+                "slug": "1",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/S81kNwSI/index.m3u8"
+                }
+            },
+            {
+                "name": "2",
+                "slug": "2",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260722/b0pzwW8M/index.m3u8"
+                }
+            },
+            {
+                "name": "3",
+                "slug": "3",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260722/NCMwHso3/index.m3u8"
+                }
+            },
+            {
+                "name": "4",
+                "slug": "4",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/3TLWjP57/index.m3u8"
+                }
+            },
+            {
+                "name": "5",
+                "slug": "5",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240130/jY0EwZSx/index.m3u8"
+                }
+            },
+            {
+                "name": "6",
+                "slug": "6",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/nknsza73/index.m3u8"
+                }
+            },
+            {
+                "name": "7",
+                "slug": "7",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/oPL4pqFw/index.m3u8"
+                }
+            },
+            {
+                "name": "8",
+                "slug": "8",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/x86rrKOQ/index.m3u8"
+                }
+            },
+            {
+                "name": "9",
+                "slug": "9",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/oy3VnhaH/index.m3u8"
+                }
+            },
+            {
+                "name": "10",
+                "slug": "10",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240130/WVuGNnAN/index.m3u8"
+                }
+            },
+            {
+                "name": "11",
+                "slug": "11",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/XZxAhP2d/index.m3u8"
+                }
+            },
+            {
+                "name": "12",
+                "slug": "12",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/c3lN8Mp6/index.m3u8"
+                }
+            },
+            {
+                "name": "13",
+                "slug": "13",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/tNKRaRWl/index.m3u8"
+                }
+            },
+            {
+                "name": "14",
+                "slug": "14",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s1.phim1280.tv/20240131/QX3VJZC6/index.m3u8"
+                }
+            }
+        ]
+    },
     "cuc-han": {
         "id": "cuc-han",
         "name": "Cực Hạn - Climax",
