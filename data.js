@@ -70,87 +70,87 @@ const movies = {
         "name": "Cực Hạn - Climax",
         "category": "phim-bo",
         "description": "Cực Hạn (Climax) là một bộ phim đầy kịch tính và cảm xúc, xoay quanh những giới hạn của con người khi đối mặt với những thử thách khắc nghiệt nhất.",
-        "poster": "https://img.ophim.live/uploads/movies/cuc-han-thumb.jpg",
+        "poster": "https://phimimg.com/upload/vod/20260317-1/a48394f3e66faf31b648658324ef3381.jpg",
         "year": "2026",
         "episodes": [
             {
                 "name": "1",
                 "slug": "1",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260321/27644_0fa66dc7/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260317/TwZXMY4D/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260317/TwZXMY4D/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260317/fhShqY2K/index.m3u8"
                 }
             },
             {
                 "name": "2",
                 "slug": "2",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260321/27645_d5e71454/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260318/0EqTCV8Q/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260318/0EqTCV8Q/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260318/woid3ELX/index.m3u8"
                 }
             },
             {
                 "name": "3",
                 "slug": "3",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260323/27788_e17f6cb9/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260324/pXZH2YxO/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260324/pXZH2YxO/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260324/2bGPRagw/index.m3u8"
                 }
             },
             {
                 "name": "4",
                 "slug": "4",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260325/27823_b89f2e9b/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260326/rY4lMnUG/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260326/rY4lMnUG/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260326/PiWBBwPs/index.m3u8"
                 }
             },
             {
                 "name": "5",
                 "slug": "5",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260331/28335_4c46b087/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260331/Hr9tS0ck/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260331/Hr9tS0ck/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260331/9Xio3U8q/index.m3u8"
                 }
             },
             {
                 "name": "6",
                 "slug": "6",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260401/28388_b5997853/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260401/EfXVdyx2/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260401/EfXVdyx2/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260401/GEkO8m0G/index.m3u8"
                 }
             },
             {
                 "name": "7",
                 "slug": "7",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260407/28925_47f85c5f/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260407/wXygA4QE/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260407/wXygA4QE/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260407/RZ9C7bCs/index.m3u8"
                 }
             },
             {
                 "name": "8",
                 "slug": "8",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260408/28944_a7352f28/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260408/bHykIDhS/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260408/bHykIDhS/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260408/U5zKZoeg/index.m3u8"
                 }
             },
             {
                 "name": "9",
                 "slug": "9",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260414/29421_be0bbb0f/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260414/QqldJDSF/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260414/QqldJDSF/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260414/PzTxG1X9/index.m3u8"
                 }
             },
             {
                 "name": "10",
                 "slug": "10",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream90.com/20260414/29469_96d28c0ad055bfa813e0865ba0a4103a/index.m3u8",
-                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260415/ccg9FV1C/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260415/ccg9FV1C/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20260415/yKx4ThyK/index.m3u8"
                 }
             }
         ]
@@ -160,147 +160,147 @@ const movies = {
         "name": "Lời Hồi Đáp 1988",
         "category": "phim-bo",
         "description": "Lấy bối cảnh năm 1988, bộ phim xoay quanh 5 gia đình sống tại một khu phố nhỏ ở Ssangmun-dong. Những câu chuyện cảm động về tình gia đình, tình bạn và tình yêu tuổi thanh xuân.",
-        "poster": "https://img.ophim.live/uploads/movies/loi-hoi-dap-1988-lee-hye-ri-thumb.jpg",
+        "poster": "https://phimimg.com/upload/vod/20240316-1/adb8c4c3e492a81d9d8b308ecd58f652.jpg",
         "year": "2015",
         "episodes": [
             {
                 "name": "1",
                 "slug": "1",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4633_9a65fec3/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/4kXKPVdi/index.m3u8"
                 }
             },
             {
                 "name": "2",
                 "slug": "2",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4634_f106488d/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/J4AxgFFe/index.m3u8"
                 }
             },
             {
                 "name": "3",
                 "slug": "3",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4635_a02796e6/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/VNVSfrRL/index.m3u8"
                 }
             },
             {
                 "name": "4",
                 "slug": "4",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4636_77df5020/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/27UrPnyY/index.m3u8"
                 }
             },
             {
                 "name": "5",
                 "slug": "5",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4637_a0117078/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/3fl6CGaf/index.m3u8"
                 }
             },
             {
                 "name": "6",
                 "slug": "6",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4638_405786f1/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/KCiW1909/index.m3u8"
                 }
             },
             {
                 "name": "7",
                 "slug": "7",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4639_b7964720/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/XUSgcGqM/index.m3u8"
                 }
             },
             {
                 "name": "8",
                 "slug": "8",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4640_92850785/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/nVT6KMva/index.m3u8"
                 }
             },
             {
                 "name": "9",
                 "slug": "9",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4641_662f928e/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/klDYQQyt/index.m3u8"
                 }
             },
             {
                 "name": "10",
                 "slug": "10",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4642_efdf96be/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/h79dvOra/index.m3u8"
                 }
             },
             {
                 "name": "11",
                 "slug": "11",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4643_c88e999c/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/rq1w3oFl/index.m3u8"
                 }
             },
             {
                 "name": "12",
                 "slug": "12",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4644_7733475d/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/HVeqsjO5/index.m3u8"
                 }
             },
             {
                 "name": "13",
                 "slug": "13",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4645_8869c97b/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/OWFErhb8/index.m3u8"
                 }
             },
             {
                 "name": "14",
                 "slug": "14",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4646_721b0690/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/fzNVMHYF/index.m3u8"
                 }
             },
             {
                 "name": "15",
                 "slug": "15",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4647_a0153f9a/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/dKNmKu79/index.m3u8"
                 }
             },
             {
                 "name": "16",
                 "slug": "16",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4648_7f29f0f9/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/wGWyK1ig/index.m3u8"
                 }
             },
             {
                 "name": "17",
                 "slug": "17",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4649_19198647/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/khyfrtHw/index.m3u8"
                 }
             },
             {
                 "name": "18",
                 "slug": "18",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4650_69461159/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/tWCt7DEC/index.m3u8"
                 }
             },
             {
                 "name": "19",
                 "slug": "19",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4651_f06f10fa/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/PJvAuCpG/index.m3u8"
                 }
             },
             {
                 "name": "20",
                 "slug": "20",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream10.com/20220403/4652_d642e6e6/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240316/hVo2OYv3/index.m3u8"
                 }
             }
         ]
@@ -310,179 +310,177 @@ const movies = {
         "name": "Trung Tâm Chăm Sóc Chấn Thương",
         "category": "phim-bo",
         "description": "Để lập Trung tâm Chăm sóc Chấn thương hàng đầu, một bác sĩ dày dạn chiến trường dẫn dắt đội ngũ của mình trở thành các chiến binh cứu người.",
-        "poster": "https://img.ophim.live/uploads/movies/trung-tam-cham-soc-chan-thuong-poster.jpg",
+        "poster": "https://phimimg.com/upload/vod/20250125-1/3fb5a0e76bd15e648673727e110c7fc5.jpg",
         "year": "2025",
         "episodes": [
             {
                 "name": "1",
                 "slug": "1",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream15.com/20250124/48304_8122ef54/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/e8iiEOWq/index.m3u8",
-                    "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/pVyEKY4u/index.m3u8"
+                    "Lồng Tiếng": "https://s4.phim1280.tv/20250206/pVyEKY4u/index.m3u8"
                 }
             },
             {
                 "name": "2",
                 "slug": "2",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream15.com/20250124/48305_48b0c1e7/index.m3u8",
-                    "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/hWWtRF83/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/IfAoWSXh/index.m3u8",
+                    "Lồng Tiếng": "https://s4.phim1280.tv/20250206/hWWtRF83/index.m3u8"
                 }
             },
             {
                 "name": "3",
                 "slug": "3",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream15.com/20250124/48306_e49d2c55/index.m3u8",
-                    "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/bUoTR9eY/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/FJiPPEQL/index.m3u8",
+                    "Lồng Tiếng": "https://s4.phim1280.tv/20250206/bUoTR9eY/index.m3u8"
                 }
             },
             {
                 "name": "4",
                 "slug": "4",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream15.com/20250124/48307_3b864667/index.m3u8",
-                    "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/NC2Rkges/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/G5mEXuFr/index.m3u8",
+                    "Lồng Tiếng": "https://s4.phim1280.tv/20250206/NC2Rkges/index.m3u8"
                 }
             },
             {
                 "name": "5",
                 "slug": "5",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream15.com/20250124/48308_696f528c/index.m3u8",
-                    "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/doCjFpqa/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/L4ipysnm/index.m3u8",
+                    "Lồng Tiếng": "https://s4.phim1280.tv/20250206/doCjFpqa/index.m3u8"
                 }
             },
             {
                 "name": "6",
                 "slug": "6",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream15.com/20250124/48309_55670925/index.m3u8",
-                    "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/g392o8HV/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/r6JcttDx/index.m3u8",
+                    "Lồng Tiếng": "https://s4.phim1280.tv/20250206/g392o8HV/index.m3u8"
                 }
             },
             {
                 "name": "7",
                 "slug": "7",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream15.com/20250124/48310_61e1ec2a/index.m3u8",
-                    "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/MSZs0Jkq/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/HzfehEly/index.m3u8",
+                    "Lồng Tiếng": "https://s4.phim1280.tv/20250206/MSZs0Jkq/index.m3u8"
                 }
             },
             {
                 "name": "8",
                 "slug": "8",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream15.com/20250124/48311_ae3957e9/index.m3u8",
-                    "Hà Nội (Lồng Tiếng)": "https://s4.phim1280.tv/20250206/w23PREYf/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250125/ii0UV6zT/index.m3u8",
+                    "Lồng Tiếng": "https://s4.phim1280.tv/20250206/w23PREYf/index.m3u8"
                 }
             }
         ]
     },
     "chang-vang-1": {
         "id": "chang-vang-1",
-        "category": "phim-le",
         "name": "Chạng Vạng 1",
+        "category": "phim-le",
         "description": "Mối tình đầu tiên của Bella và Edward.",
-        "poster": "https://img.ophim.live/uploads/movies/chang-vang-thumb.jpg",
+        "poster": "https://phimimg.com/upload/vod/20250812-1/62825b06546c4e356f77f1e284756ab0.jpg",
         "year": "2008",
         "episodes": [
             {
                 "name": "Full",
                 "slug": "full",
                 "servers": {
-                    "Server VIP": "https://vip.opstream15.com/20221126/28406_08184845/index.m3u8",
-                    "Server Dự Phòng": "https://s6.kkphimplayer6.com/20221126/28406_08184845/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250812/xG1y59zW/index.m3u8",
+                    "Lồng Tiếng": "https://s6.kkphimplayer6.com/20250812/lPWtIJIf/index.m3u8"
                 }
             }
         ]
     },
     "chang-vang-2": {
         "id": "chang-vang-2",
-        "category": "phim-le",
         "name": "Chạng Vạng 2: Trăng Non",
+        "category": "phim-le",
         "description": "Edward rời đi để bảo vệ Bella.",
-        "poster": "https://img.ophim.live/uploads/movies/chang-vang-trang-non-thumb.jpg",
+        "poster": "https://phimimg.com/upload/vod/20250812-1/45151a05dbc88c73f7c7b0da4d64b7b0.jpg",
         "year": "2009",
         "episodes": [
             {
                 "name": "Full",
                 "slug": "full",
                 "servers": {
-                    "Server VIP": "https://vip.opstream16.com/20221226/28224_7d562045/index.m3u8",
-                    "Server Dự Phòng": "https://s6.kkphimplayer6.com/20221226/28224_7d562045/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250812/Bk8pEkeY/index.m3u8",
+                    "Lồng Tiếng": "https://s6.kkphimplayer6.com/20250812/jM1Lj5h4/index.m3u8"
                 }
             }
         ]
     },
     "chang-vang-3": {
         "id": "chang-vang-3",
-        "category": "phim-le",
         "name": "Chạng Vạng 3: Nhật Thực",
+        "category": "phim-le",
         "description": "Cuộc chiến giữa ma cà rồng và người sói.",
-        "poster": "https://img.ophim.live/uploads/movies/chang-vang-nhat-thuc-thumb.jpg",
+        "poster": "https://phimimg.com/upload/vod/20250812-1/01b3ff99c0f5b847be72720e97297714.jpg",
         "year": "2010",
         "episodes": [
             {
                 "name": "Full",
                 "slug": "full",
                 "servers": {
-                    "Server VIP": "https://vip.opstream16.com/20220303/442_917a9dab/index.m3u8",
-                    "Server Dự Phòng": "https://s6.kkphimplayer6.com/20220303/442_917a9dab/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250812/RybI5hKM/index.m3u8",
+                    "Lồng Tiếng": "https://s6.kkphimplayer6.com/20250812/r3lLshqn/index.m3u8"
                 }
             }
         ]
     },
     "chang-vang-4": {
         "id": "chang-vang-4",
-        "category": "phim-le",
         "name": "Chạng Vạng 4: Hừng Đông 1",
+        "category": "phim-le",
         "description": "Bella và Edward kết hôn.",
-        "poster": "https://img.ophim.live/uploads/movies/chang-vang-hung-dong-phan-1-thumb.jpg",
+        "poster": "https://phimimg.com/upload/vod/20250812-1/a872d137b9041e314f7b133082c0d7c3.jpg",
         "year": "2011",
         "episodes": [
             {
                 "name": "Full",
                 "slug": "full",
                 "servers": {
-                    "Server VIP": "https://vip.opstream16.com/20230109/28880_455ae61a/index.m3u8",
-                    "Server Dự Phòng": "https://vip.opstream16.com/20230109/28880_455ae61a/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250812/HZqhOn5k/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250812/xjKmHDR0/index.m3u8"
                 }
             }
         ]
     },
     "chang-vang-5": {
         "id": "chang-vang-5",
-        "category": "phim-le",
         "name": "Chạng Vạng 5: Hừng Đông 2",
+        "category": "phim-le",
         "description": "Trận chiến cuối cùng bảo vệ Renesmee.",
-        "poster": "https://img.ophim.live/uploads/movies/chang-vang-hung-dong-phan-2-thumb.jpg",
+        "poster": "https://phimimg.com/upload/vod/20250812-1/73da01b4ac833b53a3eb500d98004d9c.jpg",
         "year": "2012",
         "episodes": [
             {
                 "name": "Full",
                 "slug": "full",
                 "servers": {
-                    "Server VIP": "https://vip.opstream16.com/20221226/28223_9a4708c8/index.m3u8",
-                    "Server Dự Phòng": "https://s6.kkphimplayer6.com/20221226/28223_9a4708c8/index.m3u8"
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250812/v5AeHIXC/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250812/QqYsLiZU/index.m3u8"
                 }
             }
         ]
     },
     "my-love": {
         "id": "my-love",
-        "category": "phim-le",
         "name": "Hôn Lễ Của Em - My Love",
+        "category": "phim-le",
         "description": "Bộ phim kể về câu chuyện tình yêu kéo dài 15 năm giữa Châu Tiêu Tề, một nam sinh có năng khiếu bơi lội, và Vưu Vịnh Từ, cô gái cậu luôn âm thầm bảo vệ từ thời thanh xuân.",
-        "poster": "https://img.ophim.live/uploads/movies/hon-le-cua-em-poster.jpg",
+        "poster": "https://phimimg.com/upload/vod/20231209-1/ff4ebc9bc993697a594d5c1cc0a47793.jpg",
         "year": "2021",
         "episodes": [
             {
                 "name": "Full",
                 "slug": "full",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream12.com/20220407/8175_47aaabe9/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250508/0QXsRaKB/index.m3u8"
                 }
             }
@@ -493,15 +491,13 @@ const movies = {
         "name": "Vinh Quang Trong Thù Hận - The Glory",
         "category": "phim-bo",
         "description": "Nhiều năm sau khi thoát khỏi cảnh bạo lực kinh hoàng ở trường cấp ba, một phụ nữ tiến hành âm mưu trả thù đầy tinh vi để khiến các thủ phạm phải trả giá cho tội ác của mình.",
-        "poster": "https://phimimg.com/upload/vod/20240419-1/29c9212774881368c2b70485c8fe5414.jpg",
+        "poster": "https://phimimg.com/upload/vod/20240419-1/9623dbac435e2af8fa966fe9b2429f84.jpg",
         "year": "2022",
         "episodes": [
             {
                 "name": "1",
                 "slug": "1",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream16.com/20230105/28746_f0a26278/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33589_c9ca9422/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/ltbomGLh/index.m3u8"
                 }
             },
@@ -509,8 +505,6 @@ const movies = {
                 "name": "2",
                 "slug": "2",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream16.com/20230105/28747_02558eb5/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33590_6b345657/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/YNLLTSYK/index.m3u8"
                 }
             },
@@ -518,8 +512,6 @@ const movies = {
                 "name": "3",
                 "slug": "3",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream16.com/20230105/28748_f8df7c29/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33591_8bc82932/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240505/Qni8ymho/index.m3u8"
                 }
             },
@@ -527,8 +519,6 @@ const movies = {
                 "name": "4",
                 "slug": "4",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream16.com/20230105/28749_5e687302/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33592_6c735462/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/VXGEa7J9/index.m3u8"
                 }
             },
@@ -536,8 +526,6 @@ const movies = {
                 "name": "5",
                 "slug": "5",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream16.com/20230105/28750_640fc871/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33593_e2198ab5/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/pSAW5FX5/index.m3u8"
                 }
             },
@@ -545,8 +533,6 @@ const movies = {
                 "name": "6",
                 "slug": "6",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream16.com/20230105/28751_c035a418/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33594_62e53835/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/EbZLkAtP/index.m3u8"
                 }
             },
@@ -554,8 +540,6 @@ const movies = {
                 "name": "7",
                 "slug": "7",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream16.com/20230105/28752_1a52e49c/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33595_6f6b2c8a/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/gDJ8xeQu/index.m3u8"
                 }
             },
@@ -563,8 +547,6 @@ const movies = {
                 "name": "8",
                 "slug": "8",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream16.com/20230105/28753_0dc903ee/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33596_30ac12e6/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/MbKJIz7Y/index.m3u8"
                 }
             },
@@ -572,8 +554,6 @@ const movies = {
                 "name": "9",
                 "slug": "9",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream14.com/20230310/33580_0afd1917/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33597_090e283c/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/jJmCsQqA/index.m3u8"
                 }
             },
@@ -581,8 +561,6 @@ const movies = {
                 "name": "10",
                 "slug": "10",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream14.com/20230310/33581_8691dd52/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33598_18aac02f/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/OFyQbJlb/index.m3u8"
                 }
             },
@@ -590,8 +568,6 @@ const movies = {
                 "name": "11",
                 "slug": "11",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream14.com/20230310/33579_77a60f32/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33599_127beac0/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/MXSSzd1h/index.m3u8"
                 }
             },
@@ -599,8 +575,6 @@ const movies = {
                 "name": "12",
                 "slug": "12",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream14.com/20230310/33582_5c4720a7/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33600_2e030551/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/czoDx9nC/index.m3u8"
                 }
             },
@@ -608,8 +582,6 @@ const movies = {
                 "name": "13",
                 "slug": "13",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream14.com/20230310/33583_92e434ce/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33601_912a6fd2/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/TI8UVnCg/index.m3u8"
                 }
             },
@@ -617,8 +589,6 @@ const movies = {
                 "name": "14",
                 "slug": "14",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream14.com/20230310/33584_c2d3f6c0/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230310/33602_5a5a97ef/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/T4825pmW/index.m3u8"
                 }
             },
@@ -626,8 +596,6 @@ const movies = {
                 "name": "15",
                 "slug": "15",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream14.com/20230310/33585_cc97d0eb/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230311/33605_eec83814/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240503/ygE1JRUG/index.m3u8"
                 }
             },
@@ -635,8 +603,6 @@ const movies = {
                 "name": "16",
                 "slug": "16",
                 "servers": {
-                    "Vietsub #1": "https://vip.opstream14.com/20230310/33586_fc740a8d/index.m3u8",
-                    "Lồng tiếng #1": "https://vip.opstream14.com/20230311/33606_a1654d85/index.m3u8",
                     "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240507/yEqLo3hU/index.m3u8"
                 }
             }
@@ -655,7 +621,7 @@ const movies = {
                 "slug": "1",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/U5UEsVhf/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/T71wvm98/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/T71wvm98/index.m3u8"
                 }
             },
             {
@@ -663,7 +629,7 @@ const movies = {
                 "slug": "2",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/dMArPMuC/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/5jmYnsRd/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/5jmYnsRd/index.m3u8"
                 }
             },
             {
@@ -671,7 +637,7 @@ const movies = {
                 "slug": "3",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240304/tNjmZvM3/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/ZNXfiNlF/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/ZNXfiNlF/index.m3u8"
                 }
             },
             {
@@ -679,7 +645,7 @@ const movies = {
                 "slug": "4",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/13P0I2d2/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/CrBvQyjY/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/CrBvQyjY/index.m3u8"
                 }
             },
             {
@@ -687,7 +653,7 @@ const movies = {
                 "slug": "5",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/VRvyhMmn/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/1D6Cwfm8/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/1D6Cwfm8/index.m3u8"
                 }
             },
             {
@@ -695,7 +661,7 @@ const movies = {
                 "slug": "6",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/0mHfafzq/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/wEgodS02/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/wEgodS02/index.m3u8"
                 }
             },
             {
@@ -703,7 +669,7 @@ const movies = {
                 "slug": "7",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/oSCFBSwD/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/ixzy9jtO/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/ixzy9jtO/index.m3u8"
                 }
             },
             {
@@ -711,7 +677,7 @@ const movies = {
                 "slug": "8",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/PANZYDcK/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/PfrQVUSg/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/PfrQVUSg/index.m3u8"
                 }
             },
             {
@@ -719,7 +685,7 @@ const movies = {
                 "slug": "9",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240305/V1zS2Ky4/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/ltB1XjnR/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/ltB1XjnR/index.m3u8"
                 }
             },
             {
@@ -727,7 +693,7 @@ const movies = {
                 "slug": "10",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/OPk6gCG0/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/to0alRZO/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/to0alRZO/index.m3u8"
                 }
             },
             {
@@ -735,7 +701,7 @@ const movies = {
                 "slug": "11",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/GI4XqGPQ/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/4snWbhcr/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/4snWbhcr/index.m3u8"
                 }
             },
             {
@@ -743,7 +709,7 @@ const movies = {
                 "slug": "12",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/dvmYg94j/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/9Z06119X/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/9Z06119X/index.m3u8"
                 }
             },
             {
@@ -751,7 +717,7 @@ const movies = {
                 "slug": "13",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/bkbeygF4/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/Xs4pRBDq/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/Xs4pRBDq/index.m3u8"
                 }
             },
             {
@@ -759,7 +725,7 @@ const movies = {
                 "slug": "14",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/ayj8GIiG/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/T7LwKJNc/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/T7LwKJNc/index.m3u8"
                 }
             },
             {
@@ -767,7 +733,7 @@ const movies = {
                 "slug": "15",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/MU6dQVaS/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/lBzaqLDH/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/lBzaqLDH/index.m3u8"
                 }
             },
             {
@@ -775,7 +741,7 @@ const movies = {
                 "slug": "16",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/sE36Hj5g/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/iEvhaGxE/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/iEvhaGxE/index.m3u8"
                 }
             },
             {
@@ -783,7 +749,7 @@ const movies = {
                 "slug": "17",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/ch3lmWJ8/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/gz1NdcO8/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/gz1NdcO8/index.m3u8"
                 }
             },
             {
@@ -791,7 +757,7 @@ const movies = {
                 "slug": "18",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/vvJtznuU/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/gakEMu1R/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/gakEMu1R/index.m3u8"
                 }
             },
             {
@@ -799,7 +765,7 @@ const movies = {
                 "slug": "19",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/TW3ZHgui/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/w288IOWt/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/w288IOWt/index.m3u8"
                 }
             },
             {
@@ -807,7 +773,7 @@ const movies = {
                 "slug": "20",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/4u4xT5sj/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/aEoDfZvr/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/aEoDfZvr/index.m3u8"
                 }
             },
             {
@@ -815,7 +781,7 @@ const movies = {
                 "slug": "21",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/hP4yxNdo/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/0mLVV1Mz/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/0mLVV1Mz/index.m3u8"
                 }
             },
             {
@@ -823,7 +789,7 @@ const movies = {
                 "slug": "22",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/cJGilKI5/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/kQ4CHoQP/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/kQ4CHoQP/index.m3u8"
                 }
             },
             {
@@ -831,7 +797,7 @@ const movies = {
                 "slug": "23",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/NMShcM8q/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/JszdnHmN/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/JszdnHmN/index.m3u8"
                 }
             },
             {
@@ -839,7 +805,7 @@ const movies = {
                 "slug": "24",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/CpqAqvZd/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/PvLgnRj5/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/PvLgnRj5/index.m3u8"
                 }
             },
             {
@@ -847,7 +813,7 @@ const movies = {
                 "slug": "25",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/RnBvJTBQ/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/8go1soqV/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/8go1soqV/index.m3u8"
                 }
             },
             {
@@ -855,7 +821,7 @@ const movies = {
                 "slug": "26",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://s2.phim1280.tv/20240207/6fixXfq2/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://s6.kkphimplayer6.com/20250524/87KjZhXt/index.m3u8"
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250524/87KjZhXt/index.m3u8"
                 }
             }
         ]
@@ -873,7 +839,7 @@ const movies = {
                 "slug": "1",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260423/BtGWTWjv/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260429/sXnDpyOG/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260429/sXnDpyOG/index.m3u8"
                 }
             },
             {
@@ -881,7 +847,7 @@ const movies = {
                 "slug": "2",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260424/d05BquoW/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260429/FTbZAw8U/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260429/FTbZAw8U/index.m3u8"
                 }
             },
             {
@@ -889,7 +855,7 @@ const movies = {
                 "slug": "3",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260429/v7Vs1X5V/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260429/Zt5uZZHh/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260429/Zt5uZZHh/index.m3u8"
                 }
             },
             {
@@ -897,7 +863,7 @@ const movies = {
                 "slug": "4",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260430/KAizAXoW/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260430/Mn5dhqgB/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260430/Mn5dhqgB/index.m3u8"
                 }
             },
             {
@@ -905,7 +871,7 @@ const movies = {
                 "slug": "5",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260508/jZ78iWaq/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260513/znUYEqUi/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260513/znUYEqUi/index.m3u8"
                 }
             },
             {
@@ -913,7 +879,7 @@ const movies = {
                 "slug": "6",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260508/LuDTvRkj/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260513/8sszBj6k/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260513/8sszBj6k/index.m3u8"
                 }
             },
             {
@@ -921,7 +887,7 @@ const movies = {
                 "slug": "7",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260513/Eg8A9APQ/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260513/HnJ9Gw4c/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260513/HnJ9Gw4c/index.m3u8"
                 }
             },
             {
@@ -929,7 +895,7 @@ const movies = {
                 "slug": "8",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260514/ZDr0e4Jo/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260514/Ew3awrBI/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260514/Ew3awrBI/index.m3u8"
                 }
             },
             {
@@ -937,7 +903,7 @@ const movies = {
                 "slug": "9",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260520/hbTxnWII/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260520/mEU5Mepw/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260520/mEU5Mepw/index.m3u8"
                 }
             },
             {
@@ -945,7 +911,7 @@ const movies = {
                 "slug": "10",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260521/A2eJHBFL/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260521/VcjdEWec/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260521/VcjdEWec/index.m3u8"
                 }
             },
             {
@@ -953,7 +919,7 @@ const movies = {
                 "slug": "11",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260527/055AdxQx/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260527/vdbKORZX/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260527/vdbKORZX/index.m3u8"
                 }
             },
             {
@@ -961,7 +927,55 @@ const movies = {
                 "slug": "12",
                 "servers": {
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260528/PltzSzou/index.m3u8",
-                    "Hà Nội (Thuyết Minh)": "https://v7.kkphimplayer7.com/20260528/hzmAPE1m/index.m3u8"
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260528/hzmAPE1m/index.m3u8"
+                }
+            },
+            {
+                "name": "13",
+                "slug": "13",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260603/vQF18z0g/index.m3u8",
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260603/Gb9bp8vZ/index.m3u8"
+                }
+            },
+            {
+                "name": "14",
+                "slug": "14",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260605/XLPQPgdK/index.m3u8",
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260605/XpSyewSO/index.m3u8"
+                }
+            },
+            {
+                "name": "15",
+                "slug": "15",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260610/iPtGAPvt/index.m3u8",
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260610/CBFVQFDz/index.m3u8"
+                }
+            },
+            {
+                "name": "16",
+                "slug": "16",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260611/YiT3ak7O/index.m3u8",
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260611/5BBvPxlz/index.m3u8"
+                }
+            },
+            {
+                "name": "17",
+                "slug": "17",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260617/exTyPoXg/index.m3u8",
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260617/yfbI2Lck/index.m3u8"
+                }
+            },
+            {
+                "name": "18",
+                "slug": "18",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260618/2eLoMF5r/index.m3u8",
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260618/qB3lT4lL/index.m3u8"
                 }
             }
         ]
@@ -995,7 +1009,6 @@ const movies = {
                 "name": "Full",
                 "slug": "full",
                 "servers": {
-                    "Motchill (Vietsub)": "https://stream.motchill.immo/hls/324fe753/playlist.m3u8",
                     "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260630/wjbHjWYF/index.m3u8"
                 }
             }
