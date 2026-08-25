@@ -1,5 +1,71 @@
 {
   "movies": {
+    "nghe-thuat-lua-doi-cua-sarah": {
+      "id": "nghe-thuat-lua-doi-cua-sarah",
+      "name": "Nghệ Thuật Lừa Dối Của Sarah - The Art of Sarah",
+      "category": "phim-bo",
+      "description": "Một thi thể giữa thị trấn. Một thương hiệu xa xỉ đang lên. Một thanh tra điều tra mọi chi tiết trong câu chuyện liên tục thay đổi của một người phụ nữ. Thực sự đã xảy ra chuyện gì?",
+      "poster": "https://phimimg.com/upload/vod/20260213-1/6f8288b9cee4ae457be84bf97d951bea.jpg",
+      "year": "2026",
+      "episodes": [
+        {
+          "name": "1",
+          "slug": "1",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260214/Sk6N5ory/index.m3u8"
+          }
+        },
+        {
+          "name": "2",
+          "slug": "2",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260214/2C3hqQSB/index.m3u8"
+          }
+        },
+        {
+          "name": "3",
+          "slug": "3",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260214/A2dTIfE3/index.m3u8"
+          }
+        },
+        {
+          "name": "4",
+          "slug": "4",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260214/60U8L8wa/index.m3u8"
+          }
+        },
+        {
+          "name": "5",
+          "slug": "5",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260214/OMDoBDcr/index.m3u8"
+          }
+        },
+        {
+          "name": "6",
+          "slug": "6",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260214/wMI5kmGy/index.m3u8"
+          }
+        },
+        {
+          "name": "7",
+          "slug": "7",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260215/a6PuRtOM/index.m3u8"
+          }
+        },
+        {
+          "name": "8",
+          "slug": "8",
+          "servers": {
+            "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260215/Thh0CQXw/index.m3u8"
+          }
+        }
+      ]
+    },
     "cuc-han": {
       "id": "cuc-han",
       "name": "Cực Hạn - Climax",
