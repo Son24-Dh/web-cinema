@@ -208,6 +208,24 @@ document.addEventListener('DOMContentLoaded', async () => {
             hlsInstance.loadSource(playableUrl);
             hlsInstance.attachMedia(videoElement);
             hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => handlePlayerReady());
+            hlsInstance.on(Hls.Events.ERROR, (event, data) => {
+                if (data.fatal) {
+                    switch (data.type) {
+                        case Hls.ErrorTypes.NETWORK_ERROR:
+                            console.warn('HLS network error, attempting recovery...', data);
+                            hlsInstance.startLoad();
+                            break;
+                        case Hls.ErrorTypes.MEDIA_ERROR:
+                            console.warn('HLS media error, attempting recovery...', data);
+                            hlsInstance.recoverMediaError();
+                            break;
+                        default:
+                            console.error('HLS fatal error:', data);
+                            hlsInstance.destroy();
+                            break;
+                    }
+                }
+            });
         } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
             videoElement.src = playableUrl;
             videoElement.addEventListener('loadedmetadata', handlePlayerReady, { once: true });
@@ -226,9 +244,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 ? masterPlaylist
                 : await fetchPlaylistText(mediaPlaylistUrl);
 
+            if (!mediaPlaylist.includes('/adjump/')) {
+                return m3u8Url;
+            }
+
             const cleanPlaylist = cleanAdSegments(mediaPlaylist, mediaPlaylistUrl);
             
-            if (cleanPlaylist.length === mediaPlaylist.length) {
+            if (!cleanPlaylist || cleanPlaylist.length === mediaPlaylist.length) {
                 return m3u8Url;
             }
 
@@ -265,25 +287,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     function cleanAdSegments(playlist, baseUrl) {
         const lines = playlist.split(/\r?\n/);
         const cleanLines = [];
-        
-        let baseHostname;
-        try {
-            baseHostname = new URL(baseUrl).hostname;
-        } catch (e) {
-            baseHostname = '';
-        }
 
         function isAdSegment(urlStr) {
             if (!urlStr || urlStr.startsWith('#')) return false;
             if (urlStr.includes('/adjump/')) return true;
-            
-            try {
-                const segmentUrl = new URL(urlStr, baseUrl);
-                if (segmentUrl.hostname !== baseHostname && !segmentUrl.hostname.endsWith('.' + baseHostname)) {
-                    return true;
-                }
-            } catch (e) {
-            }
             return false;
         }
 
