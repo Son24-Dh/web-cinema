@@ -60,12 +60,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     const playBtnText = document.getElementById('play-btn-text');
     const playBtn = document.getElementById('detail-play-btn');
 
+    const preferredServer = localStorage.getItem(`dauphim-preferred-server:${movie.id}`);
+    const serverParam = preferredServer ? `&sv=${encodeURIComponent(preferredServer)}` : '';
+
     if (isResume && targetEpisode) {
         playBtnText.innerText = `Tiếp tục xem tập ${targetEpisode.name}`;
-        playBtn.href = `watch.html?id=${movie.id}&tap=${targetEpisode.slug}`;
+        playBtn.href = `watch.html?id=${movie.id}&tap=${targetEpisode.slug}${serverParam}`;
     } else if (targetEpisode) {
         playBtnText.innerText = 'Xem Ngay';
-        playBtn.href = `watch.html?id=${movie.id}&tap=${targetEpisode.slug}`;
+        playBtn.href = `watch.html?id=${movie.id}&tap=${targetEpisode.slug}${serverParam}`;
     } else {
         playBtn.style.display = 'none';
     }
@@ -77,7 +80,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (movie.episodes && movie.episodes.length > 0) {
         movie.episodes.forEach(ep => {
             const a = document.createElement('a');
-            a.href = `watch.html?id=${movie.id}&tap=${ep.slug}`;
+            a.href = `watch.html?id=${movie.id}&tap=${ep.slug}${serverParam}`;
             a.innerText = ep.name;
             a.className = 'ep-btn';
             a.addEventListener('click', () => {

@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const movieId = urlParams.get('id');
-    const episodeSlug = urlParams.get('tap') || "1";
-    let currentServerName = urlParams.get('sv');
+    let episodeSlug = urlParams.get('tap') || "1";
+    let currentServerName = urlParams.get('sv') || (movieId ? localStorage.getItem(`dauphim-preferred-server:${movieId}`) : null);
 
     const movies = await window.DauPhimData.loadConfiguredMovies();
     const movie = movies[movieId];
@@ -30,56 +30,151 @@ document.addEventListener('DOMContentLoaded', async () => {
         return;
     }
 
-    const currentEpisode = movie.episodes.find(ep => ep.slug === episodeSlug);
+    let currentEpisode = movie.episodes.find(ep => ep.slug === episodeSlug) || movie.episodes[0];
+    if (currentEpisode && currentEpisode.slug !== episodeSlug) {
+        episodeSlug = currentEpisode.slug;
+    }
 
-    if (currentEpisode) {
-        // Render danh sách Server
+    function renderServerButtons() {
+        serverListContainer.innerHTML = '';
+        if (!currentEpisode) return;
+
         const serverNames = Object.keys(currentEpisode.servers);
         if (!currentServerName || !currentEpisode.servers[currentServerName]) {
-            currentServerName = serverNames[0]; // Mặc định server đầu tiên
+            currentServerName = serverNames[0]; // Mặc định server đầu tiên nếu không khớp
+        }
+
+        if (movieId && currentServerName) {
+            localStorage.setItem(`dauphim-preferred-server:${movieId}`, currentServerName);
         }
 
         serverNames.forEach(svName => {
             const btn = document.createElement('button');
+            btn.type = 'button';
             btn.innerText = svName;
             btn.className = 'sv-btn';
             if (svName === currentServerName) btn.classList.add('active');
-            
+
             btn.onclick = () => {
-                // Đổi server
+                if (currentServerName === svName) return;
+                currentServerName = svName;
+                if (movieId) {
+                    localStorage.setItem(`dauphim-preferred-server:${movieId}`, svName);
+                }
+
+                // Đổi server trong URL
                 const newUrl = new URL(window.location.href);
                 newUrl.searchParams.set('sv', svName);
                 window.history.pushState({}, '', newUrl);
-                
+
                 // Cập nhật giao diện nút
                 document.querySelectorAll('.sv-btn').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-                
+
+                // Đồng bộ link tất cả các nút tập phim
+                updateEpisodeLinks(currentServerName);
+
                 // Load link mới
                 initPlayer(currentEpisode.servers[svName]);
             };
             serverListContainer.appendChild(btn);
         });
 
-        // Khởi tạo Player
-        initPlayer(currentEpisode.servers[currentServerName]);
         renderAndroidPipButton();
         renderWebPipButton();
     }
 
-    // Hiển thị thông tin phim
-    document.getElementById('movie-title').innerText = `${movie.name} - Tập ${episodeSlug}`;
+    function updateEpisodeLinks(svName) {
+        document.querySelectorAll('#episode-list .ep-btn').forEach(btn => {
+            const slug = btn.dataset.slug;
+            if (slug) {
+                btn.href = `watch.html?id=${encodeURIComponent(movieId)}&tap=${encodeURIComponent(slug)}${svName ? '&sv=' + encodeURIComponent(svName) : ''}`;
+            }
+        });
+    }
+
+    function switchEpisode(targetSlug, shouldPushState = true) {
+        if (targetSlug === episodeSlug && hlsInstance) {
+            return;
+        }
+
+        saveProgress();
+
+        const existingPrompt = playerSection.querySelector('.resume-prompt');
+        if (existingPrompt) existingPrompt.remove();
+
+        episodeSlug = targetSlug;
+        currentEpisode = movie.episodes.find(ep => ep.slug === episodeSlug) || movie.episodes[0];
+
+        if (shouldPushState) {
+            const newUrl = new URL(window.location.href);
+            newUrl.searchParams.set('tap', episodeSlug);
+            if (currentServerName) {
+                newUrl.searchParams.set('sv', currentServerName);
+            }
+            window.history.pushState({}, '', newUrl);
+        }
+
+        // Cập nhật giao diện nút tập đang chọn
+        document.querySelectorAll('#episode-list .ep-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.slug === episodeSlug);
+        });
+
+        // Cập nhật tiêu đề
+        document.getElementById('movie-title').innerText = `${movie.name} - Tập ${currentEpisode?.name || episodeSlug}`;
+        document.title = `Xem phim ${movie.name} - Tập ${currentEpisode?.name || episodeSlug} - DâuPhim`;
+
+        // Render lại server buttons để đồng bộ với server đang chọn
+        renderServerButtons();
+
+        // Cập nhật lại link các tập khác
+        updateEpisodeLinks(currentServerName);
+
+        // Phát video tập mới
+        if (currentEpisode && currentEpisode.servers[currentServerName]) {
+            initPlayer(currentEpisode.servers[currentServerName]);
+        }
+    }
+
+    // Hiển thị thông tin phim ban đầu
+    document.getElementById('movie-title').innerText = `${movie.name} - Tập ${currentEpisode?.name || episodeSlug}`;
     document.getElementById('movie-desc').innerText = movie.description;
-    document.title = `Xem phim ${movie.name} - Tập ${episodeSlug} - DâuPhim`;
+    document.title = `Xem phim ${movie.name} - Tập ${currentEpisode?.name || episodeSlug} - DâuPhim`;
+
+    // Render danh sách Server ban đầu
+    renderServerButtons();
 
     // Render danh sách tập
     movie.episodes.forEach(ep => {
         const btn = document.createElement('a');
-        btn.href = `watch.html?id=${movieId}&tap=${ep.slug}${currentServerName ? '&sv=' + currentServerName : ''}`;
+        btn.dataset.slug = ep.slug;
+        btn.href = `watch.html?id=${encodeURIComponent(movieId)}&tap=${encodeURIComponent(ep.slug)}${currentServerName ? '&sv=' + encodeURIComponent(currentServerName) : ''}`;
         btn.innerText = ep.name;
         btn.className = 'ep-btn';
         if (ep.slug === episodeSlug) btn.classList.add('active');
+
+        btn.addEventListener('click', (e) => {
+            if (e.button === 0 && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey) {
+                e.preventDefault();
+                switchEpisode(ep.slug);
+            }
+        });
+
         episodeListContainer.appendChild(btn);
+    });
+
+    // Khởi tạo Player tập đầu
+    if (currentEpisode && currentEpisode.servers[currentServerName]) {
+        initPlayer(currentEpisode.servers[currentServerName]);
+    }
+
+    // Lắng nghe nút Back/Forward của trình duyệt
+    window.addEventListener('popstate', () => {
+        const params = new URLSearchParams(window.location.search);
+        const tap = params.get('tap') || "1";
+        const sv = params.get('sv');
+        if (sv) currentServerName = sv;
+        switchEpisode(tap, false);
     });
 
     async function initPlayer(m3u8Url) {
@@ -559,7 +654,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     videoElement.addEventListener('timeupdate', () => { saveProgress(); updateMediaSessionPosition(); });
     videoElement.addEventListener('pause', saveProgress);
-    videoElement.addEventListener('ended', clearSavedProgress);
+    videoElement.addEventListener('ended', () => {
+        clearSavedProgress();
+        const currentIndex = movie.episodes.findIndex(ep => ep.slug === episodeSlug);
+        if (currentIndex >= 0 && currentIndex < movie.episodes.length - 1) {
+            const nextEp = movie.episodes[currentIndex + 1];
+            switchEpisode(nextEp.slug);
+        }
+    });
     window.addEventListener('pagehide', saveProgress);
     document.addEventListener('visibilitychange', () => { if (document.hidden) saveProgress(); });
 });
