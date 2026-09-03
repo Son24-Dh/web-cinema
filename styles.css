@@ -729,6 +729,62 @@ main {
     filter: brightness(var(--video-brightness, 100%));
 }
 
+.unmute-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    background: rgba(17, 19, 26, 0.88);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 160ms var(--ease), background 160ms var(--ease);
+}
+
+.unmute-badge:hover {
+    transform: scale(1.05);
+    background: rgba(229, 9, 20, 0.95);
+}
+
+.big-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(229, 9, 20, 0.92);
+    color: #fff;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(229, 9, 20, 0.6);
+    transition: transform 160ms var(--ease), background 160ms var(--ease);
+}
+
+.big-play-btn:hover {
+    transform: translate(-50%, -50%) scale(1.12);
+    background: #e50914;
+}
+
+.big-play-btn .play-icon {
+    margin-left: 5px;
+}
+
 .gesture-hud {
     position: absolute;
     top: 50%;

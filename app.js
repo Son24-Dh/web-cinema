@@ -204,7 +204,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         if (Hls.isSupported()) {
-            hlsInstance = new Hls();
+            hlsInstance = new Hls({
+                enableWorker: true,
+                lowLatencyMode: false,
+                maxBufferLength: 30,
+                maxMaxBufferLength: 60,
+                backBufferLength: 30,
+                fragLoadingMaxRetry: 5,
+                manifestLoadingMaxRetry: 5,
+                levelLoadingMaxRetry: 5,
+                fragLoadingRetryDelay: 1000,
+                manifestLoadingRetryDelay: 1000,
+                levelLoadingRetryDelay: 1000,
+                startFragPrefetch: true
+            });
             hlsInstance.loadSource(playableUrl);
             hlsInstance.attachMedia(videoElement);
             hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => handlePlayerReady());
@@ -233,7 +246,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     async function preparePlayableUrl(m3u8Url) {
-        if (!m3u8Url.includes('.m3u8')) {
+        if (!m3u8Url || !m3u8Url.includes('.m3u8')) {
+            return m3u8Url;
+        }
+
+        // Fast pass-through: only spend time inspecting playlists that could contain ad segments
+        if (!m3u8Url.includes('/adjump/')) {
             return m3u8Url;
         }
 
@@ -394,10 +412,68 @@ document.addEventListener('DOMContentLoaded', async () => {
         return `${minutes}:${String(secs).padStart(2, '0')}`;
     }
 
+    let unmuteBadge = null;
+    let bigPlayOverlay = null;
+
+    function removeUnmuteBadge() {
+        if (unmuteBadge) {
+            unmuteBadge.remove();
+            unmuteBadge = null;
+        }
+    }
+
+    function removeBigPlayOverlay() {
+        if (bigPlayOverlay) {
+            bigPlayOverlay.remove();
+            bigPlayOverlay = null;
+        }
+    }
+
+    function showUnmuteBadge() {
+        removeUnmuteBadge();
+        unmuteBadge = document.createElement('button');
+        unmuteBadge.type = 'button';
+        unmuteBadge.className = 'unmute-badge';
+        unmuteBadge.innerHTML = '🔊 Bấm để bật âm thanh';
+        unmuteBadge.onclick = (e) => {
+            e.stopPropagation();
+            videoElement.muted = false;
+            removeUnmuteBadge();
+        };
+        playerSection.appendChild(unmuteBadge);
+    }
+
+    function showBigPlayOverlay() {
+        removeBigPlayOverlay();
+        bigPlayOverlay = document.createElement('button');
+        bigPlayOverlay.type = 'button';
+        bigPlayOverlay.className = 'big-play-btn';
+        bigPlayOverlay.setAttribute('aria-label', 'Bấm để phát video');
+        bigPlayOverlay.innerHTML = '<span class="play-icon">▶</span>';
+        bigPlayOverlay.onclick = (e) => {
+            e.stopPropagation();
+            removeBigPlayOverlay();
+            removeUnmuteBadge();
+            videoElement.muted = false;
+            videoElement.play().catch(() => {});
+        };
+        playerSection.appendChild(bigPlayOverlay);
+    }
+
     function playVideo() {
+        removeBigPlayOverlay();
         const playPromise = videoElement.play();
         if (playPromise && typeof playPromise.catch === 'function') {
-            playPromise.catch(() => {});
+            playPromise.catch((err) => {
+                console.warn('Autoplay unmuted blocked by browser policy, trying muted autoplay:', err);
+                videoElement.muted = true;
+                videoElement.play().then(() => {
+                    showUnmuteBadge();
+                }).catch(() => {
+                    videoElement.muted = false;
+                    showBigPlayOverlay();
+                });
+            });
         }
     }
 
@@ -659,6 +735,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     playerSection.addEventListener('touchend', endGesture);
     playerSection.addEventListener('touchcancel', endGesture);
 
+    videoElement.addEventListener('click', () => {
+        if (videoElement.muted) {
+            videoElement.muted = false;
+            removeUnmuteBadge();
+        }
+    });
+    videoElement.addEventListener('playing', () => {
+        removeBigPlayOverlay();
+    });
     videoElement.addEventListener('timeupdate', () => { saveProgress(); updateMediaSessionPosition(); });
     videoElement.addEventListener('pause', saveProgress);
     videoElement.addEventListener('ended', () => {

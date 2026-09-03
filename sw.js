@@ -1,4 +1,4 @@
-const CACHE = 'dauphim-v2.3';
+const CACHE = 'dauphim-v2.4';
 const STATIC_ASSETS = [
     './',
     'index.html',
@@ -18,10 +18,10 @@ const STATIC_ASSETS = [
 ];
 
 self.addEventListener('install', event => {
+    self.skipWaiting();
     event.waitUntil(
         caches.open(CACHE).then(cache => cache.addAll(STATIC_ASSETS))
     );
-    self.skipWaiting();
 });
 
 self.addEventListener('activate', event => {
@@ -41,8 +41,8 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    // Network-first for data.json (content changes)
-    if (url.pathname.endsWith('data.json')) {
+    // Network-first for data and scripts to guarantee instant updates
+    if (url.pathname.endsWith('.json') || url.pathname.endsWith('.js')) {
         event.respondWith(
             fetch(event.request)
                 .then(response => {
