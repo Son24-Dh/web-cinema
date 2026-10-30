@@ -1395,6 +1395,6450 @@ const movies = {
                 }
             }
         ]
+    },
+    "tien-nghich": {
+        "id": "tien-nghich",
+        "name": "Tiên Nghịch - Renegade Immortal",
+        "category": "phim-bo",
+        "description": "Phim kể về cuộc hành trình của Vương Lâm, một thiếu niên bình thường trở thành một trong những tu sĩ mạnh nhất trong thế giới tiên hiệp. Là một thiếu niên may mắn, bị cuốn vào thế giới tu tiên của nước Triệu. Ban đầu, hắn thiếu linh căn và không có tri thức về thế giới này. Tuy nhiên, một hiểu lầm tai hại và một khối thiết tinh bí ẩn đã thay đổi cuộc đời của Vương Lâm mãi mãi. Hắn nhận được một \"hạt châu thần bí\", sự hỗ trợ quý báu trong việc trở thành một tu sĩ mạnh mẽ. Con đường tu tiên của Vương Lâm không hề dễ dàng. Hắn phải đối mặt với những thử thách đầy khó khăn và hiểm nguy, chiến đấu với các thế lực tà ác và khám phá những bí ẩn sâu thẳm về thế giới tiên hiệp. Cuộc hành trình này không chỉ là về sức mạnh, mà còn về sự trưởng thành, trí tuệ và lòng dũng cảm trong trái tim của Vương Lâm.",
+        "poster": "https://phimimg.com/uploads/movies/20260720/tien-nghich-thumb.webp",
+        "year": "2023",
+        "episodes": [
+            {
+                "name": "1",
+                "slug": "1",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/nkndLrz4/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/ugj0GZjf/index.m3u8"
+                }
+            },
+            {
+                "name": "2",
+                "slug": "2",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/81WUV6fg/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/c1GR9Zsa/index.m3u8"
+                }
+            },
+            {
+                "name": "3",
+                "slug": "3",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/vnt5dWem/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/VpbbdC3R/index.m3u8"
+                }
+            },
+            {
+                "name": "4",
+                "slug": "4",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/P9JDqwRd/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/erRrMv2R/index.m3u8"
+                }
+            },
+            {
+                "name": "5",
+                "slug": "5",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/qxtZu37s/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/Hzcwhkcd/index.m3u8"
+                }
+            },
+            {
+                "name": "6",
+                "slug": "6",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/9GBHeFgZ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/sXBx4bqb/index.m3u8"
+                }
+            },
+            {
+                "name": "7",
+                "slug": "7",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/e1ZUCMpW/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/3QmJe6am/index.m3u8"
+                }
+            },
+            {
+                "name": "8",
+                "slug": "8",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/tZXy5eVa/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/95SFCR97/index.m3u8"
+                }
+            },
+            {
+                "name": "9",
+                "slug": "9",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/oz4kRHxo/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/5buitfuk/index.m3u8"
+                }
+            },
+            {
+                "name": "10",
+                "slug": "10",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/gpI609pJ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/YWeegces/index.m3u8"
+                }
+            },
+            {
+                "name": "11",
+                "slug": "11",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/xUrVd8wF/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/WBX2IIyi/index.m3u8"
+                }
+            },
+            {
+                "name": "12",
+                "slug": "12",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/Csf5y5ea/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/EF1WtjX3/index.m3u8"
+                }
+            },
+            {
+                "name": "13",
+                "slug": "13",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/dpGukr3a/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/zLYPMbqU/index.m3u8"
+                }
+            },
+            {
+                "name": "14",
+                "slug": "14",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/raqbZK8W/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/Q6iMxqVH/index.m3u8"
+                }
+            },
+            {
+                "name": "15",
+                "slug": "15",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/p0dbdtCV/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/JcTmL833/index.m3u8"
+                }
+            },
+            {
+                "name": "16",
+                "slug": "16",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/DAJ1aPht/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/RcMvUDJC/index.m3u8"
+                }
+            },
+            {
+                "name": "17",
+                "slug": "17",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/32HJMyxH/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/Z0LAMZci/index.m3u8"
+                }
+            },
+            {
+                "name": "18",
+                "slug": "18",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/dwHrM6X9/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/ITHgvqmI/index.m3u8"
+                }
+            },
+            {
+                "name": "19",
+                "slug": "19",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/lIkT49nH/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/0mnuc0dc/index.m3u8"
+                }
+            },
+            {
+                "name": "20",
+                "slug": "20",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/I7xOOHGv/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/udDUJzpe/index.m3u8"
+                }
+            },
+            {
+                "name": "21",
+                "slug": "21",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/ZHwwFGpT/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/XzTXe73o/index.m3u8"
+                }
+            },
+            {
+                "name": "22",
+                "slug": "22",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/Y6YFZf1I/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/CNwWlY0k/index.m3u8"
+                }
+            },
+            {
+                "name": "23",
+                "slug": "23",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/osEqerpC/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/4ZMT9ewP/index.m3u8"
+                }
+            },
+            {
+                "name": "24",
+                "slug": "24",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/IszCdMJJ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/BDG24UI7/index.m3u8"
+                }
+            },
+            {
+                "name": "25",
+                "slug": "25",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/UcgaQIy8/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/Vea3Ontx/index.m3u8"
+                }
+            },
+            {
+                "name": "26",
+                "slug": "26",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/b6vOL0z2/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/SFJKSttn/index.m3u8"
+                }
+            },
+            {
+                "name": "27",
+                "slug": "27",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/Lld9jJhv/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/4KL2pItc/index.m3u8"
+                }
+            },
+            {
+                "name": "28",
+                "slug": "28",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/evZDqztr/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/i29WWPkX/index.m3u8"
+                }
+            },
+            {
+                "name": "29",
+                "slug": "29",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/ii77Y5Ur/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/39mr3Q4d/index.m3u8"
+                }
+            },
+            {
+                "name": "30",
+                "slug": "30",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/RFGt0l9A/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/d89688BO/index.m3u8"
+                }
+            },
+            {
+                "name": "31",
+                "slug": "31",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/udjaoPjF/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/BB9WW1mv/index.m3u8"
+                }
+            },
+            {
+                "name": "32",
+                "slug": "32",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/KoJy5F26/index.m3u8",
+                    "Thuyết Minh": "https://v7.kkphimplayer7.com/20260420/szKPOD9W/index.m3u8"
+                }
+            },
+            {
+                "name": "33",
+                "slug": "33",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/UexGW1KC/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/iFbDIxez/index.m3u8"
+                }
+            },
+            {
+                "name": "34",
+                "slug": "34",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/UzcisvC0/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/0CR4spJV/index.m3u8"
+                }
+            },
+            {
+                "name": "35",
+                "slug": "35",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/vwmU5Dqr/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/oCcIVwXu/index.m3u8"
+                }
+            },
+            {
+                "name": "36",
+                "slug": "36",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/q8kWvxP3/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/URmVV9CW/index.m3u8"
+                }
+            },
+            {
+                "name": "37",
+                "slug": "37",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/pcV053Zf/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/8HANJsSq/index.m3u8"
+                }
+            },
+            {
+                "name": "38",
+                "slug": "38",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/5qYtUXrU/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/pqnBIDHJ/index.m3u8"
+                }
+            },
+            {
+                "name": "39",
+                "slug": "39",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/6MYLKhBA/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/refEbGlP/index.m3u8"
+                }
+            },
+            {
+                "name": "40",
+                "slug": "40",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/3fWNeYaO/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/OLH48i0L/index.m3u8"
+                }
+            },
+            {
+                "name": "41",
+                "slug": "41",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/91I83K0q/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/sfMxmvRi/index.m3u8"
+                }
+            },
+            {
+                "name": "42",
+                "slug": "42",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/s952CEmg/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/EY3yzhoY/index.m3u8"
+                }
+            },
+            {
+                "name": "43",
+                "slug": "43",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/WPiED4QN/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/pSOOIWa4/index.m3u8"
+                }
+            },
+            {
+                "name": "44",
+                "slug": "44",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/Qxlr84Rk/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/9Wr6ML5k/index.m3u8"
+                }
+            },
+            {
+                "name": "45",
+                "slug": "45",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/EBPVfPpA/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/ieYlBEGj/index.m3u8"
+                }
+            },
+            {
+                "name": "46",
+                "slug": "46",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/wz7lSCVI/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/W09paOdS/index.m3u8"
+                }
+            },
+            {
+                "name": "47",
+                "slug": "47",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/q6U5PdGa/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/Drgngkrr/index.m3u8"
+                }
+            },
+            {
+                "name": "48",
+                "slug": "48",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/IAoPWvC6/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/btrQ9G0L/index.m3u8"
+                }
+            },
+            {
+                "name": "49",
+                "slug": "49",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/lf1u1s2u/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/FaEKbECT/index.m3u8"
+                }
+            },
+            {
+                "name": "50",
+                "slug": "50",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/A368EtxJ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/azTDwnal/index.m3u8"
+                }
+            },
+            {
+                "name": "51",
+                "slug": "51",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/Gc31K6ES/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/YKAW1xIm/index.m3u8"
+                }
+            },
+            {
+                "name": "52",
+                "slug": "52",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/72u6OKhp/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/E9KtNapm/index.m3u8"
+                }
+            },
+            {
+                "name": "53",
+                "slug": "53",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240910/AgnW6jg5/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/myXplTjT/index.m3u8"
+                }
+            },
+            {
+                "name": "54",
+                "slug": "54",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240916/pQwFfDJh/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/1vofssey/index.m3u8"
+                }
+            },
+            {
+                "name": "55",
+                "slug": "55",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20240925/ev5LaTe5/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/d5qQMv8W/index.m3u8"
+                }
+            },
+            {
+                "name": "56",
+                "slug": "56",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20240930/wJyZTmgh/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/beJavQLJ/index.m3u8"
+                }
+            },
+            {
+                "name": "57",
+                "slug": "57",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20241008/tZhxIMfd/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/U3RNV5fT/index.m3u8"
+                }
+            },
+            {
+                "name": "58",
+                "slug": "58",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241021/AvZ9KDGX/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/h7qE7W1r/index.m3u8"
+                }
+            },
+            {
+                "name": "59",
+                "slug": "59",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241021/hbsz3IqB/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/oheSCSfR/index.m3u8"
+                }
+            },
+            {
+                "name": "60",
+                "slug": "60",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20241028/C5zAGgfh/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/TqOAWdlW/index.m3u8"
+                }
+            },
+            {
+                "name": "61",
+                "slug": "61",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241104/ubgQPtgV/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/CZYIYdB0/index.m3u8"
+                }
+            },
+            {
+                "name": "62",
+                "slug": "62",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20241112/L2S2UFfL/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/aH16OBPf/index.m3u8"
+                }
+            },
+            {
+                "name": "63",
+                "slug": "63",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241126/xzwaQY40/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/QhJEe7Ye/index.m3u8"
+                }
+            },
+            {
+                "name": "64",
+                "slug": "64",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241126/ZPy2j4fV/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/yBhVDxoK/index.m3u8"
+                }
+            },
+            {
+                "name": "65",
+                "slug": "65",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241209/9sv21U3V/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/EUFKJ7je/index.m3u8"
+                }
+            },
+            {
+                "name": "66",
+                "slug": "66",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241209/lHJqyIqQ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/2eC4oV6u/index.m3u8"
+                }
+            },
+            {
+                "name": "67",
+                "slug": "67",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241223/npxPlKjZ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/3BAjfnT7/index.m3u8"
+                }
+            },
+            {
+                "name": "68",
+                "slug": "68",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241223/SfYqeLSI/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/GR5oQxzY/index.m3u8"
+                }
+            },
+            {
+                "name": "69",
+                "slug": "69",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20241230/vpoQSKuU/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/FDQaOPrh/index.m3u8"
+                }
+            },
+            {
+                "name": "70",
+                "slug": "70",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250113/HbYRkB5Q/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/lbfcPzwr/index.m3u8"
+                }
+            },
+            {
+                "name": "71",
+                "slug": "71",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250113/TJlfC5Ym/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/RogYLwBj/index.m3u8"
+                }
+            },
+            {
+                "name": "72",
+                "slug": "72",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250121/GsCqvjIJ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/dtYLX9xR/index.m3u8"
+                }
+            },
+            {
+                "name": "73",
+                "slug": "73",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250128/5fmooGLO/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/yGrC29DT/index.m3u8"
+                }
+            },
+            {
+                "name": "74",
+                "slug": "74",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250203/hn7glH9O/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/msDf4yDa/index.m3u8"
+                }
+            },
+            {
+                "name": "75",
+                "slug": "75",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250211/ZGjJUTzf/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/LFnRz3uP/index.m3u8"
+                }
+            },
+            {
+                "name": "76",
+                "slug": "76",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250217/FnsyBqiP/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/rH7hOhsU/index.m3u8"
+                }
+            },
+            {
+                "name": "77",
+                "slug": "77",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250225/kerZ5vM0/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/CXh7kVCR/index.m3u8"
+                }
+            },
+            {
+                "name": "78",
+                "slug": "78",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250307/OI61voPZ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/dOgPFizs/index.m3u8"
+                }
+            },
+            {
+                "name": "79",
+                "slug": "79",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250310/AzMBuXLM/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/WnDydGME/index.m3u8"
+                }
+            },
+            {
+                "name": "80",
+                "slug": "80",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250322/ExajaR4u/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/IaLMYedw/index.m3u8"
+                }
+            },
+            {
+                "name": "81",
+                "slug": "81",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250324/BcQQ8wlx/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/0ElVcn09/index.m3u8"
+                }
+            },
+            {
+                "name": "82",
+                "slug": "82",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250401/H4EySjYc/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/cKZBNS5h/index.m3u8"
+                }
+            },
+            {
+                "name": "83",
+                "slug": "83",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250407/WHjTD1Bv/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/fFc0tKDw/index.m3u8"
+                }
+            },
+            {
+                "name": "84",
+                "slug": "84",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250414/qF3LiXXQ/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/dlKtY2jZ/index.m3u8"
+                }
+            },
+            {
+                "name": "85",
+                "slug": "85",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250421/h4YYM2VR/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/47eLqaDR/index.m3u8"
+                }
+            },
+            {
+                "name": "86",
+                "slug": "86",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250428/3JFqX7zD/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/pbkF3fyQ/index.m3u8"
+                }
+            },
+            {
+                "name": "87",
+                "slug": "87",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250505/Zpo48XHh/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/xhTMi4kQ/index.m3u8"
+                }
+            },
+            {
+                "name": "88",
+                "slug": "88",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250512/Kg5rNTil/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/MwXuRvll/index.m3u8"
+                }
+            },
+            {
+                "name": "89",
+                "slug": "89",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250519/EYnWB7NX/index.m3u8",
+                    "Thuyết Minh": "https://s5.phim1280.tv/20250519/sN5H2Ngt/index.m3u8"
+                }
+            },
+            {
+                "name": "90",
+                "slug": "90",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250525/6VjWTWRK/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250525/ku8sPrxf/index.m3u8"
+                }
+            },
+            {
+                "name": "91",
+                "slug": "91",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250602/2gCXJwTu/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250602/v5GiwBe7/index.m3u8"
+                }
+            },
+            {
+                "name": "92",
+                "slug": "92",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250609/sbhhXwD0/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250609/3GHDlNTg/index.m3u8"
+                }
+            },
+            {
+                "name": "93",
+                "slug": "93",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250616/oPZUpkff/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250616/0tia1b8V/index.m3u8"
+                }
+            },
+            {
+                "name": "94",
+                "slug": "94",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250625/ZmAN0RVB/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250625/7N8UNab0/index.m3u8"
+                }
+            },
+            {
+                "name": "95",
+                "slug": "95",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250630/AfuvfaNo/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250630/AnG7mJ0v/index.m3u8"
+                }
+            },
+            {
+                "name": "96",
+                "slug": "96",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250707/0cPvATsU/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250707/sqImxdGu/index.m3u8"
+                }
+            },
+            {
+                "name": "97",
+                "slug": "97",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250713/XWc58Mqq/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250713/UPHk8bQ3/index.m3u8"
+                }
+            },
+            {
+                "name": "98",
+                "slug": "98",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250720/9p8psu23/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250720/hCp01J7I/index.m3u8"
+                }
+            },
+            {
+                "name": "99",
+                "slug": "99",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250728/DwPkieIz/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250728/JDMDrCUK/index.m3u8"
+                }
+            },
+            {
+                "name": "100",
+                "slug": "100",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250805/qRrLo11N/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250805/NhzNJMxZ/index.m3u8"
+                }
+            },
+            {
+                "name": "101",
+                "slug": "101",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250811/rIeKyOog/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250811/LDdHp44I/index.m3u8"
+                }
+            },
+            {
+                "name": "102",
+                "slug": "102",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250819/YHakKU9Y/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250819/BpMIlM4R/index.m3u8"
+                }
+            },
+            {
+                "name": "103",
+                "slug": "103",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250825/v4gxLfJd/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250825/MNQ88Oi0/index.m3u8"
+                }
+            },
+            {
+                "name": "104",
+                "slug": "104",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250901/w0afEOVq/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250901/skyfgLtw/index.m3u8"
+                }
+            },
+            {
+                "name": "105",
+                "slug": "105",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250907/KwVRQ6qF/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250907/OYHlv9oY/index.m3u8"
+                }
+            },
+            {
+                "name": "106",
+                "slug": "106",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250915/q8R2ht6s/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250915/tv79j46j/index.m3u8"
+                }
+            },
+            {
+                "name": "107",
+                "slug": "107",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250922/IqSifeBs/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250922/7F81IsvL/index.m3u8"
+                }
+            },
+            {
+                "name": "108",
+                "slug": "108",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250930/ZIE5kF1t/index.m3u8"
+                }
+            },
+            {
+                "name": "109",
+                "slug": "109",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251006/Nn9XuTXc/index.m3u8"
+                }
+            },
+            {
+                "name": "110",
+                "slug": "110",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251013/PyQnpX5Y/index.m3u8"
+                }
+            },
+            {
+                "name": "111",
+                "slug": "111",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251020/pwGh7FcV/index.m3u8"
+                }
+            },
+            {
+                "name": "112",
+                "slug": "112",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251103/QgYDekJy/index.m3u8"
+                }
+            },
+            {
+                "name": "113",
+                "slug": "113",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251103/7kaGY4Az/index.m3u8"
+                }
+            },
+            {
+                "name": "114",
+                "slug": "114",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251109/Mlw3oaAX/index.m3u8"
+                }
+            },
+            {
+                "name": "115",
+                "slug": "115",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251116/w3QUN352/index.m3u8"
+                }
+            },
+            {
+                "name": "116",
+                "slug": "116",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251123/km737TkW/index.m3u8"
+                }
+            },
+            {
+                "name": "117",
+                "slug": "117",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251130/XNRMqlJF/index.m3u8"
+                }
+            },
+            {
+                "name": "118",
+                "slug": "118",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251208/Ozq3pc8f/index.m3u8"
+                }
+            },
+            {
+                "name": "119",
+                "slug": "119",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251215/1LjoFDEH/index.m3u8"
+                }
+            },
+            {
+                "name": "120",
+                "slug": "120",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251222/x4DDm68O/index.m3u8"
+                }
+            },
+            {
+                "name": "121",
+                "slug": "121",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251229/B7MuH4x0/index.m3u8"
+                }
+            },
+            {
+                "name": "122",
+                "slug": "122",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260105/hKA0MbvL/index.m3u8"
+                }
+            },
+            {
+                "name": "123",
+                "slug": "123",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260112/TXODlCvA/index.m3u8"
+                }
+            },
+            {
+                "name": "124",
+                "slug": "124",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260119/Za0qyXSD/index.m3u8"
+                }
+            },
+            {
+                "name": "125",
+                "slug": "125",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260126/yJmCuVRM/index.m3u8"
+                }
+            },
+            {
+                "name": "126",
+                "slug": "126",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260202/TiRpXnXy/index.m3u8"
+                }
+            },
+            {
+                "name": "127",
+                "slug": "127",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260209/8HNpRzCa/index.m3u8"
+                }
+            },
+            {
+                "name": "128",
+                "slug": "128",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260216/OsgL5g9B/index.m3u8"
+                }
+            },
+            {
+                "name": "129",
+                "slug": "129",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260223/ATmpJFZ6/index.m3u8"
+                }
+            },
+            {
+                "name": "130",
+                "slug": "130",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260302/GzztpVYB/index.m3u8"
+                }
+            },
+            {
+                "name": "131",
+                "slug": "131",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260309/lL5Jz2co/index.m3u8"
+                }
+            },
+            {
+                "name": "132",
+                "slug": "132",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260317/V3eYakpW/index.m3u8"
+                }
+            },
+            {
+                "name": "133",
+                "slug": "133",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260323/tlFeBygy/index.m3u8"
+                }
+            },
+            {
+                "name": "134",
+                "slug": "134",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260330/x6BsEIcb/index.m3u8"
+                }
+            },
+            {
+                "name": "135",
+                "slug": "135",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260406/2bjlDgBJ/index.m3u8"
+                }
+            },
+            {
+                "name": "136",
+                "slug": "136",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260413/5SOy4Aye/index.m3u8"
+                }
+            },
+            {
+                "name": "137",
+                "slug": "137",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260420/tBdLNSxj/index.m3u8"
+                }
+            },
+            {
+                "name": "138",
+                "slug": "138",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260427/xinyCltS/index.m3u8"
+                }
+            },
+            {
+                "name": "139",
+                "slug": "139",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260504/q5QcSzha/index.m3u8"
+                }
+            },
+            {
+                "name": "140",
+                "slug": "140",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260510/dcbgBx8t/index.m3u8"
+                }
+            },
+            {
+                "name": "141",
+                "slug": "141",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260518/ML9uDPR4/index.m3u8"
+                }
+            },
+            {
+                "name": "142",
+                "slug": "142",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260524/21XS5GhC/index.m3u8"
+                }
+            },
+            {
+                "name": "143",
+                "slug": "143",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260601/qF7d2vOA/index.m3u8"
+                }
+            },
+            {
+                "name": "144",
+                "slug": "144",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260607/RVcBAIZl/index.m3u8"
+                }
+            },
+            {
+                "name": "145",
+                "slug": "145",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260614/WjJ76ZEe/index.m3u8"
+                }
+            },
+            {
+                "name": "146",
+                "slug": "146",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260621/xL2BWcRI/index.m3u8"
+                }
+            },
+            {
+                "name": "147",
+                "slug": "147",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260628/8rW7dg3q/index.m3u8"
+                }
+            },
+            {
+                "name": "148",
+                "slug": "148",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260706/BD9oE5mo/index.m3u8"
+                }
+            },
+            {
+                "name": "149",
+                "slug": "149",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260712/u2wk9sq7/index.m3u8"
+                }
+            },
+            {
+                "name": "150",
+                "slug": "150",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260719/A0CgidpK/index.m3u8"
+                }
+            },
+            {
+                "name": "151",
+                "slug": "151",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260726/V6nIfHYW/index.m3u8"
+                }
+            },
+            {
+                "name": "152",
+                "slug": "152",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260802/CZN13Fsl/index.m3u8"
+                }
+            },
+            {
+                "name": "153",
+                "slug": "153",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260809/1s8hKOxi/index.m3u8"
+                }
+            },
+            {
+                "name": "154",
+                "slug": "154",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260816/BxtbpgAu/index.m3u8"
+                }
+            },
+            {
+                "name": "155",
+                "slug": "155",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260823/SS1aVeT4/index.m3u8"
+                }
+            },
+            {
+                "name": "156",
+                "slug": "156",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260830/wmEO0kWY/index.m3u8"
+                }
+            },
+            {
+                "name": "157",
+                "slug": "157",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260906/0g7dq1s2/index.m3u8"
+                }
+            },
+            {
+                "name": "158",
+                "slug": "158",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260914/vDxAVFdr/index.m3u8"
+                }
+            },
+            {
+                "name": "159",
+                "slug": "159",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20260921/1BRDSCfK/index.m3u8"
+                }
+            },
+            {
+                "name": "160",
+                "slug": "160",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20260927/6AfrL8Yv/index.m3u8"
+                }
+            },
+            {
+                "name": "161",
+                "slug": "161",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261004/3Ek07pkQ/index.m3u8"
+                }
+            },
+            {
+                "name": "162",
+                "slug": "162",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261011/NUNGcs0q/index.m3u8"
+                }
+            },
+            {
+                "name": "163",
+                "slug": "163",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261018/VDjxRMOm/index.m3u8"
+                }
+            },
+            {
+                "name": "164",
+                "slug": "164",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261026/MynZsmhO/index.m3u8"
+                }
+            }
+        ]
+    },
+    "pham-nhan-tu-tien": {
+        "id": "pham-nhan-tu-tien",
+        "name": "Phàm Nhân Tu Tiên - A Record of a Mortal's Journey to Immortality",
+        "category": "phim-bo",
+        "description": "Phàm Nhân Tu Tiên là một câu chuyện Tiên Hiệp kể về Hàn Lập - Một người bình thường nhưng lại gặp vô vàn cơ duyên để bước đi trên con đường tu tiên, không phải anh hùng - cũng chẳng phải tiểu nhân, Hàn Lập từng bước khẳng định mình... Liệu Hàn Lập và người yêu có thể cùng bước trên con đường tu tiên và có một cái kết hoàn mỹ? Những thử thách nào đang chờ đợi bọn họ? Mời các bạn xem phim để biết thêm chi tiết nhé...",
+        "poster": "https://phimimg.com/upload/vod/20240715-1/fe09a10062768cca301682eba6c8245b.jpg",
+        "year": "2020",
+        "episodes": [
+            {
+                "name": "1",
+                "slug": "1",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/6VEHSDxf/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250914/GzHAwMN1/index.m3u8"
+                }
+            },
+            {
+                "name": "2",
+                "slug": "2",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/Sux7K7NS/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250914/VQY0S8bH/index.m3u8"
+                }
+            },
+            {
+                "name": "3",
+                "slug": "3",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/opoF5MYM/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250914/jRDPuAJN/index.m3u8"
+                }
+            },
+            {
+                "name": "4",
+                "slug": "4",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/U1oZQFpi/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250914/OCAPz2ID/index.m3u8"
+                }
+            },
+            {
+                "name": "5",
+                "slug": "5",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/qcueBYmO/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250914/Y21SFZy3/index.m3u8"
+                }
+            },
+            {
+                "name": "6",
+                "slug": "6",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/7W7vEiUP/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250914/3hdCG5hS/index.m3u8"
+                }
+            },
+            {
+                "name": "7",
+                "slug": "7",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/jI7R1HsP/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250914/KyKohFxD/index.m3u8"
+                }
+            },
+            {
+                "name": "8",
+                "slug": "8",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/0Nr1UafX/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250914/4S9GSOQL/index.m3u8"
+                }
+            },
+            {
+                "name": "9",
+                "slug": "9",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/GCkOad03/index.m3u8"
+                }
+            },
+            {
+                "name": "10",
+                "slug": "10",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/ZsOHHEJp/index.m3u8"
+                }
+            },
+            {
+                "name": "11",
+                "slug": "11",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/2zxVDpmU/index.m3u8"
+                }
+            },
+            {
+                "name": "12",
+                "slug": "12",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/p0YIVY1u/index.m3u8"
+                }
+            },
+            {
+                "name": "13",
+                "slug": "13",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/ifhbgyo1/index.m3u8"
+                }
+            },
+            {
+                "name": "14",
+                "slug": "14",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/lSMnJWUW/index.m3u8"
+                }
+            },
+            {
+                "name": "15",
+                "slug": "15",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/rtsSH1De/index.m3u8"
+                }
+            },
+            {
+                "name": "16",
+                "slug": "16",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/CP5dNr3m/index.m3u8"
+                }
+            },
+            {
+                "name": "17",
+                "slug": "17",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/MWpt4Wa6/index.m3u8"
+                }
+            },
+            {
+                "name": "18",
+                "slug": "18",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/05YunxCB/index.m3u8"
+                }
+            },
+            {
+                "name": "19",
+                "slug": "19",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/AFaPaTQ5/index.m3u8"
+                }
+            },
+            {
+                "name": "20",
+                "slug": "20",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/J1nDK7pP/index.m3u8"
+                }
+            },
+            {
+                "name": "21",
+                "slug": "21",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/uWp2V3Wt/index.m3u8"
+                }
+            },
+            {
+                "name": "22",
+                "slug": "22",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/5mKVGing/index.m3u8"
+                }
+            },
+            {
+                "name": "23",
+                "slug": "23",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/YFVTq6sP/index.m3u8"
+                }
+            },
+            {
+                "name": "24",
+                "slug": "24",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/JRoQNTjt/index.m3u8"
+                }
+            },
+            {
+                "name": "25",
+                "slug": "25",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/mci8lozA/index.m3u8"
+                }
+            },
+            {
+                "name": "26",
+                "slug": "26",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/XnufWLyz/index.m3u8"
+                }
+            },
+            {
+                "name": "27",
+                "slug": "27",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/SOsO7TdY/index.m3u8"
+                }
+            },
+            {
+                "name": "28",
+                "slug": "28",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/nqahRQfV/index.m3u8"
+                }
+            },
+            {
+                "name": "29",
+                "slug": "29",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/n6syOYmI/index.m3u8"
+                }
+            },
+            {
+                "name": "30",
+                "slug": "30",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/AmGziMEz/index.m3u8"
+                }
+            },
+            {
+                "name": "31",
+                "slug": "31",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/X9vPjzDK/index.m3u8"
+                }
+            },
+            {
+                "name": "32",
+                "slug": "32",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/kXjmvRrT/index.m3u8"
+                }
+            },
+            {
+                "name": "33",
+                "slug": "33",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/FshEFum7/index.m3u8"
+                }
+            },
+            {
+                "name": "34",
+                "slug": "34",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/5cu57IRn/index.m3u8"
+                }
+            },
+            {
+                "name": "35",
+                "slug": "35",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/W35RfHL0/index.m3u8"
+                }
+            },
+            {
+                "name": "36",
+                "slug": "36",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/3m0WPTFm/index.m3u8"
+                }
+            },
+            {
+                "name": "37",
+                "slug": "37",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/kw5QIvvj/index.m3u8"
+                }
+            },
+            {
+                "name": "38",
+                "slug": "38",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/7W2krs7U/index.m3u8"
+                }
+            },
+            {
+                "name": "39",
+                "slug": "39",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/QChP9Oas/index.m3u8"
+                }
+            },
+            {
+                "name": "40",
+                "slug": "40",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/crYiH5G1/index.m3u8"
+                }
+            },
+            {
+                "name": "41",
+                "slug": "41",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/eQlyogbS/index.m3u8"
+                }
+            },
+            {
+                "name": "42",
+                "slug": "42",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/hIzPyYi1/index.m3u8"
+                }
+            },
+            {
+                "name": "43",
+                "slug": "43",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/bErnit5n/index.m3u8"
+                }
+            },
+            {
+                "name": "44",
+                "slug": "44",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/bsDbvtiq/index.m3u8"
+                }
+            },
+            {
+                "name": "45",
+                "slug": "45",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/a9tYcvAO/index.m3u8"
+                }
+            },
+            {
+                "name": "46",
+                "slug": "46",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/S1HJOzA2/index.m3u8"
+                }
+            },
+            {
+                "name": "47",
+                "slug": "47",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/et8zM7b3/index.m3u8"
+                }
+            },
+            {
+                "name": "48",
+                "slug": "48",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/rwABJu3a/index.m3u8"
+                }
+            },
+            {
+                "name": "49",
+                "slug": "49",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/CBYfGzik/index.m3u8"
+                }
+            },
+            {
+                "name": "50",
+                "slug": "50",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/8jl7QaOh/index.m3u8"
+                }
+            },
+            {
+                "name": "51",
+                "slug": "51",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/EnAOJE7k/index.m3u8"
+                }
+            },
+            {
+                "name": "52",
+                "slug": "52",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/LfLb26hP/index.m3u8"
+                }
+            },
+            {
+                "name": "53",
+                "slug": "53",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/XD0hJqN8/index.m3u8"
+                }
+            },
+            {
+                "name": "54",
+                "slug": "54",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/7buUohpZ/index.m3u8"
+                }
+            },
+            {
+                "name": "55",
+                "slug": "55",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/BUUVZRZC/index.m3u8"
+                }
+            },
+            {
+                "name": "56",
+                "slug": "56",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/i1lGU0l6/index.m3u8"
+                }
+            },
+            {
+                "name": "57",
+                "slug": "57",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/jzkN9Hz9/index.m3u8"
+                }
+            },
+            {
+                "name": "58",
+                "slug": "58",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/AHZqjMJn/index.m3u8"
+                }
+            },
+            {
+                "name": "59",
+                "slug": "59",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/vv6XpQw3/index.m3u8"
+                }
+            },
+            {
+                "name": "60",
+                "slug": "60",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/EsMkYKtz/index.m3u8"
+                }
+            },
+            {
+                "name": "61",
+                "slug": "61",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/a4oyT3Ph/index.m3u8"
+                }
+            },
+            {
+                "name": "62",
+                "slug": "62",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/H1v55CaY/index.m3u8"
+                }
+            },
+            {
+                "name": "63",
+                "slug": "63",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/xXZARffi/index.m3u8"
+                }
+            },
+            {
+                "name": "64",
+                "slug": "64",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/QTb2T1B4/index.m3u8"
+                }
+            },
+            {
+                "name": "65",
+                "slug": "65",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/n6e66qKT/index.m3u8"
+                }
+            },
+            {
+                "name": "66",
+                "slug": "66",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/J1GM3LiE/index.m3u8"
+                }
+            },
+            {
+                "name": "67",
+                "slug": "67",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/9gFVe6Y0/index.m3u8"
+                }
+            },
+            {
+                "name": "68",
+                "slug": "68",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/ihokpSQq/index.m3u8"
+                }
+            },
+            {
+                "name": "69",
+                "slug": "69",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/YOwNljB2/index.m3u8"
+                }
+            },
+            {
+                "name": "70",
+                "slug": "70",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/1lKX8z2H/index.m3u8"
+                }
+            },
+            {
+                "name": "71",
+                "slug": "71",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/4KokuOa1/index.m3u8"
+                }
+            },
+            {
+                "name": "72",
+                "slug": "72",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/Rvq4Vulh/index.m3u8"
+                }
+            },
+            {
+                "name": "73",
+                "slug": "73",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/7KUKXvyv/index.m3u8"
+                }
+            },
+            {
+                "name": "74",
+                "slug": "74",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/u07Y1PAe/index.m3u8"
+                }
+            },
+            {
+                "name": "75",
+                "slug": "75",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/HoPZBEys/index.m3u8"
+                }
+            },
+            {
+                "name": "76",
+                "slug": "76",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/IrbEdsss/index.m3u8"
+                }
+            },
+            {
+                "name": "77",
+                "slug": "77",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/aN6Oy89U/index.m3u8"
+                }
+            },
+            {
+                "name": "78",
+                "slug": "78",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/fqikcFlX/index.m3u8"
+                }
+            },
+            {
+                "name": "79",
+                "slug": "79",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/sWFhjnCM/index.m3u8"
+                }
+            },
+            {
+                "name": "80",
+                "slug": "80",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/QEo7KkLL/index.m3u8"
+                }
+            },
+            {
+                "name": "81",
+                "slug": "81",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/ddAWPCjC/index.m3u8"
+                }
+            },
+            {
+                "name": "82",
+                "slug": "82",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/HXFcAurY/index.m3u8"
+                }
+            },
+            {
+                "name": "83",
+                "slug": "83",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/EvJiHpMA/index.m3u8"
+                }
+            },
+            {
+                "name": "84",
+                "slug": "84",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/CEeKpsvN/index.m3u8"
+                }
+            },
+            {
+                "name": "85",
+                "slug": "85",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/o3pqBJtd/index.m3u8"
+                }
+            },
+            {
+                "name": "86",
+                "slug": "86",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/Lu2KUStS/index.m3u8"
+                }
+            },
+            {
+                "name": "87",
+                "slug": "87",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/ZwwmOBM3/index.m3u8"
+                }
+            },
+            {
+                "name": "88",
+                "slug": "88",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/gtB67RFK/index.m3u8"
+                }
+            },
+            {
+                "name": "89",
+                "slug": "89",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/3eQCRb2j/index.m3u8"
+                }
+            },
+            {
+                "name": "90",
+                "slug": "90",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/DYP5996j/index.m3u8"
+                }
+            },
+            {
+                "name": "91",
+                "slug": "91",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/sKM93ND4/index.m3u8"
+                }
+            },
+            {
+                "name": "92",
+                "slug": "92",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/hhONGUVm/index.m3u8"
+                }
+            },
+            {
+                "name": "93",
+                "slug": "93",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/Z2fyrfeT/index.m3u8"
+                }
+            },
+            {
+                "name": "94",
+                "slug": "94",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/yq5XcuKO/index.m3u8"
+                }
+            },
+            {
+                "name": "95",
+                "slug": "95",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/Y1WrxXbb/index.m3u8"
+                }
+            },
+            {
+                "name": "96",
+                "slug": "96",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/u77JNw3j/index.m3u8"
+                }
+            },
+            {
+                "name": "97",
+                "slug": "97",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/3f5Piahh/index.m3u8"
+                }
+            },
+            {
+                "name": "98",
+                "slug": "98",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/VOVu6ThX/index.m3u8"
+                }
+            },
+            {
+                "name": "99",
+                "slug": "99",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/2r9y9Xd8/index.m3u8"
+                }
+            },
+            {
+                "name": "100",
+                "slug": "100",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/r4Jc6KCT/index.m3u8"
+                }
+            },
+            {
+                "name": "101",
+                "slug": "101",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/xPJuw7LQ/index.m3u8"
+                }
+            },
+            {
+                "name": "102",
+                "slug": "102",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/yIWouVzh/index.m3u8"
+                }
+            },
+            {
+                "name": "103",
+                "slug": "103",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/RyAmkxkz/index.m3u8"
+                }
+            },
+            {
+                "name": "104",
+                "slug": "104",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/b71df2sM/index.m3u8"
+                }
+            },
+            {
+                "name": "105",
+                "slug": "105",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/aecXXcvI/index.m3u8"
+                }
+            },
+            {
+                "name": "106",
+                "slug": "106",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/tGSr8VPF/index.m3u8"
+                }
+            },
+            {
+                "name": "107",
+                "slug": "107",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/1DJGt7VB/index.m3u8"
+                }
+            },
+            {
+                "name": "108",
+                "slug": "108",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/xabXrBjY/index.m3u8"
+                }
+            },
+            {
+                "name": "109",
+                "slug": "109",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/7qavvTmF/index.m3u8"
+                }
+            },
+            {
+                "name": "110",
+                "slug": "110",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240715/5GAgJwER/index.m3u8"
+                }
+            },
+            {
+                "name": "111",
+                "slug": "111",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240722/kmfIngTm/index.m3u8"
+                }
+            },
+            {
+                "name": "112",
+                "slug": "112",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240730/B2qn9fy8/index.m3u8"
+                }
+            },
+            {
+                "name": "113",
+                "slug": "113",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240806/ATL72jKb/index.m3u8"
+                }
+            },
+            {
+                "name": "114",
+                "slug": "114",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240812/L1nPSsl8/index.m3u8"
+                }
+            },
+            {
+                "name": "115",
+                "slug": "115",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240819/cAfiQDbT/index.m3u8"
+                }
+            },
+            {
+                "name": "116",
+                "slug": "116",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240826/mzk6qliL/index.m3u8"
+                }
+            },
+            {
+                "name": "117",
+                "slug": "117",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240902/TRj0AXgM/index.m3u8"
+                }
+            },
+            {
+                "name": "118",
+                "slug": "118",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240909/TpvwCXvx/index.m3u8"
+                }
+            },
+            {
+                "name": "119",
+                "slug": "119",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20240916/jqKGXye9/index.m3u8"
+                }
+            },
+            {
+                "name": "120",
+                "slug": "120",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20240924/1WsKoHOU/index.m3u8"
+                }
+            },
+            {
+                "name": "121",
+                "slug": "121",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20240930/aUmQM2Rq/index.m3u8"
+                }
+            },
+            {
+                "name": "122",
+                "slug": "122",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20241008/zKTXNdxr/index.m3u8"
+                }
+            },
+            {
+                "name": "123",
+                "slug": "123",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241014/PvkugeHm/index.m3u8"
+                }
+            },
+            {
+                "name": "124",
+                "slug": "124",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20241022/ekqordFV/index.m3u8"
+                }
+            },
+            {
+                "name": "125",
+                "slug": "125",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250120/Gi35d4tH/index.m3u8"
+                }
+            },
+            {
+                "name": "126",
+                "slug": "126",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250120/Dhk8GsiK/index.m3u8"
+                }
+            },
+            {
+                "name": "127",
+                "slug": "127",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250129/Ll7lZ3lJ/index.m3u8"
+                }
+            },
+            {
+                "name": "128",
+                "slug": "128",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250203/40MWRlQf/index.m3u8"
+                }
+            },
+            {
+                "name": "129",
+                "slug": "129",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250210/5F8O16Uc/index.m3u8"
+                }
+            },
+            {
+                "name": "130",
+                "slug": "130",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250217/F7YbO2aw/index.m3u8"
+                }
+            },
+            {
+                "name": "131",
+                "slug": "131",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250225/NaOiFUd2/index.m3u8"
+                }
+            },
+            {
+                "name": "132",
+                "slug": "132",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250303/weFyDUxT/index.m3u8"
+                }
+            },
+            {
+                "name": "133",
+                "slug": "133",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250317/yUf8Lmak/index.m3u8"
+                }
+            },
+            {
+                "name": "134",
+                "slug": "134",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250317/05z7tNIU/index.m3u8"
+                }
+            },
+            {
+                "name": "135",
+                "slug": "135",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250324/u2nCp7Zh/index.m3u8"
+                }
+            },
+            {
+                "name": "136",
+                "slug": "136",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250329/4rC8iJll/index.m3u8"
+                }
+            },
+            {
+                "name": "137",
+                "slug": "137",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250405/XiTh8xMe/index.m3u8"
+                }
+            },
+            {
+                "name": "138",
+                "slug": "138",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250412/3mHASOOY/index.m3u8"
+                }
+            },
+            {
+                "name": "139",
+                "slug": "139",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250419/D71v4Ekj/index.m3u8"
+                }
+            },
+            {
+                "name": "140",
+                "slug": "140",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250426/kn1bn0ap/index.m3u8"
+                }
+            },
+            {
+                "name": "141",
+                "slug": "141",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250503/4bfGUdkB/index.m3u8"
+                }
+            },
+            {
+                "name": "142",
+                "slug": "142",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250510/Qe13YFkT/index.m3u8"
+                }
+            },
+            {
+                "name": "143",
+                "slug": "143",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250518/u71ClcPe/index.m3u8"
+                }
+            },
+            {
+                "name": "144",
+                "slug": "144",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250524/pVFhbhgt/index.m3u8"
+                }
+            },
+            {
+                "name": "145",
+                "slug": "145",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250531/bw0x8uVj/index.m3u8"
+                }
+            },
+            {
+                "name": "146",
+                "slug": "146",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250607/tvVTMbwP/index.m3u8"
+                }
+            },
+            {
+                "name": "147",
+                "slug": "147",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250614/v6jb9xMd/index.m3u8"
+                }
+            },
+            {
+                "name": "148",
+                "slug": "148",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250621/qkkEDIa2/index.m3u8"
+                }
+            },
+            {
+                "name": "149",
+                "slug": "149",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250628/bfmQP6T7/index.m3u8"
+                }
+            },
+            {
+                "name": "150",
+                "slug": "150",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250705/Zdb1yLkJ/index.m3u8"
+                }
+            },
+            {
+                "name": "151",
+                "slug": "151",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250712/ip1GU7hZ/index.m3u8"
+                }
+            },
+            {
+                "name": "152",
+                "slug": "152",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250719/TNfJhoL4/index.m3u8"
+                }
+            },
+            {
+                "name": "153",
+                "slug": "153",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250726/wpQnjOVB/index.m3u8"
+                }
+            },
+            {
+                "name": "154",
+                "slug": "154",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250802/Oellol60/index.m3u8"
+                }
+            },
+            {
+                "name": "155",
+                "slug": "155",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250809/U5sZl3AZ/index.m3u8"
+                }
+            },
+            {
+                "name": "156",
+                "slug": "156",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250816/WiTUACsD/index.m3u8"
+                }
+            },
+            {
+                "name": "157",
+                "slug": "157",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250823/goNvJIfK/index.m3u8"
+                }
+            },
+            {
+                "name": "158",
+                "slug": "158",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250830/u44BH2wu/index.m3u8"
+                }
+            },
+            {
+                "name": "159",
+                "slug": "159",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250906/9qO4QIyL/index.m3u8"
+                }
+            },
+            {
+                "name": "160",
+                "slug": "160",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250913/nXcUg3w7/index.m3u8"
+                }
+            },
+            {
+                "name": "161",
+                "slug": "161",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250920/9nd9jXNt/index.m3u8"
+                }
+            },
+            {
+                "name": "162",
+                "slug": "162",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250927/pdiV0xhx/index.m3u8"
+                }
+            },
+            {
+                "name": "163",
+                "slug": "163",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251004/ls3hZWex/index.m3u8"
+                }
+            },
+            {
+                "name": "164",
+                "slug": "164",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251011/uO5Bh1nB/index.m3u8"
+                }
+            },
+            {
+                "name": "165",
+                "slug": "165",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251018/odvlfwpv/index.m3u8"
+                }
+            },
+            {
+                "name": "166",
+                "slug": "166",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251025/iwxg0jBX/index.m3u8"
+                }
+            },
+            {
+                "name": "167",
+                "slug": "167",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251101/aZnlbxlA/index.m3u8"
+                }
+            },
+            {
+                "name": "168",
+                "slug": "168",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251108/P3eyHAea/index.m3u8"
+                }
+            },
+            {
+                "name": "169",
+                "slug": "169",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251115/OQMkLpG7/index.m3u8"
+                }
+            },
+            {
+                "name": "170",
+                "slug": "170",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251129/BNHteXLO/index.m3u8"
+                }
+            },
+            {
+                "name": "171",
+                "slug": "171",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251129/gSK2IxJj/index.m3u8"
+                }
+            },
+            {
+                "name": "172",
+                "slug": "172",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251206/1cWFAr5N/index.m3u8"
+                }
+            },
+            {
+                "name": "173",
+                "slug": "173",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251213/7iJGfHSE/index.m3u8"
+                }
+            },
+            {
+                "name": "174",
+                "slug": "174",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251220/BbcN1bN5/index.m3u8"
+                }
+            },
+            {
+                "name": "175",
+                "slug": "175",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251227/TGYQryNB/index.m3u8"
+                }
+            },
+            {
+                "name": "176",
+                "slug": "176",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260103/G6ofZo0R/index.m3u8"
+                }
+            },
+            {
+                "name": "177",
+                "slug": "177",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260615/EsfyG7Po/index.m3u8"
+                }
+            },
+            {
+                "name": "178",
+                "slug": "178",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260615/hRR75kgF/index.m3u8"
+                }
+            },
+            {
+                "name": "179",
+                "slug": "179",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260627/kqz7Yc55/index.m3u8"
+                }
+            },
+            {
+                "name": "180",
+                "slug": "180",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260627/vI6badZF/index.m3u8"
+                }
+            },
+            {
+                "name": "181",
+                "slug": "181",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260704/u8rEUo0a/index.m3u8"
+                }
+            },
+            {
+                "name": "182",
+                "slug": "182",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260715/LEd9Ai2B/index.m3u8"
+                }
+            },
+            {
+                "name": "183",
+                "slug": "183",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260718/l8AEbgXP/index.m3u8"
+                }
+            },
+            {
+                "name": "184",
+                "slug": "184",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260725/ZE0H6ACU/index.m3u8"
+                }
+            },
+            {
+                "name": "185",
+                "slug": "185",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260808/kMBXuQ9q/index.m3u8"
+                }
+            },
+            {
+                "name": "186",
+                "slug": "186",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260808/nCjHtT7W/index.m3u8"
+                }
+            },
+            {
+                "name": "187",
+                "slug": "187",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260822/itrY0h0J/index.m3u8"
+                }
+            },
+            {
+                "name": "188",
+                "slug": "188",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260822/AmAz0fuX/index.m3u8"
+                }
+            },
+            {
+                "name": "189",
+                "slug": "189",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260829/mgMep724/index.m3u8"
+                }
+            },
+            {
+                "name": "190",
+                "slug": "190",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260905/j4uBd5Cr/index.m3u8"
+                }
+            },
+            {
+                "name": "191",
+                "slug": "191",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260912/41hSDo35/index.m3u8"
+                }
+            },
+            {
+                "name": "192",
+                "slug": "192",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20260926/JW5jI3pW/index.m3u8"
+                }
+            },
+            {
+                "name": "193",
+                "slug": "193",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20260926/xaI7VXTr/index.m3u8"
+                }
+            },
+            {
+                "name": "194",
+                "slug": "194",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261003/DitEXNP1/index.m3u8"
+                }
+            },
+            {
+                "name": "195",
+                "slug": "195",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261010/UaaGUN6V/index.m3u8"
+                }
+            },
+            {
+                "name": "196",
+                "slug": "196",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261017/7eN7Z7dD/index.m3u8"
+                }
+            },
+            {
+                "name": "197",
+                "slug": "197",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261025/B8eQDjXy/index.m3u8"
+                }
+            }
+        ]
+    },
+    "dau-pha-thuong-khung-phan-5": {
+        "id": "dau-pha-thuong-khung-phan-5",
+        "name": "Đấu Phá Thương Khung (Phần 5) - Fights Break Sphere (Season 5)",
+        "category": "phim-bo",
+        "description": "Phim Đấu Phá Thương Khung: Chuyển thể từ tiểu thuyết cùng tên của tác giả Thiên Tàm Thổ Đậu. &nbsp;Tiêu Viêm là thiên tài tu luyện đấu khí của nhà họ Tiêu, 11 tuổi đã đột phá Thập Đoạn Đấu Chi Khí, trở thành đấu thủ trẻ tuổi nhất của gia tộc suốt trăm năm qua. Nhưng đến năm 12 tuổi, Tiêu Viêm bất ngờ mất đi khả năng tu luyện, chỉ còn lại Tam Đoạn Đấu Chi Khí. Trong 3 năm sau đó, nhà họ Tiêu cũng liên tiếp gặp nhiều bất trắc. &nbsp;Đúng vào lúc Tiêu Viêm tuyệt vọng nhất, một linh hồn xuất hiện từ trong chiếc nhẫn trên tay Tiêu Viêm, mở ra trước mắt Tiêu Viêm một cánh cửa hoàn toàn mới. Dưới sự giúp đỡ của Dược lão, Tiêu Viêm đã hồi phục và nâng cao được công lực của mình, đánh bại Nạp Lan Yên Nhiên khi giao hẹn ba năm đến. &nbsp;Nhưng không may là cha Tiêu Viêm lại bị Vân Lam tông bắt đi, Tiêu Viêm lại bắt đầu cuộc hành trình nhiều thử thách nhằm cứu thoát cha mình…",
+        "poster": "https://phimimg.com/upload/vod/20240822-1/27bfb98b2cf23111b0c11e82b0483fc4.jpg",
+        "year": "2022",
+        "episodes": [
+            {
+                "name": "1",
+                "slug": "1",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/qJHgdg88/index.m3u8"
+                }
+            },
+            {
+                "name": "2",
+                "slug": "2",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/sHTmjocu/index.m3u8"
+                }
+            },
+            {
+                "name": "3",
+                "slug": "3",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/BBesOyHH/index.m3u8"
+                }
+            },
+            {
+                "name": "4",
+                "slug": "4",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/92z9JdTE/index.m3u8"
+                }
+            },
+            {
+                "name": "5",
+                "slug": "5",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/TTl33N0Z/index.m3u8"
+                }
+            },
+            {
+                "name": "6",
+                "slug": "6",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/zDLrnF78/index.m3u8"
+                }
+            },
+            {
+                "name": "7",
+                "slug": "7",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/AfwfXbUk/index.m3u8"
+                }
+            },
+            {
+                "name": "8",
+                "slug": "8",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Juk8xHjg/index.m3u8"
+                }
+            },
+            {
+                "name": "9",
+                "slug": "9",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/4PNAXyI5/index.m3u8"
+                }
+            },
+            {
+                "name": "10",
+                "slug": "10",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/24SnaBc2/index.m3u8"
+                }
+            },
+            {
+                "name": "11",
+                "slug": "11",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/F8Niiaqh/index.m3u8"
+                }
+            },
+            {
+                "name": "12",
+                "slug": "12",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/IrXgeyme/index.m3u8"
+                }
+            },
+            {
+                "name": "13",
+                "slug": "13",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/9EIsQ1XA/index.m3u8"
+                }
+            },
+            {
+                "name": "14",
+                "slug": "14",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/EOj5YCk7/index.m3u8"
+                }
+            },
+            {
+                "name": "15",
+                "slug": "15",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Mv3O4PUb/index.m3u8"
+                }
+            },
+            {
+                "name": "16",
+                "slug": "16",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/RldpSryh/index.m3u8"
+                }
+            },
+            {
+                "name": "17",
+                "slug": "17",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/FQmyhgpA/index.m3u8"
+                }
+            },
+            {
+                "name": "18",
+                "slug": "18",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/kgIp0tJB/index.m3u8"
+                }
+            },
+            {
+                "name": "19",
+                "slug": "19",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Js7P5Fwe/index.m3u8"
+                }
+            },
+            {
+                "name": "20",
+                "slug": "20",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/61GxVSiW/index.m3u8"
+                }
+            },
+            {
+                "name": "21",
+                "slug": "21",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/eVAcsaN6/index.m3u8"
+                }
+            },
+            {
+                "name": "22",
+                "slug": "22",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/eYnB0N7z/index.m3u8"
+                }
+            },
+            {
+                "name": "23",
+                "slug": "23",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/yYpqw1Yi/index.m3u8"
+                }
+            },
+            {
+                "name": "24",
+                "slug": "24",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/3pUIZMqm/index.m3u8"
+                }
+            },
+            {
+                "name": "25",
+                "slug": "25",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/jMJadAX6/index.m3u8"
+                }
+            },
+            {
+                "name": "26",
+                "slug": "26",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/GcWIpeCY/index.m3u8"
+                }
+            },
+            {
+                "name": "27",
+                "slug": "27",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/EGfhhlGY/index.m3u8"
+                }
+            },
+            {
+                "name": "28",
+                "slug": "28",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/JPENgp7B/index.m3u8"
+                }
+            },
+            {
+                "name": "29",
+                "slug": "29",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Bp0xU8dD/index.m3u8"
+                }
+            },
+            {
+                "name": "30",
+                "slug": "30",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Koi1M5RB/index.m3u8"
+                }
+            },
+            {
+                "name": "31",
+                "slug": "31",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/E4sEzUrA/index.m3u8"
+                }
+            },
+            {
+                "name": "32",
+                "slug": "32",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/b2wCmGAn/index.m3u8"
+                }
+            },
+            {
+                "name": "33",
+                "slug": "33",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/HVBxXCBL/index.m3u8"
+                }
+            },
+            {
+                "name": "34",
+                "slug": "34",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/itOBwn1G/index.m3u8"
+                }
+            },
+            {
+                "name": "35",
+                "slug": "35",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/eHG2UqqP/index.m3u8"
+                }
+            },
+            {
+                "name": "36",
+                "slug": "36",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/yDVfdMyu/index.m3u8"
+                }
+            },
+            {
+                "name": "37",
+                "slug": "37",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/JoSTuCMh/index.m3u8"
+                }
+            },
+            {
+                "name": "38",
+                "slug": "38",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/TXKrjuQp/index.m3u8"
+                }
+            },
+            {
+                "name": "39",
+                "slug": "39",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/gMV6SCF4/index.m3u8"
+                }
+            },
+            {
+                "name": "40",
+                "slug": "40",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/PaVBsJwn/index.m3u8"
+                }
+            },
+            {
+                "name": "41",
+                "slug": "41",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/KElUEnCr/index.m3u8"
+                }
+            },
+            {
+                "name": "42",
+                "slug": "42",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/pSPq4WY4/index.m3u8"
+                }
+            },
+            {
+                "name": "43",
+                "slug": "43",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/O4kmRPaY/index.m3u8"
+                }
+            },
+            {
+                "name": "44",
+                "slug": "44",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/kGEeW0JT/index.m3u8"
+                }
+            },
+            {
+                "name": "45",
+                "slug": "45",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/571gPOOH/index.m3u8"
+                }
+            },
+            {
+                "name": "46",
+                "slug": "46",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/FUHyUV3C/index.m3u8"
+                }
+            },
+            {
+                "name": "47",
+                "slug": "47",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/vq8zmkqW/index.m3u8"
+                }
+            },
+            {
+                "name": "48",
+                "slug": "48",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/91BYWSHK/index.m3u8"
+                }
+            },
+            {
+                "name": "49",
+                "slug": "49",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/TWZ4YWut/index.m3u8"
+                }
+            },
+            {
+                "name": "50",
+                "slug": "50",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/ECzdrUqo/index.m3u8"
+                }
+            },
+            {
+                "name": "51",
+                "slug": "51",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/2URyMfJI/index.m3u8"
+                }
+            },
+            {
+                "name": "52",
+                "slug": "52",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/sZGtl7M7/index.m3u8"
+                }
+            },
+            {
+                "name": "53",
+                "slug": "53",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Y2wpWJ1j/index.m3u8"
+                }
+            },
+            {
+                "name": "54",
+                "slug": "54",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/jwfkZlz7/index.m3u8"
+                }
+            },
+            {
+                "name": "55",
+                "slug": "55",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/fQwc1crD/index.m3u8"
+                }
+            },
+            {
+                "name": "56",
+                "slug": "56",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/ddP5cP4o/index.m3u8"
+                }
+            },
+            {
+                "name": "57",
+                "slug": "57",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/pfV0BRcm/index.m3u8"
+                }
+            },
+            {
+                "name": "58",
+                "slug": "58",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Habkm2NQ/index.m3u8"
+                }
+            },
+            {
+                "name": "59",
+                "slug": "59",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/j0ZxTjgK/index.m3u8"
+                }
+            },
+            {
+                "name": "60",
+                "slug": "60",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/VNGBehVb/index.m3u8"
+                }
+            },
+            {
+                "name": "61",
+                "slug": "61",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/sQCP7XiY/index.m3u8"
+                }
+            },
+            {
+                "name": "62",
+                "slug": "62",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/HAxnRJWl/index.m3u8"
+                }
+            },
+            {
+                "name": "63",
+                "slug": "63",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/k61HXMrU/index.m3u8"
+                }
+            },
+            {
+                "name": "64",
+                "slug": "64",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/awL0AZuQ/index.m3u8"
+                }
+            },
+            {
+                "name": "65",
+                "slug": "65",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/EgCIzEQX/index.m3u8"
+                }
+            },
+            {
+                "name": "66",
+                "slug": "66",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/a3Z8ghrD/index.m3u8"
+                }
+            },
+            {
+                "name": "67",
+                "slug": "67",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/9nD7dsAp/index.m3u8"
+                }
+            },
+            {
+                "name": "68",
+                "slug": "68",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/eACk4JJ5/index.m3u8"
+                }
+            },
+            {
+                "name": "69",
+                "slug": "69",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/irkyrCrO/index.m3u8"
+                }
+            },
+            {
+                "name": "70",
+                "slug": "70",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/qaZMjRvj/index.m3u8"
+                }
+            },
+            {
+                "name": "71",
+                "slug": "71",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Aj6IvP8R/index.m3u8"
+                }
+            },
+            {
+                "name": "72",
+                "slug": "72",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/rGR7cG6p/index.m3u8"
+                }
+            },
+            {
+                "name": "73",
+                "slug": "73",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/4s0TcJGV/index.m3u8"
+                }
+            },
+            {
+                "name": "74",
+                "slug": "74",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/z3NZxvbV/index.m3u8"
+                }
+            },
+            {
+                "name": "75",
+                "slug": "75",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/cKwTQfw1/index.m3u8"
+                }
+            },
+            {
+                "name": "76",
+                "slug": "76",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/HuTmSVrY/index.m3u8"
+                }
+            },
+            {
+                "name": "77",
+                "slug": "77",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/KylCsJdq/index.m3u8"
+                }
+            },
+            {
+                "name": "78",
+                "slug": "78",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/s6PRWuTn/index.m3u8"
+                }
+            },
+            {
+                "name": "79",
+                "slug": "79",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/AASHc5im/index.m3u8"
+                }
+            },
+            {
+                "name": "80",
+                "slug": "80",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/fgthFuVB/index.m3u8"
+                }
+            },
+            {
+                "name": "81",
+                "slug": "81",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Ew1tqYwy/index.m3u8"
+                }
+            },
+            {
+                "name": "82",
+                "slug": "82",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/YxzuL09g/index.m3u8"
+                }
+            },
+            {
+                "name": "83",
+                "slug": "83",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/owvy85RD/index.m3u8"
+                }
+            },
+            {
+                "name": "84",
+                "slug": "84",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/1Y2ZDurd/index.m3u8"
+                }
+            },
+            {
+                "name": "85",
+                "slug": "85",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/QeR8EKQP/index.m3u8"
+                }
+            },
+            {
+                "name": "86",
+                "slug": "86",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/JATwiuXA/index.m3u8"
+                }
+            },
+            {
+                "name": "87",
+                "slug": "87",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/ILbGdT1b/index.m3u8"
+                }
+            },
+            {
+                "name": "88",
+                "slug": "88",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/TTF2rPmr/index.m3u8"
+                }
+            },
+            {
+                "name": "89",
+                "slug": "89",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/679hXTN4/index.m3u8"
+                }
+            },
+            {
+                "name": "90",
+                "slug": "90",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/hc2PRW1f/index.m3u8"
+                }
+            },
+            {
+                "name": "91",
+                "slug": "91",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/11Wt0B5K/index.m3u8"
+                }
+            },
+            {
+                "name": "92",
+                "slug": "92",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/qWRNcWi6/index.m3u8"
+                }
+            },
+            {
+                "name": "93",
+                "slug": "93",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/iTljfUnG/index.m3u8"
+                }
+            },
+            {
+                "name": "94",
+                "slug": "94",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/yADeXRcw/index.m3u8"
+                }
+            },
+            {
+                "name": "95",
+                "slug": "95",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/pDEBzb6h/index.m3u8"
+                }
+            },
+            {
+                "name": "96",
+                "slug": "96",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/muNTAPGn/index.m3u8"
+                }
+            },
+            {
+                "name": "97",
+                "slug": "97",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/zxIYrvis/index.m3u8"
+                }
+            },
+            {
+                "name": "98",
+                "slug": "98",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/gMgRJt62/index.m3u8"
+                }
+            },
+            {
+                "name": "99",
+                "slug": "99",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/exqCOgGz/index.m3u8"
+                }
+            },
+            {
+                "name": "100",
+                "slug": "100",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/3Ca5bpXs/index.m3u8"
+                }
+            },
+            {
+                "name": "101",
+                "slug": "101",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/RxPuBT8A/index.m3u8"
+                }
+            },
+            {
+                "name": "102",
+                "slug": "102",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/UVu9VCdH/index.m3u8"
+                }
+            },
+            {
+                "name": "103",
+                "slug": "103",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/48Ra2iPc/index.m3u8"
+                }
+            },
+            {
+                "name": "104",
+                "slug": "104",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/QcYFO83G/index.m3u8"
+                }
+            },
+            {
+                "name": "105",
+                "slug": "105",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Y14S5580/index.m3u8"
+                }
+            },
+            {
+                "name": "106",
+                "slug": "106",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/sEZRBtgc/index.m3u8"
+                }
+            },
+            {
+                "name": "107",
+                "slug": "107",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/OeU2YQCI/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/vSt8XE7z/index.m3u8"
+                }
+            },
+            {
+                "name": "108",
+                "slug": "108",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/GsfQTjh1/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/Lex5PR7q/index.m3u8"
+                }
+            },
+            {
+                "name": "109",
+                "slug": "109",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/uxgJBqqD/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/QCsYjWwa/index.m3u8"
+                }
+            },
+            {
+                "name": "110",
+                "slug": "110",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/LXG4d8Tp/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/pyWErdIO/index.m3u8"
+                }
+            },
+            {
+                "name": "111",
+                "slug": "111",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/k440gr23/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/fdFEHaul/index.m3u8"
+                }
+            },
+            {
+                "name": "112",
+                "slug": "112",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/xeXrCH7C/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/35t37sy3/index.m3u8"
+                }
+            },
+            {
+                "name": "113",
+                "slug": "113",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Qtwz6dzi/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/Vw8hYR7X/index.m3u8"
+                }
+            },
+            {
+                "name": "114",
+                "slug": "114",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/fmKlKYKr/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/XY2pnO6l/index.m3u8"
+                }
+            },
+            {
+                "name": "115",
+                "slug": "115",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/qVMWpX3S/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/HJGVReTP/index.m3u8"
+                }
+            },
+            {
+                "name": "116",
+                "slug": "116",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/NzLEIm80/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/5jXLOrJq/index.m3u8"
+                }
+            },
+            {
+                "name": "117",
+                "slug": "117",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/MZp0QNjb/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/iqBo7xAQ/index.m3u8"
+                }
+            },
+            {
+                "name": "118",
+                "slug": "118",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/w31Lqq7D/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/tIhQYy5E/index.m3u8"
+                }
+            },
+            {
+                "name": "119",
+                "slug": "119",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/QE93UutC/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/xgILgRjb/index.m3u8"
+                }
+            },
+            {
+                "name": "120",
+                "slug": "120",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/JlgPCe4p/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/uKvVi7u2/index.m3u8"
+                }
+            },
+            {
+                "name": "121",
+                "slug": "121",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/KBN6dxxl/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/xyLSefop/index.m3u8"
+                }
+            },
+            {
+                "name": "122",
+                "slug": "122",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/NQbx10wf/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/iIJXHKIL/index.m3u8"
+                }
+            },
+            {
+                "name": "123",
+                "slug": "123",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/eU9UeNa0/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/yFIjEsml/index.m3u8"
+                }
+            },
+            {
+                "name": "124",
+                "slug": "124",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/7OyvoZUs/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/WO1mXnz7/index.m3u8"
+                }
+            },
+            {
+                "name": "125",
+                "slug": "125",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/lc7SI0tV/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/QALjioCo/index.m3u8"
+                }
+            },
+            {
+                "name": "126",
+                "slug": "126",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/eDggsfQw/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/Pr2a7GtU/index.m3u8"
+                }
+            },
+            {
+                "name": "127",
+                "slug": "127",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/HW2y6TfZ/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/oHguuwIz/index.m3u8"
+                }
+            },
+            {
+                "name": "128",
+                "slug": "128",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/66Z8ZtM8/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/8ezkUYYe/index.m3u8"
+                }
+            },
+            {
+                "name": "129",
+                "slug": "129",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/Q6t3FlvE/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/u9lksneQ/index.m3u8"
+                }
+            },
+            {
+                "name": "130",
+                "slug": "130",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250303/n18CpIwR/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/5R7brY2a/index.m3u8"
+                }
+            },
+            {
+                "name": "131",
+                "slug": "131",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250303/zF2duFYG/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/ACwHoPcL/index.m3u8"
+                }
+            },
+            {
+                "name": "132",
+                "slug": "132",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250303/lfKl7uXJ/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/yBlVLcOQ/index.m3u8"
+                }
+            },
+            {
+                "name": "133",
+                "slug": "133",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250303/nv26KI5p/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/xbU3bzsH/index.m3u8"
+                }
+            },
+            {
+                "name": "134",
+                "slug": "134",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250303/yDKZR26h/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/V4do7glt/index.m3u8"
+                }
+            },
+            {
+                "name": "135",
+                "slug": "135",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250303/EdDyiE5Z/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/Yv1WO5hw/index.m3u8"
+                }
+            },
+            {
+                "name": "136",
+                "slug": "136",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250303/iIZxAqkJ/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/r99naLX9/index.m3u8"
+                }
+            },
+            {
+                "name": "137",
+                "slug": "137",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250309/xhsdgW59/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/u0wtCt8E/index.m3u8"
+                }
+            },
+            {
+                "name": "138",
+                "slug": "138",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250315/iwkyPBRz/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/MXz5vW8V/index.m3u8"
+                }
+            },
+            {
+                "name": "139",
+                "slug": "139",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250324/zu4hh225/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/HjxJnNSO/index.m3u8"
+                }
+            },
+            {
+                "name": "140",
+                "slug": "140",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250330/rVI9u9za/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/PjuI9aYI/index.m3u8"
+                }
+            },
+            {
+                "name": "141",
+                "slug": "141",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250407/GJBTgufG/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/X75odrHs/index.m3u8"
+                }
+            },
+            {
+                "name": "142",
+                "slug": "142",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250412/qH5mSq8F/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/hYGll4Yy/index.m3u8"
+                }
+            },
+            {
+                "name": "143",
+                "slug": "143",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250420/0le6c8Y4/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/mWDlWsQc/index.m3u8"
+                }
+            },
+            {
+                "name": "144",
+                "slug": "144",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250427/RbmIeIqf/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/zJded7I1/index.m3u8"
+                }
+            },
+            {
+                "name": "145",
+                "slug": "145",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250504/UW3FUHxl/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/hSS1NDgD/index.m3u8"
+                }
+            },
+            {
+                "name": "146",
+                "slug": "146",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250511/610zRphi/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/8uWfpqjc/index.m3u8"
+                }
+            },
+            {
+                "name": "147",
+                "slug": "147",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250518/G3WrJPA6/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/UHVTAQv6/index.m3u8"
+                }
+            },
+            {
+                "name": "148",
+                "slug": "148",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250524/b5XFbAaF/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/Hpfy6a5T/index.m3u8"
+                }
+            },
+            {
+                "name": "149",
+                "slug": "149",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250602/xKHeQeul/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/goZGsoMF/index.m3u8"
+                }
+            },
+            {
+                "name": "150",
+                "slug": "150",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250609/h7S2al57/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/FNqLHYIh/index.m3u8"
+                }
+            },
+            {
+                "name": "151",
+                "slug": "151",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250616/79F0pIo2/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/I5xIqrMQ/index.m3u8"
+                }
+            },
+            {
+                "name": "152",
+                "slug": "152",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250622/gmAm0cGv/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/RYN2rMgN/index.m3u8"
+                }
+            },
+            {
+                "name": "153",
+                "slug": "153",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250630/QmFl6ra1/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/dhsc1bty/index.m3u8"
+                }
+            },
+            {
+                "name": "154",
+                "slug": "154",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250707/4sHHq2sM/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/BkR2kGso/index.m3u8"
+                }
+            },
+            {
+                "name": "155",
+                "slug": "155",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250713/jbN0nbxp/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/zqbhEjM8/index.m3u8"
+                }
+            },
+            {
+                "name": "156",
+                "slug": "156",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250719/6YuZsZ5f/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/aimnkgbt/index.m3u8"
+                }
+            },
+            {
+                "name": "157",
+                "slug": "157",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250727/xyuH9v6r/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/96dOFEDJ/index.m3u8"
+                }
+            },
+            {
+                "name": "158",
+                "slug": "158",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250803/5aKxpfBx/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250803/GEBwDVVF/index.m3u8"
+                }
+            },
+            {
+                "name": "159",
+                "slug": "159",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250811/V3taFxPu/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250811/ShUmbC4I/index.m3u8"
+                }
+            },
+            {
+                "name": "160",
+                "slug": "160",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250817/Cn5CstHH/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250817/ZwD3LSta/index.m3u8"
+                }
+            },
+            {
+                "name": "161",
+                "slug": "161",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250829/MZhL37Tb/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250830/uXYxRGyW/index.m3u8"
+                }
+            },
+            {
+                "name": "162",
+                "slug": "162",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250902/rZB8qusE/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250902/h6sWOUW5/index.m3u8"
+                }
+            },
+            {
+                "name": "163",
+                "slug": "163",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250909/wlPerc8J/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250909/EFLoS6LJ/index.m3u8"
+                }
+            },
+            {
+                "name": "164",
+                "slug": "164",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250915/o2mOd95Y/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250915/9hiLm9ZB/index.m3u8"
+                }
+            },
+            {
+                "name": "165",
+                "slug": "165",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250922/V4d0QTWQ/index.m3u8",
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250922/llGc7LEv/index.m3u8"
+                }
+            },
+            {
+                "name": "166",
+                "slug": "166",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251002/PSl2RCHy/index.m3u8"
+                }
+            },
+            {
+                "name": "167",
+                "slug": "167",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251005/ykOyrZLZ/index.m3u8"
+                }
+            },
+            {
+                "name": "168",
+                "slug": "168",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251021/T8GKXP1k/index.m3u8"
+                }
+            },
+            {
+                "name": "169",
+                "slug": "169",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251021/C4hs2xTG/index.m3u8"
+                }
+            },
+            {
+                "name": "170",
+                "slug": "170",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251026/QMvNDaQ7/index.m3u8"
+                }
+            },
+            {
+                "name": "171",
+                "slug": "171",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251102/cTGdUAOB/index.m3u8"
+                }
+            },
+            {
+                "name": "172",
+                "slug": "172",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251109/vFdjTmS9/index.m3u8"
+                }
+            },
+            {
+                "name": "173",
+                "slug": "173",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251116/cKw2JZVM/index.m3u8"
+                }
+            },
+            {
+                "name": "174",
+                "slug": "174",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251122/QAXKCxhj/index.m3u8"
+                }
+            },
+            {
+                "name": "175",
+                "slug": "175",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251130/gPUzYpKS/index.m3u8"
+                }
+            },
+            {
+                "name": "176",
+                "slug": "176",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251208/FhhNwWxX/index.m3u8"
+                }
+            },
+            {
+                "name": "177",
+                "slug": "177",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251214/Z5a9ay3p/index.m3u8"
+                }
+            },
+            {
+                "name": "178",
+                "slug": "178",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251221/kHVpErd8/index.m3u8"
+                }
+            },
+            {
+                "name": "179",
+                "slug": "179",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251228/gnnf2ShB/index.m3u8"
+                }
+            },
+            {
+                "name": "180",
+                "slug": "180",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260111/2o5b3AYn/index.m3u8"
+                }
+            },
+            {
+                "name": "181",
+                "slug": "181",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260111/58GQLnPM/index.m3u8"
+                }
+            },
+            {
+                "name": "182",
+                "slug": "182",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260118/VJAffjWN/index.m3u8"
+                }
+            },
+            {
+                "name": "183",
+                "slug": "183",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260125/TJP2kfWU/index.m3u8"
+                }
+            },
+            {
+                "name": "184",
+                "slug": "184",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260201/X33lHIob/index.m3u8"
+                }
+            },
+            {
+                "name": "185",
+                "slug": "185",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260208/oAr2Hqbp/index.m3u8"
+                }
+            },
+            {
+                "name": "186",
+                "slug": "186",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260215/YRusrBxY/index.m3u8"
+                }
+            },
+            {
+                "name": "187",
+                "slug": "187",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260222/X6pXdTop/index.m3u8"
+                }
+            },
+            {
+                "name": "188",
+                "slug": "188",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260301/PAnLhftv/index.m3u8"
+                }
+            },
+            {
+                "name": "189",
+                "slug": "189",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260309/jVXR1g1e/index.m3u8"
+                }
+            },
+            {
+                "name": "190",
+                "slug": "190",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260315/vDc1rBab/index.m3u8"
+                }
+            },
+            {
+                "name": "191",
+                "slug": "191",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260322/PO5FqVLT/index.m3u8"
+                }
+            },
+            {
+                "name": "192",
+                "slug": "192",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260329/ZNJF71gd/index.m3u8"
+                }
+            },
+            {
+                "name": "193",
+                "slug": "193",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260404/FIwj0rML/index.m3u8"
+                }
+            },
+            {
+                "name": "194",
+                "slug": "194",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260412/ro1bhj7S/index.m3u8"
+                }
+            },
+            {
+                "name": "195",
+                "slug": "195",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260419/rvUOEGgF/index.m3u8"
+                }
+            },
+            {
+                "name": "196",
+                "slug": "196",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260426/qicNZzFv/index.m3u8"
+                }
+            },
+            {
+                "name": "197",
+                "slug": "197",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260503/UU5gBn4f/index.m3u8"
+                }
+            },
+            {
+                "name": "198",
+                "slug": "198",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260509/08NEZjlv/index.m3u8"
+                }
+            },
+            {
+                "name": "199",
+                "slug": "199",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260516/gC15E17D/index.m3u8"
+                }
+            },
+            {
+                "name": "200",
+                "slug": "200",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260523/MqK6CNoh/index.m3u8"
+                }
+            },
+            {
+                "name": "201",
+                "slug": "201",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260530/6lMTfepH/index.m3u8"
+                }
+            },
+            {
+                "name": "202",
+                "slug": "202",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260606/2fj2CKJD/index.m3u8"
+                }
+            },
+            {
+                "name": "203",
+                "slug": "203",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260613/9Q2id8MW/index.m3u8"
+                }
+            },
+            {
+                "name": "204",
+                "slug": "204",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260620/ymfFUfI5/index.m3u8"
+                }
+            },
+            {
+                "name": "205",
+                "slug": "205",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260627/V2lqUqU0/index.m3u8"
+                }
+            },
+            {
+                "name": "206",
+                "slug": "206",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260704/8aqoAGjP/index.m3u8"
+                }
+            },
+            {
+                "name": "207",
+                "slug": "207",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260711/ax1u0s7S/index.m3u8"
+                }
+            },
+            {
+                "name": "208",
+                "slug": "208",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260905/O2QMZxLx/index.m3u8"
+                }
+            },
+            {
+                "name": "209",
+                "slug": "209",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260905/bLIva4ro/index.m3u8"
+                }
+            },
+            {
+                "name": "210",
+                "slug": "210",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260912/PeMOuR4w/index.m3u8"
+                }
+            },
+            {
+                "name": "211",
+                "slug": "211",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20260919/UV63U9pi/index.m3u8"
+                }
+            },
+            {
+                "name": "212",
+                "slug": "212",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20260926/qXApzGlm/index.m3u8"
+                }
+            },
+            {
+                "name": "213",
+                "slug": "213",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261003/0rAu3AcU/index.m3u8"
+                }
+            },
+            {
+                "name": "214",
+                "slug": "214",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261010/PK33vaDo/index.m3u8"
+                }
+            },
+            {
+                "name": "215",
+                "slug": "215",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261018/UFGCOXpV/index.m3u8"
+                }
+            },
+            {
+                "name": "216",
+                "slug": "216",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20261024/ye4MB8BC/index.m3u8"
+                }
+            },
+            {
+                "name": "01-05",
+                "slug": "01-05",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/0EeSbPlL/index.m3u8"
+                }
+            },
+            {
+                "name": "06-10",
+                "slug": "06-10",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/gCuCdcUS/index.m3u8"
+                }
+            },
+            {
+                "name": "100 OVA",
+                "slug": "100-ova",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/A1xbxICR/index.m3u8"
+                }
+            },
+            {
+                "name": "100 OVA1",
+                "slug": "100-ova1",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/OY9lVtEo/index.m3u8"
+                }
+            },
+            {
+                "name": "100 OVA2",
+                "slug": "100-ova2",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250305/ood8am2f/index.m3u8"
+                }
+            },
+            {
+                "name": "101-105",
+                "slug": "101-105",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/NBtGG7A6/index.m3u8"
+                }
+            },
+            {
+                "name": "106 P6",
+                "slug": "106-p6",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/ytDPhCbx/index.m3u8"
+                }
+            },
+            {
+                "name": "11-15",
+                "slug": "11-15",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/q7PbLz0c/index.m3u8"
+                }
+            },
+            {
+                "name": "16-20",
+                "slug": "16-20",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/AmVy1h07/index.m3u8"
+                }
+            },
+            {
+                "name": "21-25",
+                "slug": "21-25",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/GITEMzCO/index.m3u8"
+                }
+            },
+            {
+                "name": "26-30",
+                "slug": "26-30",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/zFvDweJy/index.m3u8"
+                }
+            },
+            {
+                "name": "31-35",
+                "slug": "31-35",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/5qGTTIRZ/index.m3u8"
+                }
+            },
+            {
+                "name": "36-40",
+                "slug": "36-40",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/oJRVPPd1/index.m3u8"
+                }
+            },
+            {
+                "name": "41-45",
+                "slug": "41-45",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/3HzB4Atl/index.m3u8"
+                }
+            },
+            {
+                "name": "46-50",
+                "slug": "46-50",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/EPDZuq4X/index.m3u8"
+                }
+            },
+            {
+                "name": "51-55",
+                "slug": "51-55",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/3OGV8MKe/index.m3u8"
+                }
+            },
+            {
+                "name": "56-60",
+                "slug": "56-60",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/6YVFExn6/index.m3u8"
+                }
+            },
+            {
+                "name": "61-65",
+                "slug": "61-65",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/3FimNykJ/index.m3u8"
+                }
+            },
+            {
+                "name": "66-70",
+                "slug": "66-70",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/ItaUvToV/index.m3u8"
+                }
+            },
+            {
+                "name": "71-75",
+                "slug": "71-75",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250731/lTcicjB5/index.m3u8"
+                }
+            },
+            {
+                "name": "76-80",
+                "slug": "76-80",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/Gg8zbgQT/index.m3u8"
+                }
+            },
+            {
+                "name": "81-85",
+                "slug": "81-85",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/7XS1BtS8/index.m3u8"
+                }
+            },
+            {
+                "name": "86-90",
+                "slug": "86-90",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/DkM4p0Gk/index.m3u8"
+                }
+            },
+            {
+                "name": "91-95",
+                "slug": "91-95",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/qUAg9Q54/index.m3u8"
+                }
+            },
+            {
+                "name": "96-100",
+                "slug": "96-100",
+                "servers": {
+                    "Thuyết Minh": "https://s6.kkphimplayer6.com/20250801/SOSdxSf7/index.m3u8"
+                }
+            }
+        ]
+    },
+    "the-gioi-hoan-my": {
+        "id": "the-gioi-hoan-my",
+        "name": "Thế Giới Hoàn Mỹ - Perfect World",
+        "category": "phim-bo",
+        "description": "Thới Giới Hoàn Mỹ là phim hoạt hình kể về quá trình trưởng thành của một đứa trẻ trời sinh Chí Tôn cốt (đứa bé này tương lai có thể sánh vai cùng hung Thái cổ được trời ưu ái), có thể chinh chiến với Chân Hống, Kim Sí Đại Bàng có huyết mạnh tinh thuần đến hoàn mỹ, Nguyên thủy bảo thuật của nó sẽ danh chấn thiên hạ, được ghi khắc vào lịch sử của dân tộc.",
+        "poster": "https://phimimg.com/upload/vod/20240822-1/98b87edeb63d262313f864bc57df93d5.jpg",
+        "year": "2021",
+        "episodes": [
+            {
+                "name": "1",
+                "slug": "1",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/xZEA0QQm/index.m3u8"
+                }
+            },
+            {
+                "name": "2",
+                "slug": "2",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/8dc1RCXl/index.m3u8"
+                }
+            },
+            {
+                "name": "3",
+                "slug": "3",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/kE1sOB4f/index.m3u8"
+                }
+            },
+            {
+                "name": "4",
+                "slug": "4",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/sfiEAT1F/index.m3u8"
+                }
+            },
+            {
+                "name": "5",
+                "slug": "5",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/psEjDKOj/index.m3u8"
+                }
+            },
+            {
+                "name": "6",
+                "slug": "6",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/rgKV2wNj/index.m3u8"
+                }
+            },
+            {
+                "name": "7",
+                "slug": "7",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/bnDaxXCK/index.m3u8"
+                }
+            },
+            {
+                "name": "8",
+                "slug": "8",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/7ZaRqidO/index.m3u8"
+                }
+            },
+            {
+                "name": "9",
+                "slug": "9",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/aEOpCG0o/index.m3u8"
+                }
+            },
+            {
+                "name": "10",
+                "slug": "10",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/ZS4LtGmg/index.m3u8"
+                }
+            },
+            {
+                "name": "11",
+                "slug": "11",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/A8g4CXQd/index.m3u8"
+                }
+            },
+            {
+                "name": "12",
+                "slug": "12",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/xKAqb6XY/index.m3u8"
+                }
+            },
+            {
+                "name": "13",
+                "slug": "13",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/vQnuFzmY/index.m3u8"
+                }
+            },
+            {
+                "name": "14",
+                "slug": "14",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/1vNGQjt6/index.m3u8"
+                }
+            },
+            {
+                "name": "15",
+                "slug": "15",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/vEN3unmr/index.m3u8"
+                }
+            },
+            {
+                "name": "16",
+                "slug": "16",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/0kaCy1CB/index.m3u8"
+                }
+            },
+            {
+                "name": "17",
+                "slug": "17",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/5gdzsPkM/index.m3u8"
+                }
+            },
+            {
+                "name": "18",
+                "slug": "18",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/bfKwM9vt/index.m3u8"
+                }
+            },
+            {
+                "name": "19",
+                "slug": "19",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/mDCMFeUm/index.m3u8"
+                }
+            },
+            {
+                "name": "20",
+                "slug": "20",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/F0KIXhcd/index.m3u8"
+                }
+            },
+            {
+                "name": "21",
+                "slug": "21",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/xEdjqRiw/index.m3u8"
+                }
+            },
+            {
+                "name": "22",
+                "slug": "22",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/hPO2ydcq/index.m3u8"
+                }
+            },
+            {
+                "name": "23",
+                "slug": "23",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/INb9c9sD/index.m3u8"
+                }
+            },
+            {
+                "name": "24",
+                "slug": "24",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/WdpSBct6/index.m3u8"
+                }
+            },
+            {
+                "name": "25",
+                "slug": "25",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/E0BFCM2C/index.m3u8"
+                }
+            },
+            {
+                "name": "26",
+                "slug": "26",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/1z03sTgb/index.m3u8"
+                }
+            },
+            {
+                "name": "27",
+                "slug": "27",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/h9HCXh56/index.m3u8"
+                }
+            },
+            {
+                "name": "28",
+                "slug": "28",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/lRTrfOJ0/index.m3u8"
+                }
+            },
+            {
+                "name": "29",
+                "slug": "29",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/BTYOTD5G/index.m3u8"
+                }
+            },
+            {
+                "name": "30",
+                "slug": "30",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/q6PBDxG9/index.m3u8"
+                }
+            },
+            {
+                "name": "31",
+                "slug": "31",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/RGeStvVu/index.m3u8"
+                }
+            },
+            {
+                "name": "32",
+                "slug": "32",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/CKQIK5es/index.m3u8"
+                }
+            },
+            {
+                "name": "33",
+                "slug": "33",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/zEQAZ8Yj/index.m3u8"
+                }
+            },
+            {
+                "name": "34",
+                "slug": "34",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/DnKcDf0p/index.m3u8"
+                }
+            },
+            {
+                "name": "35",
+                "slug": "35",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/ejxKgXCs/index.m3u8"
+                }
+            },
+            {
+                "name": "36",
+                "slug": "36",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/MmDyLMxt/index.m3u8"
+                }
+            },
+            {
+                "name": "37",
+                "slug": "37",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Hf8ItakV/index.m3u8"
+                }
+            },
+            {
+                "name": "38",
+                "slug": "38",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/K25WkxaH/index.m3u8"
+                }
+            },
+            {
+                "name": "39",
+                "slug": "39",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/TcVlWLBz/index.m3u8"
+                }
+            },
+            {
+                "name": "40",
+                "slug": "40",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/sTOQn939/index.m3u8"
+                }
+            },
+            {
+                "name": "41",
+                "slug": "41",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/tjxe5lzh/index.m3u8"
+                }
+            },
+            {
+                "name": "42",
+                "slug": "42",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/yQ2jYoc2/index.m3u8"
+                }
+            },
+            {
+                "name": "43",
+                "slug": "43",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Gf5rlkea/index.m3u8"
+                }
+            },
+            {
+                "name": "44",
+                "slug": "44",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/wVoFZF3Z/index.m3u8"
+                }
+            },
+            {
+                "name": "45",
+                "slug": "45",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240822/vCdDcmqV/index.m3u8"
+                }
+            },
+            {
+                "name": "46",
+                "slug": "46",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/VkQMJrga/index.m3u8"
+                }
+            },
+            {
+                "name": "47",
+                "slug": "47",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/1Dg6p9cw/index.m3u8"
+                }
+            },
+            {
+                "name": "48",
+                "slug": "48",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/B0hZTi6P/index.m3u8"
+                }
+            },
+            {
+                "name": "49",
+                "slug": "49",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/cNiql634/index.m3u8"
+                }
+            },
+            {
+                "name": "50",
+                "slug": "50",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/88iBLLrB/index.m3u8"
+                }
+            },
+            {
+                "name": "51",
+                "slug": "51",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/6HnnaIj2/index.m3u8"
+                }
+            },
+            {
+                "name": "52",
+                "slug": "52",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/dZ6xiNNC/index.m3u8"
+                }
+            },
+            {
+                "name": "53",
+                "slug": "53",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/hbF2SqOY/index.m3u8"
+                }
+            },
+            {
+                "name": "54",
+                "slug": "54",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/ID7FSxCw/index.m3u8"
+                }
+            },
+            {
+                "name": "55",
+                "slug": "55",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/2c00dzPS/index.m3u8"
+                }
+            },
+            {
+                "name": "56",
+                "slug": "56",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/L1xLYPOd/index.m3u8"
+                }
+            },
+            {
+                "name": "57",
+                "slug": "57",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/EJuJ5GEh/index.m3u8"
+                }
+            },
+            {
+                "name": "58",
+                "slug": "58",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/7Yf39yMU/index.m3u8"
+                }
+            },
+            {
+                "name": "59",
+                "slug": "59",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/EmVeU1m5/index.m3u8"
+                }
+            },
+            {
+                "name": "60",
+                "slug": "60",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/f2TnaNwp/index.m3u8"
+                }
+            },
+            {
+                "name": "61",
+                "slug": "61",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/NvZV90g9/index.m3u8"
+                }
+            },
+            {
+                "name": "62",
+                "slug": "62",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/i2vs2iJZ/index.m3u8"
+                }
+            },
+            {
+                "name": "63",
+                "slug": "63",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/K0OhxsjV/index.m3u8"
+                }
+            },
+            {
+                "name": "64",
+                "slug": "64",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/jRAJQEN6/index.m3u8"
+                }
+            },
+            {
+                "name": "65",
+                "slug": "65",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/OssKP9Ga/index.m3u8"
+                }
+            },
+            {
+                "name": "66",
+                "slug": "66",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/GZ3xxlkK/index.m3u8"
+                }
+            },
+            {
+                "name": "67",
+                "slug": "67",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/l4NmW09f/index.m3u8"
+                }
+            },
+            {
+                "name": "68",
+                "slug": "68",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/JcK451eo/index.m3u8"
+                }
+            },
+            {
+                "name": "69",
+                "slug": "69",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/OawPlOCE/index.m3u8"
+                }
+            },
+            {
+                "name": "70",
+                "slug": "70",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/TTXWIqEi/index.m3u8"
+                }
+            },
+            {
+                "name": "71",
+                "slug": "71",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/bipQl3Pt/index.m3u8"
+                }
+            },
+            {
+                "name": "72",
+                "slug": "72",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/x6IYqUUN/index.m3u8"
+                }
+            },
+            {
+                "name": "73",
+                "slug": "73",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/zkcpy5Y1/index.m3u8"
+                }
+            },
+            {
+                "name": "74",
+                "slug": "74",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/FsMgAYxu/index.m3u8"
+                }
+            },
+            {
+                "name": "75",
+                "slug": "75",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/visfUZnb/index.m3u8"
+                }
+            },
+            {
+                "name": "76",
+                "slug": "76",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/FVXOQ0UO/index.m3u8"
+                }
+            },
+            {
+                "name": "77",
+                "slug": "77",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/i2faDNDJ/index.m3u8"
+                }
+            },
+            {
+                "name": "78",
+                "slug": "78",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/oq9sbNrY/index.m3u8"
+                }
+            },
+            {
+                "name": "79",
+                "slug": "79",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/gmeN9gu1/index.m3u8"
+                }
+            },
+            {
+                "name": "80",
+                "slug": "80",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/FlSUvl9g/index.m3u8"
+                }
+            },
+            {
+                "name": "81",
+                "slug": "81",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/LQD3hzjC/index.m3u8"
+                }
+            },
+            {
+                "name": "82",
+                "slug": "82",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/CU4kDts5/index.m3u8"
+                }
+            },
+            {
+                "name": "83",
+                "slug": "83",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/BMGTY2ge/index.m3u8"
+                }
+            },
+            {
+                "name": "84",
+                "slug": "84",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/0IiaqlDS/index.m3u8"
+                }
+            },
+            {
+                "name": "85",
+                "slug": "85",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/EnczvHEj/index.m3u8"
+                }
+            },
+            {
+                "name": "86",
+                "slug": "86",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/9N0MxKqa/index.m3u8"
+                }
+            },
+            {
+                "name": "87",
+                "slug": "87",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/XX3y2pZQ/index.m3u8"
+                }
+            },
+            {
+                "name": "88",
+                "slug": "88",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/F3cjm87d/index.m3u8"
+                }
+            },
+            {
+                "name": "89",
+                "slug": "89",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s3.phim1280.tv/20240822/dEhPzsgM/index.m3u8"
+                }
+            },
+            {
+                "name": "90",
+                "slug": "90",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/C27iUL9Q/index.m3u8"
+                }
+            },
+            {
+                "name": "91",
+                "slug": "91",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/v2mQnYpM/index.m3u8"
+                }
+            },
+            {
+                "name": "92",
+                "slug": "92",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/bAgqiDFZ/index.m3u8"
+                }
+            },
+            {
+                "name": "93",
+                "slug": "93",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/mur2DiSB/index.m3u8"
+                }
+            },
+            {
+                "name": "94",
+                "slug": "94",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/kkSF5nwd/index.m3u8"
+                }
+            },
+            {
+                "name": "95",
+                "slug": "95",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/jHI6IwpN/index.m3u8"
+                }
+            },
+            {
+                "name": "96",
+                "slug": "96",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/wd46QmuE/index.m3u8"
+                }
+            },
+            {
+                "name": "97",
+                "slug": "97",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/YhYZUoxK/index.m3u8"
+                }
+            },
+            {
+                "name": "98",
+                "slug": "98",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/jVg68ayt/index.m3u8"
+                }
+            },
+            {
+                "name": "99",
+                "slug": "99",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/OxZBICpW/index.m3u8"
+                }
+            },
+            {
+                "name": "100",
+                "slug": "100",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/zI8JrJXc/index.m3u8"
+                }
+            },
+            {
+                "name": "101",
+                "slug": "101",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/99ZaqOyb/index.m3u8"
+                }
+            },
+            {
+                "name": "102",
+                "slug": "102",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/vKhYn0j9/index.m3u8"
+                }
+            },
+            {
+                "name": "103",
+                "slug": "103",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/TLy1XaxN/index.m3u8"
+                }
+            },
+            {
+                "name": "104",
+                "slug": "104",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/hW4vX1xi/index.m3u8"
+                }
+            },
+            {
+                "name": "105",
+                "slug": "105",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Q79OQGPI/index.m3u8"
+                }
+            },
+            {
+                "name": "106",
+                "slug": "106",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/6p0ztXIJ/index.m3u8"
+                }
+            },
+            {
+                "name": "107",
+                "slug": "107",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/pDq0yLNb/index.m3u8"
+                }
+            },
+            {
+                "name": "108",
+                "slug": "108",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/acMjacrj/index.m3u8"
+                }
+            },
+            {
+                "name": "109",
+                "slug": "109",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/nB8EBltE/index.m3u8"
+                }
+            },
+            {
+                "name": "110",
+                "slug": "110",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Fjxsp8Fc/index.m3u8"
+                }
+            },
+            {
+                "name": "111",
+                "slug": "111",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/NmTqZJU8/index.m3u8"
+                }
+            },
+            {
+                "name": "112",
+                "slug": "112",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/cUZqgKEn/index.m3u8"
+                }
+            },
+            {
+                "name": "113",
+                "slug": "113",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/BCnhuVmv/index.m3u8"
+                }
+            },
+            {
+                "name": "114",
+                "slug": "114",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/3qJ8aN8W/index.m3u8"
+                }
+            },
+            {
+                "name": "115",
+                "slug": "115",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/2SIL1RiQ/index.m3u8"
+                }
+            },
+            {
+                "name": "116",
+                "slug": "116",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/xLDRezY4/index.m3u8"
+                }
+            },
+            {
+                "name": "117",
+                "slug": "117",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/I0zBnhCM/index.m3u8"
+                }
+            },
+            {
+                "name": "118",
+                "slug": "118",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/0XG8DRKi/index.m3u8"
+                }
+            },
+            {
+                "name": "119",
+                "slug": "119",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/SKBRZfft/index.m3u8"
+                }
+            },
+            {
+                "name": "120",
+                "slug": "120",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/fVmC5u4R/index.m3u8"
+                }
+            },
+            {
+                "name": "121",
+                "slug": "121",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/uQwfYYuA/index.m3u8"
+                }
+            },
+            {
+                "name": "122",
+                "slug": "122",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/pGKTdP5A/index.m3u8"
+                }
+            },
+            {
+                "name": "123",
+                "slug": "123",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/nq0IKKDT/index.m3u8"
+                }
+            },
+            {
+                "name": "124",
+                "slug": "124",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/FWqFrxAv/index.m3u8"
+                }
+            },
+            {
+                "name": "125",
+                "slug": "125",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/au3j99VG/index.m3u8"
+                }
+            },
+            {
+                "name": "126",
+                "slug": "126",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/cowwRbQx/index.m3u8"
+                }
+            },
+            {
+                "name": "127",
+                "slug": "127",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/4YTh25Oc/index.m3u8"
+                }
+            },
+            {
+                "name": "128",
+                "slug": "128",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/l0otRTKM/index.m3u8"
+                }
+            },
+            {
+                "name": "129",
+                "slug": "129",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/ZaRDh2yt/index.m3u8"
+                }
+            },
+            {
+                "name": "130",
+                "slug": "130",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/c1ohKCrC/index.m3u8"
+                }
+            },
+            {
+                "name": "131",
+                "slug": "131",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Tw3LTGaK/index.m3u8"
+                }
+            },
+            {
+                "name": "132",
+                "slug": "132",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/LbIJAnJs/index.m3u8"
+                }
+            },
+            {
+                "name": "133",
+                "slug": "133",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/eoGmnYD9/index.m3u8"
+                }
+            },
+            {
+                "name": "134",
+                "slug": "134",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/j3izaWMR/index.m3u8"
+                }
+            },
+            {
+                "name": "135",
+                "slug": "135",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/TIaKB59D/index.m3u8"
+                }
+            },
+            {
+                "name": "136",
+                "slug": "136",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/j362NB2x/index.m3u8"
+                }
+            },
+            {
+                "name": "137",
+                "slug": "137",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/6IHYBAz0/index.m3u8"
+                }
+            },
+            {
+                "name": "138",
+                "slug": "138",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/pzhOKokq/index.m3u8"
+                }
+            },
+            {
+                "name": "139",
+                "slug": "139",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/YMNR0ByU/index.m3u8"
+                }
+            },
+            {
+                "name": "140",
+                "slug": "140",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/bsVLrbs1/index.m3u8"
+                }
+            },
+            {
+                "name": "141",
+                "slug": "141",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/LjB8xpVg/index.m3u8"
+                }
+            },
+            {
+                "name": "142",
+                "slug": "142",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/kIMwrIfw/index.m3u8"
+                }
+            },
+            {
+                "name": "143",
+                "slug": "143",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/yaNhsizF/index.m3u8"
+                }
+            },
+            {
+                "name": "144",
+                "slug": "144",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Yz6DrQaq/index.m3u8"
+                }
+            },
+            {
+                "name": "145",
+                "slug": "145",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/nH99wWhF/index.m3u8"
+                }
+            },
+            {
+                "name": "146",
+                "slug": "146",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/EQyq6Il1/index.m3u8"
+                }
+            },
+            {
+                "name": "147",
+                "slug": "147",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/sW9XBE3d/index.m3u8"
+                }
+            },
+            {
+                "name": "148",
+                "slug": "148",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/jQjUT42x/index.m3u8"
+                }
+            },
+            {
+                "name": "149",
+                "slug": "149",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/eJ7oM2Io/index.m3u8"
+                }
+            },
+            {
+                "name": "150",
+                "slug": "150",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/6iip2Nwk/index.m3u8"
+                }
+            },
+            {
+                "name": "151",
+                "slug": "151",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/LMiYQzbi/index.m3u8"
+                }
+            },
+            {
+                "name": "152",
+                "slug": "152",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/S38rVVHt/index.m3u8"
+                }
+            },
+            {
+                "name": "153",
+                "slug": "153",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/bKNdxe3m/index.m3u8"
+                }
+            },
+            {
+                "name": "154",
+                "slug": "154",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/tNJ6gyb0/index.m3u8"
+                }
+            },
+            {
+                "name": "155",
+                "slug": "155",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/utVjrXyt/index.m3u8"
+                }
+            },
+            {
+                "name": "156",
+                "slug": "156",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/IYH1PKYP/index.m3u8"
+                }
+            },
+            {
+                "name": "157",
+                "slug": "157",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/KWjrU1yF/index.m3u8"
+                }
+            },
+            {
+                "name": "158",
+                "slug": "158",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/tBnzHY8C/index.m3u8"
+                }
+            },
+            {
+                "name": "159",
+                "slug": "159",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/6B5fnlJq/index.m3u8"
+                }
+            },
+            {
+                "name": "160",
+                "slug": "160",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/9L2mEO6W/index.m3u8"
+                }
+            },
+            {
+                "name": "161",
+                "slug": "161",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/6nxDpgfx/index.m3u8"
+                }
+            },
+            {
+                "name": "162",
+                "slug": "162",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/wEKMiSXi/index.m3u8"
+                }
+            },
+            {
+                "name": "163",
+                "slug": "163",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/qZXByK6p/index.m3u8"
+                }
+            },
+            {
+                "name": "164",
+                "slug": "164",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/mirDggtl/index.m3u8"
+                }
+            },
+            {
+                "name": "165",
+                "slug": "165",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/R5cENubE/index.m3u8"
+                }
+            },
+            {
+                "name": "166",
+                "slug": "166",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Fdl5lKLZ/index.m3u8"
+                }
+            },
+            {
+                "name": "167",
+                "slug": "167",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/jH8MocUy/index.m3u8"
+                }
+            },
+            {
+                "name": "168",
+                "slug": "168",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/kRTPEUut/index.m3u8"
+                }
+            },
+            {
+                "name": "169",
+                "slug": "169",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/sf06oK4T/index.m3u8"
+                }
+            },
+            {
+                "name": "170",
+                "slug": "170",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/gVa7VNum/index.m3u8"
+                }
+            },
+            {
+                "name": "171",
+                "slug": "171",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/uY5hV7t2/index.m3u8"
+                }
+            },
+            {
+                "name": "172",
+                "slug": "172",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/VjJm3Vzr/index.m3u8"
+                }
+            },
+            {
+                "name": "173",
+                "slug": "173",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/h1l19vKx/index.m3u8"
+                }
+            },
+            {
+                "name": "174",
+                "slug": "174",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/xrvngyqX/index.m3u8"
+                }
+            },
+            {
+                "name": "175",
+                "slug": "175",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/wLOXZLZS/index.m3u8"
+                }
+            },
+            {
+                "name": "176",
+                "slug": "176",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/EY6TOwE2/index.m3u8"
+                }
+            },
+            {
+                "name": "177",
+                "slug": "177",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/eGeIivMj/index.m3u8"
+                }
+            },
+            {
+                "name": "178",
+                "slug": "178",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/xDDKj389/index.m3u8"
+                }
+            },
+            {
+                "name": "179",
+                "slug": "179",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/oSDmGhpK/index.m3u8"
+                }
+            },
+            {
+                "name": "180",
+                "slug": "180",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/pkNrRpoy/index.m3u8"
+                }
+            },
+            {
+                "name": "181",
+                "slug": "181",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/beNmPWtS/index.m3u8"
+                }
+            },
+            {
+                "name": "182",
+                "slug": "182",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/fzYQdTqv/index.m3u8"
+                }
+            },
+            {
+                "name": "183",
+                "slug": "183",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/eTOOvLMe/index.m3u8"
+                }
+            },
+            {
+                "name": "184",
+                "slug": "184",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/L5kUWyZb/index.m3u8"
+                }
+            },
+            {
+                "name": "185",
+                "slug": "185",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/GQSM9Dih/index.m3u8"
+                }
+            },
+            {
+                "name": "186",
+                "slug": "186",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/yWI2ga6R/index.m3u8"
+                }
+            },
+            {
+                "name": "187",
+                "slug": "187",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/zh49RNgW/index.m3u8"
+                }
+            },
+            {
+                "name": "188",
+                "slug": "188",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/lDkeUCap/index.m3u8"
+                }
+            },
+            {
+                "name": "189",
+                "slug": "189",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/P3TFBp9Z/index.m3u8"
+                }
+            },
+            {
+                "name": "190",
+                "slug": "190",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/z8SBemM2/index.m3u8"
+                }
+            },
+            {
+                "name": "191",
+                "slug": "191",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/TSvDXqUk/index.m3u8"
+                }
+            },
+            {
+                "name": "192",
+                "slug": "192",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/aOyPfTGg/index.m3u8"
+                }
+            },
+            {
+                "name": "193",
+                "slug": "193",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/0SHQa26o/index.m3u8"
+                }
+            },
+            {
+                "name": "194",
+                "slug": "194",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Et81bN1n/index.m3u8"
+                }
+            },
+            {
+                "name": "195",
+                "slug": "195",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/Jn1eZsaE/index.m3u8"
+                }
+            },
+            {
+                "name": "196",
+                "slug": "196",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/OsKbqzWl/index.m3u8"
+                }
+            },
+            {
+                "name": "197",
+                "slug": "197",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/LCNq5MjX/index.m3u8"
+                }
+            },
+            {
+                "name": "198",
+                "slug": "198",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/FA0vERID/index.m3u8"
+                }
+            },
+            {
+                "name": "199",
+                "slug": "199",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/e0fcKhQo/index.m3u8"
+                }
+            },
+            {
+                "name": "200",
+                "slug": "200",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/n06HWtg0/index.m3u8"
+                }
+            },
+            {
+                "name": "201",
+                "slug": "201",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/fMKXl1kP/index.m3u8"
+                }
+            },
+            {
+                "name": "202",
+                "slug": "202",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/nsgm8aCb/index.m3u8"
+                }
+            },
+            {
+                "name": "203",
+                "slug": "203",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/LZVoEf4L/index.m3u8"
+                }
+            },
+            {
+                "name": "204",
+                "slug": "204",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250303/MvVnVczf/index.m3u8"
+                }
+            },
+            {
+                "name": "205",
+                "slug": "205",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250307/4v6LhiQI/index.m3u8"
+                }
+            },
+            {
+                "name": "206",
+                "slug": "206",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250314/dWnxMpde/index.m3u8"
+                }
+            },
+            {
+                "name": "207",
+                "slug": "207",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250321/Yu621zrS/index.m3u8"
+                }
+            },
+            {
+                "name": "208",
+                "slug": "208",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250329/B4h0RvZk/index.m3u8"
+                }
+            },
+            {
+                "name": "209",
+                "slug": "209",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s4.phim1280.tv/20250404/EUeOCTiC/index.m3u8"
+                }
+            },
+            {
+                "name": "210",
+                "slug": "210",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250411/h2loQRxo/index.m3u8"
+                }
+            },
+            {
+                "name": "211",
+                "slug": "211",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250418/0IEhpUZo/index.m3u8"
+                }
+            },
+            {
+                "name": "212",
+                "slug": "212",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250425/oPFPhkC8/index.m3u8"
+                }
+            },
+            {
+                "name": "213",
+                "slug": "213",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250502/TDFXKeqR/index.m3u8"
+                }
+            },
+            {
+                "name": "214",
+                "slug": "214",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250509/XwZM1MH5/index.m3u8"
+                }
+            },
+            {
+                "name": "215",
+                "slug": "215",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s5.phim1280.tv/20250515/lTaylV91/index.m3u8"
+                }
+            },
+            {
+                "name": "216",
+                "slug": "216",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250523/JUffWsNt/index.m3u8"
+                }
+            },
+            {
+                "name": "217",
+                "slug": "217",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250530/wBMmvIXt/index.m3u8"
+                }
+            },
+            {
+                "name": "218",
+                "slug": "218",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250607/QGaOJ0al/index.m3u8"
+                }
+            },
+            {
+                "name": "219",
+                "slug": "219",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250613/0Wcmqk1Z/index.m3u8"
+                }
+            },
+            {
+                "name": "220",
+                "slug": "220",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250620/VloJXovM/index.m3u8"
+                }
+            },
+            {
+                "name": "221",
+                "slug": "221",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250627/1A9UvjxG/index.m3u8"
+                }
+            },
+            {
+                "name": "222",
+                "slug": "222",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250704/MrfJxvMR/index.m3u8"
+                }
+            },
+            {
+                "name": "223",
+                "slug": "223",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250713/Vod43K82/index.m3u8"
+                }
+            },
+            {
+                "name": "224",
+                "slug": "224",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250717/ePW3QjWO/index.m3u8"
+                }
+            },
+            {
+                "name": "225",
+                "slug": "225",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250725/Flxd5oDd/index.m3u8"
+                }
+            },
+            {
+                "name": "226",
+                "slug": "226",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250801/kDhRY1d9/index.m3u8"
+                }
+            },
+            {
+                "name": "227",
+                "slug": "227",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250809/qatndkDV/index.m3u8"
+                }
+            },
+            {
+                "name": "228",
+                "slug": "228",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250815/7wO5UGkP/index.m3u8"
+                }
+            },
+            {
+                "name": "229",
+                "slug": "229",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250822/VdaQkoAO/index.m3u8"
+                }
+            },
+            {
+                "name": "230",
+                "slug": "230",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250829/ws5uSvzh/index.m3u8"
+                }
+            },
+            {
+                "name": "231",
+                "slug": "231",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250905/uCX1hYIR/index.m3u8"
+                }
+            },
+            {
+                "name": "232",
+                "slug": "232",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250913/404PE4K9/index.m3u8"
+                }
+            },
+            {
+                "name": "233",
+                "slug": "233",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250920/i5yHZLIV/index.m3u8"
+                }
+            },
+            {
+                "name": "234",
+                "slug": "234",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20250927/wuBND3RC/index.m3u8"
+                }
+            },
+            {
+                "name": "235",
+                "slug": "235",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251004/sXMYEKdy/index.m3u8"
+                }
+            },
+            {
+                "name": "236",
+                "slug": "236",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251009/8qhGuWDL/index.m3u8"
+                }
+            },
+            {
+                "name": "237",
+                "slug": "237",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251018/UAeWUp1b/index.m3u8"
+                }
+            },
+            {
+                "name": "238",
+                "slug": "238",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251024/qRyZ6IAs/index.m3u8"
+                }
+            },
+            {
+                "name": "239",
+                "slug": "239",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251031/PIBxwoIw/index.m3u8"
+                }
+            },
+            {
+                "name": "240",
+                "slug": "240",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251109/fr1ZnteV/index.m3u8"
+                }
+            },
+            {
+                "name": "241",
+                "slug": "241",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251114/mC4RRIBn/index.m3u8"
+                }
+            },
+            {
+                "name": "242",
+                "slug": "242",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251120/x4LPvhMP/index.m3u8"
+                }
+            },
+            {
+                "name": "243",
+                "slug": "243",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251128/5CN32weK/index.m3u8"
+                }
+            },
+            {
+                "name": "244",
+                "slug": "244",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251205/HaLLHNfx/index.m3u8"
+                }
+            },
+            {
+                "name": "245",
+                "slug": "245",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251214/Nag0eHyC/index.m3u8"
+                }
+            },
+            {
+                "name": "246",
+                "slug": "246",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251219/tUwqjqCf/index.m3u8"
+                }
+            },
+            {
+                "name": "247",
+                "slug": "247",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20251226/hRlzBR2I/index.m3u8"
+                }
+            },
+            {
+                "name": "248",
+                "slug": "248",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260101/u5pSMzDI/index.m3u8"
+                }
+            },
+            {
+                "name": "249",
+                "slug": "249",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260102/DklTnVUp/index.m3u8"
+                }
+            },
+            {
+                "name": "250",
+                "slug": "250",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260108/IZmwOs5E/index.m3u8"
+                }
+            },
+            {
+                "name": "251",
+                "slug": "251",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260116/N8GivXrD/index.m3u8"
+                }
+            },
+            {
+                "name": "252",
+                "slug": "252",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260123/yqlYFIec/index.m3u8"
+                }
+            },
+            {
+                "name": "253",
+                "slug": "253",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260130/JWN0yO6W/index.m3u8"
+                }
+            },
+            {
+                "name": "254",
+                "slug": "254",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260206/pTZUsQgy/index.m3u8"
+                }
+            },
+            {
+                "name": "255",
+                "slug": "255",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260213/VCDzpKfx/index.m3u8"
+                }
+            },
+            {
+                "name": "256",
+                "slug": "256",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260221/gviaxICJ/index.m3u8"
+                }
+            },
+            {
+                "name": "257",
+                "slug": "257",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260227/SBxkoaam/index.m3u8"
+                }
+            },
+            {
+                "name": "258",
+                "slug": "258",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260306/fSYXZWCw/index.m3u8"
+                }
+            },
+            {
+                "name": "259",
+                "slug": "259",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260314/eiBuBCWx/index.m3u8"
+                }
+            },
+            {
+                "name": "260",
+                "slug": "260",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260320/PS1ZcETE/index.m3u8"
+                }
+            },
+            {
+                "name": "261",
+                "slug": "261",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260327/B1q596RG/index.m3u8"
+                }
+            },
+            {
+                "name": "262",
+                "slug": "262",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260403/8lWstmg3/index.m3u8"
+                }
+            },
+            {
+                "name": "263",
+                "slug": "263",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260410/maV87yJL/index.m3u8"
+                }
+            },
+            {
+                "name": "264",
+                "slug": "264",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://s6.kkphimplayer6.com/20260417/kPQ9SdCC/index.m3u8"
+                }
+            },
+            {
+                "name": "265",
+                "slug": "265",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260424/oEhOnvYp/index.m3u8"
+                }
+            },
+            {
+                "name": "266",
+                "slug": "266",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260430/6CDEnYSu/index.m3u8"
+                }
+            },
+            {
+                "name": "267",
+                "slug": "267",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260501/daGzgcII/index.m3u8"
+                }
+            },
+            {
+                "name": "268",
+                "slug": "268",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260508/ZIXbDQZ5/index.m3u8"
+                }
+            },
+            {
+                "name": "269",
+                "slug": "269",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260515/9YPUefv9/index.m3u8"
+                }
+            },
+            {
+                "name": "270",
+                "slug": "270",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260521/oHuf6mzS/index.m3u8"
+                }
+            },
+            {
+                "name": "271",
+                "slug": "271",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260528/7TINcjQz/index.m3u8"
+                }
+            },
+            {
+                "name": "272",
+                "slug": "272",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260605/6Q6F1YwQ/index.m3u8"
+                }
+            },
+            {
+                "name": "273",
+                "slug": "273",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260611/nWkEr9a4/index.m3u8"
+                }
+            },
+            {
+                "name": "274",
+                "slug": "274",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260618/sALfGF6h/index.m3u8"
+                }
+            },
+            {
+                "name": "275",
+                "slug": "275",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260625/Xo3IcukQ/index.m3u8"
+                }
+            },
+            {
+                "name": "276",
+                "slug": "276",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260702/58oFFNeh/index.m3u8"
+                }
+            },
+            {
+                "name": "277",
+                "slug": "277",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260710/DG9HoWvx/index.m3u8"
+                }
+            },
+            {
+                "name": "278",
+                "slug": "278",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260716/KbUoulEF/index.m3u8"
+                }
+            },
+            {
+                "name": "279",
+                "slug": "279",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260723/PCslQqP8/index.m3u8"
+                }
+            },
+            {
+                "name": "280",
+                "slug": "280",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260801/13E5nFNz/index.m3u8"
+                }
+            },
+            {
+                "name": "281",
+                "slug": "281",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260807/7TKtOQrc/index.m3u8"
+                }
+            },
+            {
+                "name": "282",
+                "slug": "282",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260813/00hfZiEg/index.m3u8"
+                }
+            },
+            {
+                "name": "283",
+                "slug": "283",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260820/C9yTXwun/index.m3u8"
+                }
+            },
+            {
+                "name": "284",
+                "slug": "284",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260827/gWapK4oA/index.m3u8"
+                }
+            },
+            {
+                "name": "285",
+                "slug": "285",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260903/7p1rbkgL/index.m3u8"
+                }
+            },
+            {
+                "name": "286",
+                "slug": "286",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260911/vhCbYW7c/index.m3u8"
+                }
+            },
+            {
+                "name": "287",
+                "slug": "287",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://v7.kkphimplayer7.com/20260917/lohDuQdT/index.m3u8"
+                }
+            },
+            {
+                "name": "288",
+                "slug": "288",
+                "servers": {
+                    "Hà Nội (Vietsub)": "https://a.kvp726.com/20260924/1n0o6GNU/index.m3u8"
+                }
+            }
+        ]
     }
 };
 
