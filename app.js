@@ -213,8 +213,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 iframe.setAttribute('allow', 'autoplay; fullscreen; encrypted-media; picture-in-picture');
                 playerSection.appendChild(iframe);
             }
+            iframe.setAttribute('referrerpolicy', 'no-referrer');
             iframe.style.display = 'block';
-            iframe.src = m3u8Url;
+            iframe.src = m3u8Url.replace(/&amp;/g, '&');
             return;
         }
 
@@ -222,6 +223,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             existingIframe.style.display = 'none';
             existingIframe.src = '';
         }
+        videoElement.setAttribute('referrerpolicy', 'no-referrer');
         videoElement.style.display = 'block';
 
         const playableUrl = await preparePlayableUrl(m3u8Url);

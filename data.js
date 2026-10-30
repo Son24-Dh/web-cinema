@@ -1408,7 +1408,7 @@ const movies = {
                 "name": "165 (Trailer)",
                 "slug": "165",
                 "servers": {
-                    "YanHH3D (Thuyết Minh sv_LINK10)": "https://www.facebook.com/plugins/video.php?height=238&amp;href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4398912893695225%2F&amp;show_text=true&amp;width=560&amp;t=0"
+                    "YanHH3D (Thuyết Minh sv_LINK10)": "https://www.facebook.com/plugins/video.php?height=238&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4398912893695225%2F&show_text=true&width=560&t=0"
                 }
             },
             {
