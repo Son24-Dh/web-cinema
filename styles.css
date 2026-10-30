@@ -78,7 +78,19 @@ button {
     align-items: center;
     gap: 11px;
     flex: 0 0 auto;
-    min-width: 128px;
+}
+
+.brand-logo {
+    height: 52px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    transition: transform 180ms var(--ease), filter 180ms var(--ease);
+}
+
+.brand:hover .brand-logo {
+    transform: scale(1.04);
+    filter: drop-shadow(0 0 12px rgba(255, 105, 180, 0.45));
 }
 
 .brand-mark {
@@ -1135,6 +1147,10 @@ footer {
         order: 1;
     }
 
+    .brand-logo {
+        height: 44px;
+    }
+
     .member-pill {
         order: 2;
         margin-left: auto;
@@ -1662,6 +1678,19 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+}
+
+.landing-brand-logo {
+    width: min(260px, 80vw);
+    height: auto;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 12px 28px rgba(255, 90, 140, 0.4));
+    transition: transform 250ms var(--ease);
+}
+
+.landing-brand-logo:hover {
+    transform: scale(1.05);
 }
 
 .landing-logo .brand-mark {

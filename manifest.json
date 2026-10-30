@@ -1,7 +1,7 @@
 {
-  "name": "DâuPhim",
-  "short_name": "DâuPhim",
-  "description": "Phim hay của Phương Nhi",
+  "name": "Dâu Movie",
+  "short_name": "Dâu Movie",
+  "description": "Xem phim cùng Dâu - Dành riêng cho Phương Nhi",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -10,15 +10,15 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icon.svg",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "maskable"
     }
   ]

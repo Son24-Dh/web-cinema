@@ -1,4 +1,4 @@
-const CACHE = 'dauphim-v3.1';
+const CACHE = 'dauphim-v3.2';
 const STATIC_ASSETS = [
     './',
     'index.html',
@@ -14,6 +14,10 @@ const STATIC_ASSETS = [
     'video-config.js',
     'android-menu.js',
     'manifest.json',
+    'logo.png',
+    'favicon.png',
+    'icon-192.png',
+    'icon-512.png',
     'icon.svg',
 ];
 
