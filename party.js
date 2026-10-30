@@ -156,6 +156,22 @@
             });
         }
 
+        triggerFloatingEmoji(emoji) {
+            if (typeof document === 'undefined') return;
+            const container = document.getElementById('floating-emoji-container');
+            if (!container) return;
+
+            const span = document.createElement('span');
+            span.className = 'floating-emoji';
+            span.textContent = emoji || '🍓';
+            const leftPercent = 45 + Math.random() * 40;
+            span.style.left = `${leftPercent}%`;
+
+            container.appendChild(span);
+            span.addEventListener('animationend', () => span.remove());
+            setTimeout(() => span.remove(), 2600);
+        }
+
         leaveRoom() {
             if (this.peer) {
                 this.peer.destroy();
@@ -185,6 +201,15 @@
             const roleDesc = document.getElementById('party-role-desc');
             const membersCount = document.getElementById('party-members-count');
             const quickStatus = document.getElementById('party-quick-status');
+            const reactionBar = document.getElementById('party-reaction-bar');
+            const chatDrawer = document.getElementById('party-chat-drawer');
+            const chatCloseBtn = document.getElementById('chat-close-btn');
+            const toggleChatBtn = document.getElementById('toggle-chat-btn');
+            const chatForm = document.getElementById('chat-form');
+            const chatInput = document.getElementById('chat-input');
+            const chatMessages = document.getElementById('chat-messages');
+            const chatUnreadBadge = document.getElementById('chat-unread-badge');
+            let unreadCount = 0;
 
             if (!modal || !btnWatchParty) return;
 
@@ -223,11 +248,97 @@
                     if (quickStatus) {
                         quickStatus.textContent = this.isHost ? '👑 Chủ phòng' : '👥 Đang xem chung';
                     }
+                    if (reactionBar) reactionBar.classList.remove('hidden');
                 } else {
                     if (viewIdle) viewIdle.classList.remove('hidden');
                     if (viewConnected) viewConnected.classList.add('hidden');
                     if (statusDot) statusDot.className = 'status-dot';
                     if (quickStatus) quickStatus.textContent = '';
+                    if (reactionBar) reactionBar.classList.add('hidden');
+                    if (chatDrawer) chatDrawer.classList.add('hidden');
+                }
+            };
+
+            // Wire reaction buttons
+            document.querySelectorAll('.party-reaction-bar .emoji-btn[data-emoji]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const emoji = btn.getAttribute('data-emoji');
+                    if (emoji) this.sendReaction(emoji);
+                });
+            });
+
+            // Wire reaction callback
+            const prevOnReaction = this.callbacks.onReaction;
+            this.callbacks.onReaction = (payload) => {
+                prevOnReaction(payload);
+                this.triggerFloatingEmoji(payload.emoji);
+            };
+
+            // Toggle chat drawer
+            if (toggleChatBtn && chatDrawer) {
+                toggleChatBtn.addEventListener('click', () => {
+                    const isOpening = chatDrawer.classList.contains('hidden');
+                    chatDrawer.classList.toggle('hidden');
+                    if (isOpening) {
+                        unreadCount = 0;
+                        if (chatUnreadBadge) chatUnreadBadge.classList.add('hidden');
+                        if (chatInput) chatInput.focus();
+                    }
+                });
+            }
+
+            if (chatCloseBtn && chatDrawer) {
+                chatCloseBtn.addEventListener('click', () => {
+                    chatDrawer.classList.add('hidden');
+                });
+            }
+
+            // Wire chat submit
+            if (chatForm && chatInput) {
+                chatForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    const text = chatInput.value.trim();
+                    if (!text) return;
+                    this.sendChat(text);
+                    chatInput.value = '';
+                });
+            }
+
+            // Wire chat message callback
+            const prevOnChat = this.callbacks.onChat;
+            this.callbacks.onChat = (payload) => {
+                prevOnChat(payload);
+                if (!chatMessages) return;
+
+                const row = document.createElement('div');
+                const isMine = payload.sender === this.userName;
+                row.className = 'chat-msg-row ' + (isMine ? 'mine' : 'partner');
+
+                const senderSpan = document.createElement('span');
+                senderSpan.className = 'chat-msg-sender';
+                senderSpan.textContent = isMine ? 'Bạn' : (payload.sender || 'Bạn');
+
+                const bubbleDiv = document.createElement('div');
+                bubbleDiv.className = 'chat-bubble';
+                bubbleDiv.textContent = payload.text;
+
+                const timeSpan = document.createElement('span');
+                timeSpan.className = 'chat-msg-time';
+                const d = new Date(payload.timestamp || Date.now());
+                timeSpan.textContent = d.getHours().toString().padStart(2, '0') + ':' + d.getMinutes().toString().padStart(2, '0');
+
+                row.appendChild(senderSpan);
+                row.appendChild(bubbleDiv);
+                row.appendChild(timeSpan);
+                chatMessages.appendChild(row);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+
+                if (chatDrawer && chatDrawer.classList.contains('hidden') && !isMine) {
+                    unreadCount++;
+                    if (chatUnreadBadge) {
+                        chatUnreadBadge.textContent = unreadCount;
+                        chatUnreadBadge.classList.remove('hidden');
+                    }
                 }
             };
 

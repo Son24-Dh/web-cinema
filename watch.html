@@ -45,6 +45,19 @@
             <div class="left-col">
                 <div class="player-section">
                     <video id="video-player" controls playsinline webkit-playsinline></video>
+                    <!-- Floating Reactions Overlay Container -->
+                    <div id="floating-emoji-container" class="floating-emoji-container" aria-hidden="true"></div>
+                    <!-- Quick Reaction Bar -->
+                    <div id="party-reaction-bar" class="party-reaction-bar hidden" aria-label="Biểu cảm nhanh">
+                        <button class="emoji-btn" type="button" data-emoji="🍓" title="Dâu tây 🍓">🍓</button>
+                        <button class="emoji-btn" type="button" data-emoji="❤️" title="Thả tim ❤️">❤️</button>
+                        <button class="emoji-btn" type="button" data-emoji="😂" title="Haha 😂">😂</button>
+                        <button class="emoji-btn" type="button" data-emoji="😱" title="Ngạc nhiên 😱">😱</button>
+                        <button id="toggle-chat-btn" class="emoji-btn chat-toggle-btn" type="button" title="Mở khung trò chuyện">
+                            💬
+                            <span id="chat-unread-badge" class="chat-badge hidden">0</span>
+                        </button>
+                    </div>
                 </div>
                 <!-- Thanh công cụ Xem Chung -->
                 <div class="party-toolbar" id="party-toolbar">
@@ -107,6 +120,21 @@
                 <button id="party-leave-btn" class="party-leave-btn" type="button">Rời Phòng</button>
             </div>
         </div>
+    </div>
+
+    <!-- Khung Chat Drawer Xem Chung -->
+    <div id="party-chat-drawer" class="party-chat-drawer hidden" aria-label="Khung trò chuyện phòng xem chung">
+        <div class="party-chat-header">
+            <h4>Trò chuyện 🍓</h4>
+            <button id="chat-close-btn" class="close-btn" type="button" aria-label="Đóng chat">&times;</button>
+        </div>
+        <div id="chat-messages" class="party-chat-messages">
+            <div class="chat-system-msg">Chào mừng bạn đến phòng xem chung! 🍓</div>
+        </div>
+        <form id="chat-form" class="party-chat-form">
+            <input type="text" id="chat-input" placeholder="Nhập tin nhắn..." autocomplete="off">
+            <button type="submit" id="chat-submit-btn">Gửi</button>
+        </form>
     </div>
 
     <footer>
