@@ -46,6 +46,15 @@
                 <div class="player-section">
                     <video id="video-player" controls playsinline webkit-playsinline></video>
                 </div>
+                <!-- Thanh công cụ Xem Chung -->
+                <div class="party-toolbar" id="party-toolbar">
+                    <button id="btn-watch-party" class="party-trigger-btn" type="button" aria-label="Xem chung phòng">
+                        <span class="party-icon">🍓</span>
+                        <span class="party-btn-label">Xem Chung</span>
+                        <span id="party-status-dot" class="status-dot"></span>
+                    </button>
+                    <span id="party-quick-status" class="party-quick-status"></span>
+                </div>
                 <!-- Chọn Server -->
                 <div class="server-section" id="server-section">
                     <h4>Chọn Nguồn Phát</h4>
@@ -68,6 +77,37 @@
             </div>
         </div>
     </main>
+
+    <!-- Modal Xem Chung -->
+    <div id="party-modal" class="party-modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="party-modal-title">
+        <div class="party-modal-card">
+            <div class="party-modal-header">
+                <h3 id="party-modal-title">🍓 Xem Chung Với Phương Nhi</h3>
+                <button id="party-close-btn" class="close-btn" type="button" aria-label="Đóng">&times;</button>
+            </div>
+            <!-- Trạng thái chưa vào phòng -->
+            <div id="party-view-idle" class="party-view">
+                <p class="party-intro-text">Xem phim đồng bộ thời gian thực cùng Phương Nhi và bạn bè mà không cần server!</p>
+                <button id="party-create-btn" class="party-primary-btn" type="button">Tạo Phòng Mới (Chủ Phòng 👑)</button>
+                <div class="party-divider"><span>hoặc</span></div>
+                <div class="party-join-box">
+                    <input type="text" id="party-room-input" placeholder="Nhập mã phòng (VD: dau-abc123)">
+                    <button id="party-join-btn" class="party-secondary-btn" type="button">Vào Phòng</button>
+                </div>
+            </div>
+            <!-- Trạng thái đang trong phòng -->
+            <div id="party-view-connected" class="party-view hidden">
+                <div class="party-room-badge">
+                    <span>Mã phòng:</span>
+                    <strong id="party-room-code-display">---</strong>
+                    <button id="party-copy-link-btn" class="copy-btn" type="button" title="Sao chép link mời">Sao chép link mời 📋</button>
+                </div>
+                <div class="party-role-desc" id="party-role-desc">Bạn là: 👑 Chủ phòng</div>
+                <p class="party-member-count" id="party-members-count">👥 Đang kết nối: 1 người</p>
+                <button id="party-leave-btn" class="party-leave-btn" type="button">Rời Phòng</button>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <p>DâuPhim được làm riêng cho Phương Nhi.</p>

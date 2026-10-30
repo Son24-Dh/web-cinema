@@ -166,10 +166,157 @@
             this.roomId = null;
             this.callbacks.onStatusChange({ status: 'idle' });
         }
+
+        setupPartyUI() {
+            if (typeof document === 'undefined') return;
+
+            const modal = document.getElementById('party-modal');
+            const btnWatchParty = document.getElementById('btn-watch-party');
+            const closeBtn = document.getElementById('party-close-btn');
+            const createBtn = document.getElementById('party-create-btn');
+            const joinBtn = document.getElementById('party-join-btn');
+            const roomInput = document.getElementById('party-room-input');
+            const copyLinkBtn = document.getElementById('party-copy-link-btn');
+            const leaveBtn = document.getElementById('party-leave-btn');
+            const statusDot = document.getElementById('party-status-dot');
+            const viewIdle = document.getElementById('party-view-idle');
+            const viewConnected = document.getElementById('party-view-connected');
+            const roomCodeDisplay = document.getElementById('party-room-code-display');
+            const roleDesc = document.getElementById('party-role-desc');
+            const membersCount = document.getElementById('party-members-count');
+            const quickStatus = document.getElementById('party-quick-status');
+
+            if (!modal || !btnWatchParty) return;
+
+            const toggleModal = (show) => {
+                if (show === undefined) {
+                    modal.classList.toggle('hidden');
+                } else if (show) {
+                    modal.classList.remove('hidden');
+                } else {
+                    modal.classList.add('hidden');
+                }
+            };
+
+            btnWatchParty.addEventListener('click', () => toggleModal());
+            if (closeBtn) closeBtn.addEventListener('click', () => toggleModal(false));
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) toggleModal(false);
+            });
+
+            // Update UI based on engine status
+            const prevOnStatusChange = this.callbacks.onStatusChange;
+            this.callbacks.onStatusChange = (statusObj) => {
+                prevOnStatusChange(statusObj);
+                if (statusObj.status === 'waiting' || statusObj.status === 'connected') {
+                    if (viewIdle) viewIdle.classList.add('hidden');
+                    if (viewConnected) viewConnected.classList.remove('hidden');
+                    if (roomCodeDisplay) roomCodeDisplay.textContent = this.roomId || '---';
+                    if (statusDot) {
+                        statusDot.className = 'status-dot ' + (statusObj.status === 'waiting' ? 'waiting' : 'connected');
+                    }
+                    if (roleDesc) {
+                        roleDesc.textContent = this.isHost
+                            ? 'Bạn là: 👑 Chủ phòng (Toàn quyền điều khiển)'
+                            : 'Bạn là: 👤 Khách xem (Đồng bộ theo Chủ phòng)';
+                    }
+                    if (quickStatus) {
+                        quickStatus.textContent = this.isHost ? '👑 Chủ phòng' : '👥 Đang xem chung';
+                    }
+                } else {
+                    if (viewIdle) viewIdle.classList.remove('hidden');
+                    if (viewConnected) viewConnected.classList.add('hidden');
+                    if (statusDot) statusDot.className = 'status-dot';
+                    if (quickStatus) quickStatus.textContent = '';
+                }
+            };
+
+            const prevOnMemberChange = this.callbacks.onMemberChange;
+            this.callbacks.onMemberChange = (memberObj) => {
+                prevOnMemberChange(memberObj);
+                if (membersCount) {
+                    const total = (memberObj.count || 0) + 1; // self + connected
+                    membersCount.textContent = `👥 Đang kết nối: ${total} người`;
+                }
+                if (statusDot && this.isHost) {
+                    statusDot.className = 'status-dot ' + (memberObj.count > 0 ? 'connected' : 'waiting');
+                }
+            };
+
+            if (createBtn) {
+                createBtn.addEventListener('click', async () => {
+                    createBtn.disabled = true;
+                    createBtn.textContent = 'Đang khởi tạo phòng...';
+                    try {
+                        await this.createRoom();
+                    } catch (e) {
+                        alert('Không thể tạo phòng WebRTC: ' + (e?.message || e));
+                    } finally {
+                        createBtn.disabled = false;
+                        createBtn.textContent = 'Tạo Phòng Mới (Chủ Phòng 👑)';
+                    }
+                });
+            }
+
+            if (joinBtn && roomInput) {
+                joinBtn.addEventListener('click', async () => {
+                    const code = roomInput.value.trim();
+                    if (!code) return alert('Vui lòng nhập mã phòng!');
+                    joinBtn.disabled = true;
+                    joinBtn.textContent = 'Đang kết nối...';
+                    try {
+                        await this.joinRoom(code, 'Phương Nhi');
+                        toggleModal(false);
+                    } catch (e) {
+                        alert('Không thể kết nối phòng: ' + (e?.message || e));
+                    } finally {
+                        joinBtn.disabled = false;
+                        joinBtn.textContent = 'Vào Phòng';
+                    }
+                });
+            }
+
+            if (copyLinkBtn) {
+                copyLinkBtn.addEventListener('click', () => {
+                    if (!this.roomId) return;
+                    const url = new URL(window.location.href);
+                    url.searchParams.set('room', this.roomId);
+                    navigator.clipboard.writeText(url.toString()).then(() => {
+                        const original = copyLinkBtn.textContent;
+                        copyLinkBtn.textContent = 'Đã sao chép! 🍓';
+                        setTimeout(() => { copyLinkBtn.textContent = original; }, 2000);
+                    }).catch(() => {
+                        prompt('Sao chép link này gửi bạn bè:', url.toString());
+                    });
+                });
+            }
+
+            if (leaveBtn) {
+                leaveBtn.addEventListener('click', () => {
+                    this.leaveRoom();
+                    toggleModal(false);
+                });
+            }
+
+            // Auto-join from URL parameter ?room=...
+            const urlParams = new URLSearchParams(window.location.search);
+            const autoRoom = urlParams.get('room');
+            if (autoRoom && !this.isConnected && !this.isHost) {
+                this.joinRoom(autoRoom, 'Phương Nhi').catch(err => {
+                    console.warn('Auto-join party room failed:', err);
+                });
+            }
+        }
     }
 
     if (typeof window !== 'undefined') {
-        return new DauPhimPartyEngine();
+        const instance = new DauPhimPartyEngine();
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => instance.setupPartyUI());
+        } else {
+            instance.setupPartyUI();
+        }
+        return instance;
     }
 
     return { DauPhimPartyEngine };
