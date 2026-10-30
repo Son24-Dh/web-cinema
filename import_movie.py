@@ -108,7 +108,7 @@ def process_movie(raw_data):
         except ValueError:
             return (1, x['slug'])
 
-    sorted_episodes = sorted(episodes_dict.values(), key=sort_key)
+    sorted_episodes = sorted(episodes_dict.values(), key=sort_key, reverse=True)
 
     poster = m.get('thumb_url') or m.get('poster_url')
     # Đảm bảo poster có http/https

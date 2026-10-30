@@ -785,8 +785,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     videoElement.addEventListener('ended', () => {
         clearSavedProgress();
         const currentIndex = movie.episodes.findIndex(ep => ep.slug === episodeSlug);
-        if (currentIndex >= 0 && currentIndex < movie.episodes.length - 1) {
-            const nextEp = movie.episodes[currentIndex + 1];
+        if (currentIndex < 0 || movie.episodes.length <= 1) return;
+
+        // Tự động chuyển tiếp tập tiếp theo theo mạch phim
+        // Nếu danh sách tập sắp xếp từ mới nhất (165 -> 1), tập tiếp theo là currentIndex - 1
+        const firstNum = parseFloat(movie.episodes[0].name.replace(/[^\d.]/g, ''));
+        const lastNum = parseFloat(movie.episodes[movie.episodes.length - 1].name.replace(/[^\d.]/g, ''));
+        const isDescending = !isNaN(firstNum) && !isNaN(lastNum) ? firstNum > lastNum : true;
+
+        let nextEp = null;
+        if (isDescending) {
+            if (currentIndex > 0) {
+                nextEp = movie.episodes[currentIndex - 1];
+            }
+        } else {
+            if (currentIndex < movie.episodes.length - 1) {
+                nextEp = movie.episodes[currentIndex + 1];
+            }
+        }
+
+        if (nextEp) {
             switchEpisode(nextEp.slug);
         }
     });

@@ -123,7 +123,7 @@ def scrape_movie(cfg):
         else:
             episodes_map[ep_num]['tm_url'] = href
 
-    sorted_ep_nums = sorted(episodes_map.keys())
+    sorted_ep_nums = sorted(episodes_map.keys(), reverse=True)
     print(f"[*] Tổng số tập duy nhất: {len(sorted_ep_nums)} tập (Tập {sorted_ep_nums[0]} -> {sorted_ep_nums[-1]})")
 
     # 3. Tạo danh sách URL cần cào
