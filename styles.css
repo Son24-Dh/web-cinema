@@ -721,11 +721,13 @@ main {
     touch-action: pan-x;
 }
 
-#video-player {
+#video-player,
+.embed-player {
     display: block;
     width: 100%;
     aspect-ratio: 16 / 9;
     background: #000;
+    border: none;
     filter: brightness(var(--video-brightness, 100%));
 }
 
@@ -1048,7 +1050,8 @@ main {
     box-shadow: none;
 }
 
-.android-pip-active #video-player {
+.android-pip-active #video-player,
+.android-pip-active .embed-player {
     width: 100%;
     height: 100%;
     aspect-ratio: auto;

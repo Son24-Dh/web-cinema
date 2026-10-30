@@ -194,6 +194,36 @@ document.addEventListener('DOMContentLoaded', async () => {
         videoElement.removeAttribute('src');
         videoElement.load();
 
+        const existingIframe = playerSection.querySelector('iframe.embed-player');
+        const isEmbed = m3u8Url && (
+            m3u8Url.includes('streamrpt1.site') ||
+            m3u8Url.includes('dailymotion.com') ||
+            m3u8Url.includes('abysscdn.com') ||
+            m3u8Url.includes('/embed/') ||
+            m3u8Url.includes('play-fb')
+        );
+
+        if (isEmbed) {
+            videoElement.style.display = 'none';
+            let iframe = existingIframe;
+            if (!iframe) {
+                iframe = document.createElement('iframe');
+                iframe.className = 'embed-player';
+                iframe.setAttribute('allowfullscreen', 'true');
+                iframe.setAttribute('allow', 'autoplay; fullscreen; encrypted-media; picture-in-picture');
+                playerSection.appendChild(iframe);
+            }
+            iframe.style.display = 'block';
+            iframe.src = m3u8Url;
+            return;
+        }
+
+        if (existingIframe) {
+            existingIframe.style.display = 'none';
+            existingIframe.src = '';
+        }
+        videoElement.style.display = 'block';
+
         const playableUrl = await preparePlayableUrl(m3u8Url);
         if (loadToken !== playerLoadToken) {
             if (playableUrl !== m3u8Url) URL.revokeObjectURL(playableUrl);
@@ -201,6 +231,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         if (playableUrl !== m3u8Url) {
             currentPlaylistObjectUrl = playableUrl;
+        }
+
+        if (playableUrl.includes('.mp4')) {
+            videoElement.src = playableUrl;
+            videoElement.addEventListener('loadedmetadata', handlePlayerReady, { once: true });
+            return;
         }
 
         if (Hls.isSupported()) {
