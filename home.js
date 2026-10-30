@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const allMovies = Object.values(movies);
     const heroMovies = allMovies.slice(0, 6);
     const movieGrid = document.getElementById('movie-grid');
+    const animationGrid = document.getElementById('animation-grid');
     const featuredRow = document.getElementById('featured-row');
     const heroBackdrop = document.getElementById('hero-backdrop');
     const heroTitle = document.getElementById('hero-title');
@@ -135,6 +136,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
+    function renderAnimationGrid() {
+        if (!animationGrid) return;
+        const animationMovies = allMovies.filter((movie) => {
+            const isAnimation = movie.category === 'hoat-hinh';
+            const matchesSearch = movie.name.toLowerCase().includes(searchTerm);
+            return isAnimation && matchesSearch;
+        });
+
+        animationGrid.innerHTML = '';
+        animationMovies.forEach((movie, index) => {
+            animationGrid.appendChild(createMovieCard(movie, index));
+        });
+    }
+
     function setHero(movie) {
         activeHeroId = movie.id;
         heroBackdrop.style.backgroundImage = `url("${movie.poster}")`;
@@ -196,7 +211,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     document.querySelectorAll('[data-topic]').forEach((topic) => {
         topic.addEventListener('click', () => {
-            const targetFilter = topic.dataset.topic === 'series' ? 'phim-bo' : topic.dataset.topic === 'full' ? 'phim-le' : topic.dataset.topic === 'hoat-hinh' ? 'hoat-hinh' : 'all';
+            if (topic.dataset.topic === 'hoat-hinh') {
+                document.getElementById('hoat-hinh')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                return;
+            }
+            const targetFilter = topic.dataset.topic === 'series' ? 'phim-bo' : topic.dataset.topic === 'full' ? 'phim-le' : 'all';
             document.querySelector(`.filter-btn[data-filter="${targetFilter}"]`)?.click();
         });
     });
@@ -205,6 +224,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         searchTerm = event.target.value.trim().toLowerCase();
         currentMoviePage = 1;
         renderMovieGrid();
+        renderAnimationGrid();
     });
 
     favoriteButton.addEventListener('click', () => {
@@ -225,5 +245,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderHeroThumbs();
     renderFeaturedRow();
     renderMovieGrid();
+    renderAnimationGrid();
     if (heroMovies[0]) setHero(heroMovies[0]);
 });

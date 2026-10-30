@@ -29,7 +29,7 @@
 
         <nav class="nav-links" aria-label="Điều hướng chính">
             <a href="#topics">Chủ Đề</a>
-            <a href="#movies" data-filter-link="hoat-hinh">Hoạt Hình</a>
+            <a href="#hoat-hinh">Hoạt Hình</a>
             <a href="#movies" data-filter-link="phim-bo">Phim Bộ</a>
             <a href="#movies" data-filter-link="phim-le">Phim Lẻ</a>
             <a href="#movies">Thể loại</a>
@@ -84,7 +84,7 @@
                     <strong>Chính Kịch</strong>
                     <span>Xem chủ đề ›</span>
                 </a>
-                <a class="topic-card topic-green" href="#movies" data-topic="hoat-hinh">
+                <a class="topic-card topic-green" href="#hoat-hinh" data-topic="hoat-hinh">
                     <strong>Hoạt Hình</strong>
                     <span>Xem chủ đề ›</span>
                 </a>
@@ -115,6 +115,14 @@
             </div>
             <div class="movie-grid" id="movie-grid"></div>
             <div class="movie-pagination" id="movie-pagination" aria-label="Chuyển trang danh sách phim"></div>
+        </section>
+
+        <section class="movie-section" id="hoat-hinh" aria-labelledby="hoat-hinh-title">
+            <div class="section-heading">
+                <h2 id="hoat-hinh-title">Phim Hoạt Hình</h2>
+                <a href="#movies" data-filter-link="hoat-hinh">Lọc trên danh sách ›</a>
+            </div>
+            <div class="movie-grid" id="animation-grid"></div>
         </section>
     </main>
 
