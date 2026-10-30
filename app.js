@@ -56,6 +56,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (svName === currentServerName) btn.classList.add('active');
 
             btn.onclick = () => {
+                if (window.DauPhimParty && window.DauPhimParty.role === 'guest') {
+                    showPartyToast('Chỉ chủ phòng mới có thể đổi nguồn phát 🔒');
+                    return;
+                }
                 if (currentServerName === svName) return;
                 currentServerName = svName;
                 if (movieId) {
@@ -76,6 +80,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 // Load link mới
                 initPlayer(currentEpisode.servers[svName]);
+
+                if (window.DauPhimParty && window.DauPhimParty.isHost) {
+                    window.DauPhimParty.broadcast('CHANGE_SERVER', {
+                        movieId,
+                        epSlug: episodeSlug,
+                        server: svName
+                    });
+                }
             };
             serverListContainer.appendChild(btn);
         });
@@ -156,7 +168,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         btn.addEventListener('click', (e) => {
             if (e.button === 0 && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey) {
                 e.preventDefault();
+                if (window.DauPhimParty && window.DauPhimParty.role === 'guest') {
+                    showPartyToast('Chỉ chủ phòng mới có thể chọn tập 🔒');
+                    return;
+                }
                 switchEpisode(ep.slug);
+                if (window.DauPhimParty && window.DauPhimParty.isHost) {
+                    window.DauPhimParty.broadcast('CHANGE_EPISODE', {
+                        movieId,
+                        epSlug: ep.slug,
+                        server: currentServerName
+                    });
+                }
             }
         });
 
@@ -808,8 +831,118 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (nextEp) {
             switchEpisode(nextEp.slug);
+            if (window.DauPhimParty && window.DauPhimParty.isHost) {
+                window.DauPhimParty.broadcast('CHANGE_EPISODE', {
+                    movieId,
+                    epSlug: nextEp.slug,
+                    server: currentServerName
+                });
+            }
         }
     });
+
+    let isApplyingRemoteSync = false;
+    let partyToastTimer = null;
+
+    function showPartyToast(message) {
+        let toast = document.getElementById('party-toast');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.id = 'party-toast';
+            toast.className = 'party-toast';
+            document.body.appendChild(toast);
+        }
+        toast.textContent = message;
+        toast.classList.add('visible');
+        clearTimeout(partyToastTimer);
+        partyToastTimer = setTimeout(() => {
+            toast.classList.remove('visible');
+        }, 2500);
+    }
+
+    function setupWatchPartyPlayerHooks() {
+        if (!window.DauPhimParty) return;
+
+        videoElement.addEventListener('play', () => {
+            if (isApplyingRemoteSync) return;
+            if (window.DauPhimParty.isHost) {
+                window.DauPhimParty.broadcast('PLAY', { time: videoElement.currentTime });
+            }
+        });
+
+        videoElement.addEventListener('pause', () => {
+            if (isApplyingRemoteSync) return;
+            if (window.DauPhimParty.isHost) {
+                window.DauPhimParty.broadcast('PAUSE', { time: videoElement.currentTime });
+            }
+        });
+
+        videoElement.addEventListener('seeked', () => {
+            if (isApplyingRemoteSync) return;
+            if (window.DauPhimParty.isHost) {
+                window.DauPhimParty.broadcast('SEEK', { time: videoElement.currentTime });
+            }
+        });
+
+        setInterval(() => {
+            if (window.DauPhimParty.isHost && window.DauPhimParty.isConnected) {
+                window.DauPhimParty.broadcast('HEARTBEAT', {
+                    time: videoElement.currentTime,
+                    paused: videoElement.paused
+                });
+            }
+        }, 2500);
+
+        window.DauPhimParty.callbacks.onSync = (msg) => {
+            if (window.DauPhimParty.isHost) return;
+            isApplyingRemoteSync = true;
+
+            if (msg.type === 'PLAY') {
+                videoElement.currentTime = msg.payload.time;
+                videoElement.play().catch(() => {});
+            } else if (msg.type === 'PAUSE') {
+                videoElement.currentTime = msg.payload.time;
+                videoElement.pause();
+            } else if (msg.type === 'SEEK') {
+                videoElement.currentTime = msg.payload.time;
+            } else if (msg.type === 'HEARTBEAT') {
+                if (window.DauPhimProtocol) {
+                    const { action, targetTime, playbackRate } = window.DauPhimProtocol.calculateDriftAction(
+                        videoElement.currentTime,
+                        msg.payload.time
+                    );
+                    if (action === 'speed_up') {
+                        videoElement.playbackRate = playbackRate;
+                    } else if (action === 'seek') {
+                        videoElement.currentTime = targetTime;
+                        videoElement.playbackRate = 1.0;
+                    } else {
+                        videoElement.playbackRate = 1.0;
+                    }
+                }
+
+                if (msg.payload.paused && !videoElement.paused) videoElement.pause();
+                if (!msg.payload.paused && videoElement.paused) videoElement.play().catch(() => {});
+            } else if (msg.type === 'CHANGE_EPISODE') {
+                if (msg.payload.epSlug && msg.payload.epSlug !== episodeSlug) {
+                    if (msg.payload.server) currentServerName = msg.payload.server;
+                    switchEpisode(msg.payload.epSlug, true);
+                }
+            } else if (msg.type === 'CHANGE_SERVER') {
+                if (msg.payload.server && msg.payload.server !== currentServerName) {
+                    currentServerName = msg.payload.server;
+                    renderServerButtons();
+                    if (currentEpisode && currentEpisode.servers[currentServerName]) {
+                        initPlayer(currentEpisode.servers[currentServerName]);
+                    }
+                }
+            }
+
+            setTimeout(() => { isApplyingRemoteSync = false; }, 300);
+        };
+    }
+
+    setupWatchPartyPlayerHooks();
     window.addEventListener('pagehide', saveProgress);
     document.addEventListener('visibilitychange', () => { if (document.hidden) saveProgress(); });
 });
