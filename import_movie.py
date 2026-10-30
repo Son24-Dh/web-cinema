@@ -49,10 +49,16 @@ def process_movie(raw_data):
     origin_name = m.get('origin_name', '')
     full_name = f"{name} - {origin_name}" if origin_name and origin_name != name else name
 
-    # Phân loại category: nếu nhiều tập là 'phim-bo', 1 tập/full là 'phim-le'
+    # Phân loại category
     episodes_raw = raw_data.get('episodes', [])
     total_eps_count = sum(len(s.get('server_data', [])) for s in episodes_raw)
-    category = 'phim-bo' if total_eps_count > 1 else 'phim-le'
+    
+    # Kiểm tra nếu là hoạt hình
+    genres = [c.get('name', '').lower() for c in m.get('category', [])]
+    if any('hoạt hình' in g or 'anime' in g for g in genres):
+        category = 'hoat-hinh'
+    else:
+        category = 'phim-bo' if total_eps_count > 1 else 'phim-le'
 
     # Gộp các server theo số tập
     episodes_dict = {}

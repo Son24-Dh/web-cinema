@@ -24,9 +24,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const metaRow = document.getElementById('detail-meta');
     metaRow.innerHTML = '';
 
+    const isAnimation = movie.category === 'hoat-hinh';
     const isSeries = movie.category === 'phim-bo';
     const epCountText = movie.episodes?.[0]?.name === 'Full' ? 'Full' : `${movie.episodes?.length || 1} Tập`;
-    const categoryText = isSeries ? 'Phim Bộ' : 'Phim Lẻ';
+    const categoryText = isAnimation ? 'Hoạt Hình' : (isSeries ? 'Phim Bộ' : 'Phim Lẻ');
 
     const tags = ['HD', movie.year, epCountText, categoryText];
     tags.forEach(tag => {

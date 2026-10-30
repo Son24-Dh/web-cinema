@@ -53,7 +53,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         title.textContent = movie.name;
 
         const meta = document.createElement('small');
-        meta.textContent = `${movie.year} • ${movie.category === 'phim-bo' ? 'Phim Bộ' : 'Phim Lẻ'}`;
+        const categoryLabel = movie.category === 'hoat-hinh' ? 'Hoạt Hình' : (movie.category === 'phim-bo' ? 'Phim Bộ' : 'Phim Lẻ');
+        meta.textContent = `${movie.year} • ${categoryLabel}`;
 
         body.append(title, meta);
         card.append(badge, image, body);
@@ -143,7 +144,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         heroPlay.href = movieUrl(movie);
         heroTags.innerHTML = '';
 
-        ['HD', 'Vietsub', movie.episodes?.[0]?.name === 'Full' ? 'Full' : `${movie.episodes.length} Tập`, movie.category === 'phim-bo' ? 'Phim Bộ' : 'Phim Lẻ'].forEach((tag) => {
+        const categoryLabel = movie.category === 'hoat-hinh' ? 'Hoạt Hình' : (movie.category === 'phim-bo' ? 'Phim Bộ' : 'Phim Lẻ');
+        ['HD', 'Vietsub', movie.episodes?.[0]?.name === 'Full' ? 'Full' : `${movie.episodes.length} Tập`, categoryLabel].forEach((tag) => {
             const item = document.createElement('span');
             item.textContent = tag;
             heroTags.appendChild(item);
@@ -194,7 +196,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     document.querySelectorAll('[data-topic]').forEach((topic) => {
         topic.addEventListener('click', () => {
-            const targetFilter = topic.dataset.topic === 'series' ? 'phim-bo' : topic.dataset.topic === 'full' ? 'phim-le' : 'all';
+            const targetFilter = topic.dataset.topic === 'series' ? 'phim-bo' : topic.dataset.topic === 'full' ? 'phim-le' : topic.dataset.topic === 'hoat-hinh' ? 'hoat-hinh' : 'all';
             document.querySelector(`.filter-btn[data-filter="${targetFilter}"]`)?.click();
         });
     });
