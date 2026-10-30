@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const movieId = urlParams.get('id');
-    let episodeSlug = urlParams.get('tap') || "1";
-    let currentServerName = urlParams.get('sv') || (movieId ? localStorage.getItem(`dauphim-preferred-server:${movieId}`) : null);
+    const movieId = urlParams.get('id') || urlParams.get('movie');
+    let episodeSlug = urlParams.get('tap') || urlParams.get('ep') || "1";
+    let currentServerName = urlParams.get('sv') || urlParams.get('server') || (movieId ? localStorage.getItem(`dauphim-preferred-server:${movieId}`) : null);
 
     const movies = await window.DauPhimData.loadConfiguredMovies();
     const movie = movies[movieId];
