@@ -596,7 +596,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             && savedProgress.time >= resumeThreshold
             && (!duration || savedProgress.time < duration - completedBuffer);
 
-        if (canResume && !resumePromptShown) {
+        const isGuest = window.DauPhimParty && window.DauPhimParty.role === 'guest';
+        if (canResume && !resumePromptShown && !isGuest) {
             showResumePrompt(savedProgress.time);
             return;
         }
@@ -874,6 +875,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (isApplyingRemoteSync) return;
             if (window.DauPhimParty.isHost) {
                 window.DauPhimParty.broadcast('PAUSE', { time: videoElement.currentTime });
+            } else if (window.DauPhimParty.role === 'guest') {
+                showPartyToast('Chỉ chủ phòng mới có thể tạm dừng video 🔒');
+                // Khôi phục lại trạng thái phát nếu chủ phòng đang xem
+                setTimeout(() => {
+                    if (window.DauPhimParty.isConnected) playVideo();
+                }, 200);
             }
         });
 
@@ -884,14 +891,28 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
 
+        // Cung cấp state ban đầu đầy đủ khi có Guest mới kết nối vào phòng
+        window.DauPhimParty.callbacks.onRequestInitialState = () => {
+            return {
+                time: videoElement.currentTime,
+                paused: videoElement.paused,
+                movieId: movieId,
+                epSlug: episodeSlug,
+                server: currentServerName
+            };
+        };
+
         setInterval(() => {
             if (window.DauPhimParty.isHost && window.DauPhimParty.isConnected) {
                 window.DauPhimParty.broadcast('HEARTBEAT', {
                     time: videoElement.currentTime,
-                    paused: videoElement.paused
+                    paused: videoElement.paused,
+                    movieId: movieId,
+                    epSlug: episodeSlug,
+                    server: currentServerName
                 });
             }
-        }, 2500);
+        }, 2000);
 
         window.DauPhimParty.callbacks.onSync = (msg) => {
             if (window.DauPhimParty.isHost) return;
@@ -899,13 +920,34 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (msg.type === 'PLAY') {
                 videoElement.currentTime = msg.payload.time;
-                videoElement.play().catch(() => {});
+                playVideo();
             } else if (msg.type === 'PAUSE') {
                 videoElement.currentTime = msg.payload.time;
                 videoElement.pause();
             } else if (msg.type === 'SEEK') {
                 videoElement.currentTime = msg.payload.time;
             } else if (msg.type === 'HEARTBEAT') {
+                // Tự động chuyển tập/server nếu Guest đang ở khác tập/server so với Host
+                if (msg.payload.epSlug && msg.payload.epSlug !== episodeSlug) {
+                    if (msg.payload.server) currentServerName = msg.payload.server;
+                    switchEpisode(msg.payload.epSlug, true);
+                    setTimeout(() => { isApplyingRemoteSync = false; }, 300);
+                    return;
+                }
+                if (msg.payload.server && msg.payload.server !== currentServerName) {
+                    currentServerName = msg.payload.server;
+                    renderServerButtons();
+                    if (currentEpisode && currentEpisode.servers[currentServerName]) {
+                        initPlayer(currentEpisode.servers[currentServerName]);
+                    }
+                    setTimeout(() => { isApplyingRemoteSync = false; }, 300);
+                    return;
+                }
+
+                // Xóa dialog resume nếu có đang chặn màn hình Guest
+                const existingPrompt = playerSection.querySelector('.resume-prompt');
+                if (existingPrompt) existingPrompt.remove();
+
                 if (window.DauPhimProtocol) {
                     const { action, targetTime, playbackRate } = window.DauPhimProtocol.calculateDriftAction(
                         videoElement.currentTime,
@@ -921,8 +963,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                     }
                 }
 
-                if (msg.payload.paused && !videoElement.paused) videoElement.pause();
-                if (!msg.payload.paused && videoElement.paused) videoElement.play().catch(() => {});
+                if (msg.payload.paused) {
+                    if (!videoElement.paused) videoElement.pause();
+                } else {
+                    if (videoElement.paused) playVideo();
+                }
             } else if (msg.type === 'CHANGE_EPISODE') {
                 if (msg.payload.epSlug && msg.payload.epSlug !== episodeSlug) {
                     if (msg.payload.server) currentServerName = msg.payload.server;

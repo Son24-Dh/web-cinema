@@ -59,16 +59,27 @@ async function runTests() {
     assert.strictEqual(engine.isHost, true);
     assert.strictEqual(engine.roomId, 'dau-test-room');
 
-    // 2. Test Host handling incoming guest connection
+    // 2. Test Host handling incoming guest connection & initial state delivery
+    engine.callbacks.onRequestInitialState = () => ({
+        time: 120,
+        paused: false,
+        movieId: 'film-1',
+        epSlug: '1',
+        server: 'Server 1'
+    });
     const guestConn = new MockConnection('guest-1');
     engine.handleIncomingConnection(guestConn);
+    guestConn.trigger('open');
     assert.strictEqual(engine.peers.length, 1);
+    assert.strictEqual(guestConn.sentData.length, 1);
+    assert.strictEqual(guestConn.sentData[0].type, 'HEARTBEAT');
+    assert.strictEqual(guestConn.sentData[0].payload.time, 120);
 
     // 3. Test Host broadcasting messages
     engine.broadcast('PLAY', { time: 50 });
-    assert.strictEqual(guestConn.sentData.length, 1);
-    assert.strictEqual(guestConn.sentData[0].type, 'PLAY');
-    assert.strictEqual(guestConn.sentData[0].payload.time, 50);
+    assert.strictEqual(guestConn.sentData.length, 2);
+    assert.strictEqual(guestConn.sentData[1].type, 'PLAY');
+    assert.strictEqual(guestConn.sentData[1].payload.time, 50);
 
     // 4. Test Guest join room
     const guestEngine = new DauPhimPartyEngine({ PeerClass: MockPeer });

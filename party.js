@@ -65,6 +65,16 @@
 
             conn.on('open', () => {
                 this.callbacks.onMemberChange({ count: this.peers.length, role: 'host' });
+                if (typeof this.callbacks.onRequestInitialState === 'function') {
+                    try {
+                        const initialState = this.callbacks.onRequestInitialState();
+                        if (initialState) {
+                            conn.send(createMessage(MESSAGE_TYPES.HEARTBEAT, initialState));
+                        }
+                    } catch (e) {
+                        console.warn('Failed to send initial state to new guest:', e);
+                    }
+                }
             });
 
             conn.on('data', (data) => {
